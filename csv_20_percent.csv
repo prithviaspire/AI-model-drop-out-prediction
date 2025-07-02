@@ -1,0 +1,2001 @@
+Student_ID,Age,Gender,Education_Level,Course_Name,Time_Spent_on_Videos,Quiz_Attempts,Quiz_Scores,Forum_Participation,Assignment_Completion_Rate,Engagement_Level,Final_Exam_Score,Learning_Style,Feedback_Score,Dropout_Likelihood
+S08001,26,Female,Undergraduate,Python Basics,441,2,72,6,84,Medium,74,Reading/Writing,4,No
+S08002,22,Female,High School,Machine Learning,394,4,96,32,57,High,64,Visual,2,Yes
+S08003,26,Male,Undergraduate,Cybersecurity,207,2,61,24,98,High,34,Reading/Writing,5,No
+S08004,20,Other,Undergraduate,Machine Learning,411,1,51,6,72,High,30,Reading/Writing,2,Yes
+S08005,42,Male,Undergraduate,Data Science,250,1,95,21,55,Medium,48,Reading/Writing,1,No
+S08006,17,Male,Undergraduate,Python Basics,496,2,33,3,90,Low,92,Reading/Writing,3,No
+S08007,18,Female,Undergraduate,Cybersecurity,467,4,57,38,40,High,69,Reading/Writing,4,Yes
+S08008,35,Other,High School,Machine Learning,180,4,43,36,50,High,30,Reading/Writing,3,Yes
+S08009,21,Female,Undergraduate,Cybersecurity,316,1,95,22,72,Medium,93,Kinesthetic,5,No
+S08010,47,Male,High School,Python Basics,332,4,57,2,63,Medium,46,Reading/Writing,1,No
+S08011,30,Male,Postgraduate,Machine Learning,313,3,87,5,58,Medium,50,Kinesthetic,5,No
+S08012,27,Female,Undergraduate,Data Science,144,3,33,26,45,Medium,81,Auditory,5,No
+S08013,42,Female,Postgraduate,Cybersecurity,129,3,75,2,62,Low,70,Kinesthetic,3,No
+S08014,48,Female,Postgraduate,Machine Learning,199,1,68,8,91,Medium,82,Reading/Writing,3,No
+S08015,22,Female,High School,Cybersecurity,323,1,98,22,92,Low,66,Auditory,4,No
+S08016,39,Female,High School,Web Development,366,3,58,42,87,High,36,Auditory,2,No
+S08017,42,Female,Postgraduate,Data Science,375,4,34,10,68,Low,87,Auditory,2,Yes
+S08018,48,Female,High School,Data Science,483,2,70,8,96,Low,68,Visual,2,No
+S08019,17,Male,Undergraduate,Web Development,490,3,77,5,73,Medium,95,Visual,2,Yes
+S08020,28,Male,Undergraduate,Web Development,394,1,90,2,41,High,85,Visual,3,No
+S08021,31,Female,Undergraduate,Data Science,234,1,78,11,94,Medium,94,Visual,4,No
+S08022,48,Female,Undergraduate,Data Science,312,2,51,10,80,High,51,Kinesthetic,4,Yes
+S08023,22,Male,Undergraduate,Python Basics,282,1,50,18,40,High,71,Reading/Writing,4,No
+S08024,42,Male,High School,Data Science,458,3,30,18,81,Low,44,Kinesthetic,5,No
+S08025,41,Female,High School,Web Development,253,3,63,5,72,Medium,50,Kinesthetic,3,No
+S08026,25,Female,Postgraduate,Data Science,474,3,57,2,85,High,30,Visual,3,No
+S08027,45,Female,High School,Data Science,343,4,79,4,49,Medium,63,Kinesthetic,2,No
+S08028,46,Male,Postgraduate,Python Basics,46,2,50,2,42,High,30,Kinesthetic,2,No
+S08029,24,Female,High School,Data Science,476,1,71,23,63,High,56,Visual,1,Yes
+S08030,30,Male,High School,Cybersecurity,260,1,72,29,41,Medium,54,Reading/Writing,2,Yes
+S08031,31,Female,High School,Data Science,29,4,53,0,44,Medium,89,Auditory,3,No
+S08032,16,Male,High School,Machine Learning,99,3,51,12,48,Medium,98,Auditory,4,No
+S08033,17,Male,High School,Python Basics,339,1,74,18,49,High,76,Visual,1,Yes
+S08034,45,Female,Undergraduate,Data Science,87,3,44,3,54,High,57,Auditory,1,No
+S08035,30,Other,Postgraduate,Python Basics,212,3,68,8,92,Low,57,Reading/Writing,5,No
+S08036,18,Male,Undergraduate,Cybersecurity,62,1,40,42,95,High,87,Auditory,4,No
+S08037,23,Male,Undergraduate,Machine Learning,373,4,92,35,95,High,43,Auditory,1,No
+S08038,47,Male,Undergraduate,Data Science,208,4,39,40,85,High,75,Auditory,4,No
+S08039,33,Male,Undergraduate,Web Development,199,1,38,38,92,Low,74,Visual,1,No
+S08040,37,Female,Undergraduate,Cybersecurity,490,2,37,9,89,Medium,77,Auditory,1,No
+S08041,23,Male,Postgraduate,Web Development,111,4,45,4,80,Medium,91,Reading/Writing,1,No
+S08042,38,Female,Postgraduate,Data Science,52,4,99,18,61,Low,48,Visual,2,No
+S08043,31,Male,Undergraduate,Web Development,74,3,93,42,62,Medium,75,Visual,2,No
+S08044,45,Female,High School,Python Basics,231,3,66,10,65,High,40,Visual,3,No
+S08045,47,Female,Undergraduate,Cybersecurity,495,4,92,11,93,High,85,Kinesthetic,5,Yes
+S08046,33,Male,Undergraduate,Machine Learning,73,1,60,14,43,Medium,44,Reading/Writing,2,No
+S08047,49,Male,Postgraduate,Cybersecurity,292,3,35,3,47,Low,66,Visual,3,No
+S08048,16,Female,Undergraduate,Machine Learning,373,2,45,31,90,Medium,50,Kinesthetic,4,No
+S08049,25,Male,Undergraduate,Cybersecurity,420,4,36,22,59,Medium,93,Auditory,2,Yes
+S08050,28,Female,Undergraduate,Data Science,489,2,51,21,94,Low,43,Kinesthetic,3,No
+S08051,32,Male,Undergraduate,Machine Learning,448,2,46,30,44,Medium,75,Visual,1,Yes
+S08052,35,Male,Undergraduate,Web Development,136,1,92,23,74,Medium,31,Kinesthetic,2,No
+S08053,18,Male,Undergraduate,Web Development,410,3,77,14,96,Medium,45,Visual,1,No
+S08054,37,Male,Undergraduate,Machine Learning,267,3,63,2,43,Medium,46,Auditory,2,No
+S08055,36,Female,High School,Web Development,247,1,69,0,80,Low,62,Kinesthetic,5,Yes
+S08056,15,Female,Undergraduate,Python Basics,388,2,80,18,42,High,46,Kinesthetic,4,No
+S08057,48,Male,Undergraduate,Python Basics,92,1,87,48,43,Medium,42,Reading/Writing,5,Yes
+S08058,33,Other,Postgraduate,Data Science,100,3,36,41,97,Low,65,Kinesthetic,4,No
+S08059,22,Female,Postgraduate,Cybersecurity,80,4,60,47,99,Medium,59,Auditory,5,No
+S08060,37,Male,High School,Web Development,226,1,44,19,54,Medium,54,Kinesthetic,5,No
+S08061,38,Female,Postgraduate,Web Development,33,2,48,44,94,Medium,61,Auditory,1,No
+S08062,19,Female,Undergraduate,Data Science,437,1,47,35,46,Low,54,Visual,2,No
+S08063,36,Female,Postgraduate,Data Science,89,3,47,7,46,Medium,42,Kinesthetic,2,No
+S08064,46,Female,High School,Data Science,94,4,51,32,68,Medium,32,Auditory,2,No
+S08065,15,Female,Undergraduate,Cybersecurity,216,1,83,21,59,High,54,Kinesthetic,5,No
+S08066,27,Male,Undergraduate,Python Basics,289,4,34,16,55,High,63,Reading/Writing,1,Yes
+S08067,48,Male,Undergraduate,Data Science,182,3,85,34,68,High,69,Reading/Writing,3,No
+S08068,23,Female,High School,Data Science,495,4,62,44,74,Low,70,Auditory,3,No
+S08069,40,Female,Undergraduate,Python Basics,181,1,92,7,80,Low,76,Visual,1,No
+S08070,44,Female,High School,Data Science,38,1,36,9,46,Medium,75,Kinesthetic,1,No
+S08071,19,Female,Undergraduate,Machine Learning,456,2,41,24,82,Medium,72,Auditory,2,Yes
+S08072,17,Male,High School,Data Science,201,4,99,11,81,High,77,Visual,1,No
+S08073,19,Female,Postgraduate,Web Development,384,1,30,36,61,Medium,80,Kinesthetic,5,No
+S08074,26,Female,Undergraduate,Machine Learning,312,3,36,12,52,High,57,Kinesthetic,1,No
+S08075,44,Female,Postgraduate,Cybersecurity,186,2,91,13,89,High,77,Kinesthetic,5,No
+S08076,28,Female,High School,Machine Learning,102,1,63,39,55,Low,49,Kinesthetic,3,No
+S08077,19,Male,Undergraduate,Web Development,293,1,64,0,47,High,39,Kinesthetic,3,Yes
+S08078,30,Female,Undergraduate,Cybersecurity,128,2,87,44,97,Medium,89,Reading/Writing,3,Yes
+S08079,39,Female,Undergraduate,Cybersecurity,120,2,69,32,88,High,42,Auditory,2,No
+S08080,40,Female,Undergraduate,Python Basics,352,3,73,17,78,Medium,58,Auditory,3,No
+S08081,22,Male,Postgraduate,Web Development,253,3,77,11,63,High,60,Reading/Writing,4,No
+S08082,40,Male,High School,Data Science,414,3,47,28,69,Medium,63,Auditory,5,No
+S08083,47,Male,High School,Cybersecurity,442,3,49,17,87,High,85,Kinesthetic,1,No
+S08084,39,Female,Postgraduate,Web Development,179,4,72,41,47,Low,47,Auditory,2,Yes
+S08085,45,Male,Undergraduate,Python Basics,429,3,51,8,66,High,85,Visual,1,No
+S08086,47,Female,Postgraduate,Python Basics,457,3,99,24,85,Medium,82,Visual,4,Yes
+S08087,49,Female,Postgraduate,Web Development,318,2,37,9,92,High,85,Kinesthetic,2,No
+S08088,30,Male,Undergraduate,Data Science,342,3,72,15,49,Medium,35,Visual,3,No
+S08089,49,Female,High School,Machine Learning,89,3,33,48,52,High,62,Auditory,3,No
+S08090,32,Female,Undergraduate,Web Development,114,1,39,48,69,High,96,Visual,3,Yes
+S08091,27,Male,Postgraduate,Python Basics,94,4,76,39,82,High,30,Reading/Writing,4,No
+S08092,19,Female,Undergraduate,Python Basics,137,2,66,22,57,Low,85,Auditory,1,No
+S08093,22,Male,Undergraduate,Cybersecurity,212,2,78,17,54,Low,81,Visual,1,No
+S08094,18,Male,Undergraduate,Machine Learning,50,1,71,40,73,Medium,82,Reading/Writing,2,No
+S08095,45,Male,Undergraduate,Machine Learning,220,1,70,25,64,Medium,87,Kinesthetic,3,Yes
+S08096,40,Female,High School,Python Basics,78,2,61,37,57,High,62,Reading/Writing,3,No
+S08097,49,Female,Undergraduate,Python Basics,317,3,85,44,74,Medium,31,Kinesthetic,2,No
+S08098,34,Female,Undergraduate,Data Science,295,3,46,40,41,Medium,43,Kinesthetic,4,Yes
+S08099,45,Female,Postgraduate,Machine Learning,251,3,32,25,71,Medium,53,Kinesthetic,5,No
+S08100,43,Male,Postgraduate,Python Basics,229,3,33,35,75,Low,55,Auditory,3,Yes
+S08101,29,Female,Undergraduate,Web Development,361,3,37,45,78,High,42,Reading/Writing,5,No
+S08102,37,Female,High School,Data Science,364,3,55,13,60,Medium,62,Kinesthetic,5,Yes
+S08103,30,Male,Undergraduate,Python Basics,166,4,75,4,89,High,93,Kinesthetic,3,No
+S08104,45,Female,Undergraduate,Machine Learning,45,2,59,13,52,High,65,Auditory,4,No
+S08105,44,Female,High School,Cybersecurity,399,1,51,7,95,Medium,40,Visual,5,No
+S08106,25,Female,Undergraduate,Web Development,482,1,78,38,87,Low,40,Reading/Writing,3,No
+S08107,37,Female,High School,Cybersecurity,406,3,90,31,84,Low,62,Visual,5,Yes
+S08108,21,Male,Undergraduate,Data Science,196,2,77,30,61,Medium,68,Visual,3,No
+S08109,43,Male,Undergraduate,Machine Learning,122,3,38,46,46,High,93,Visual,4,No
+S08110,43,Female,Undergraduate,Web Development,288,4,50,0,72,Medium,35,Reading/Writing,3,No
+S08111,42,Female,Postgraduate,Web Development,222,1,52,7,55,Medium,58,Kinesthetic,2,No
+S08112,41,Female,Undergraduate,Web Development,76,4,51,41,97,Low,60,Kinesthetic,4,No
+S08113,22,Female,Undergraduate,Machine Learning,276,2,65,38,60,High,90,Auditory,3,No
+S08114,15,Female,Postgraduate,Data Science,374,4,43,6,42,Medium,61,Auditory,5,No
+S08115,26,Female,Undergraduate,Data Science,434,3,37,16,81,Medium,50,Visual,5,No
+S08116,40,Female,Undergraduate,Cybersecurity,112,4,85,10,49,High,69,Auditory,2,No
+S08117,49,Female,Undergraduate,Cybersecurity,430,4,42,16,49,Medium,73,Auditory,3,No
+S08118,49,Female,High School,Cybersecurity,365,1,88,30,74,Medium,99,Visual,4,No
+S08119,36,Male,Undergraduate,Cybersecurity,314,4,38,16,62,High,81,Reading/Writing,5,No
+S08120,32,Female,Undergraduate,Data Science,265,4,36,34,54,Medium,48,Visual,5,Yes
+S08121,42,Male,Postgraduate,Python Basics,444,1,74,38,97,Medium,72,Reading/Writing,1,No
+S08122,38,Male,Undergraduate,Data Science,441,2,88,23,70,High,85,Kinesthetic,5,No
+S08123,17,Other,Postgraduate,Python Basics,404,4,65,22,71,Medium,37,Kinesthetic,4,No
+S08124,39,Female,Undergraduate,Machine Learning,107,4,78,32,71,High,99,Kinesthetic,2,Yes
+S08125,31,Male,Undergraduate,Web Development,190,2,41,39,51,Medium,45,Kinesthetic,4,No
+S08126,24,Male,Undergraduate,Python Basics,181,4,74,37,91,Medium,38,Visual,2,Yes
+S08127,25,Female,Postgraduate,Python Basics,115,3,43,17,95,High,33,Kinesthetic,3,No
+S08128,35,Female,Postgraduate,Machine Learning,370,2,30,45,49,Medium,70,Visual,1,No
+S08129,18,Male,Postgraduate,Python Basics,134,2,76,31,61,Medium,38,Visual,1,No
+S08130,42,Male,Undergraduate,Cybersecurity,291,4,72,20,58,Medium,92,Auditory,4,Yes
+S08131,27,Male,Postgraduate,Python Basics,366,2,93,8,62,Medium,54,Auditory,4,No
+S08132,17,Female,High School,Data Science,110,4,61,9,79,Low,33,Visual,1,Yes
+S08133,22,Female,Undergraduate,Data Science,457,4,87,43,92,Medium,48,Reading/Writing,4,Yes
+S08134,49,Female,Postgraduate,Data Science,188,3,42,32,77,Low,45,Visual,3,No
+S08135,21,Female,Undergraduate,Data Science,149,2,48,14,48,Low,52,Kinesthetic,1,No
+S08136,45,Male,Undergraduate,Machine Learning,448,1,50,18,46,Medium,72,Auditory,4,No
+S08137,29,Female,Undergraduate,Data Science,289,4,33,29,60,High,30,Kinesthetic,2,No
+S08138,43,Other,Undergraduate,Data Science,218,2,55,1,63,High,90,Visual,1,No
+S08139,21,Male,High School,Machine Learning,347,3,97,17,69,High,87,Kinesthetic,5,No
+S08140,34,Male,Undergraduate,Cybersecurity,368,4,42,49,63,Medium,73,Auditory,4,No
+S08141,21,Female,High School,Machine Learning,452,2,80,14,77,Medium,56,Auditory,4,No
+S08142,47,Female,Undergraduate,Data Science,302,3,90,19,75,High,90,Kinesthetic,3,No
+S08143,29,Male,High School,Data Science,389,2,74,37,99,Medium,35,Kinesthetic,3,Yes
+S08144,37,Male,High School,Cybersecurity,422,3,86,44,86,High,31,Reading/Writing,1,No
+S08145,41,Female,Undergraduate,Cybersecurity,336,4,68,35,54,High,32,Auditory,4,Yes
+S08146,45,Male,High School,Python Basics,373,3,67,47,69,Medium,94,Kinesthetic,1,No
+S08147,17,Male,Undergraduate,Cybersecurity,222,4,46,20,42,Medium,81,Auditory,3,No
+S08148,40,Male,Postgraduate,Data Science,305,3,99,20,42,Medium,97,Visual,3,No
+S08149,17,Male,Postgraduate,Cybersecurity,375,2,70,27,94,Medium,83,Auditory,3,No
+S08150,18,Male,Undergraduate,Python Basics,176,1,48,25,87,High,76,Auditory,3,No
+S08151,43,Male,Undergraduate,Data Science,70,3,57,43,63,High,30,Reading/Writing,5,No
+S08152,17,Female,High School,Python Basics,317,2,71,49,44,Medium,93,Kinesthetic,1,Yes
+S08153,32,Male,High School,Cybersecurity,432,3,43,49,52,Medium,86,Auditory,2,No
+S08154,25,Female,Postgraduate,Python Basics,352,3,55,21,51,Low,82,Visual,2,No
+S08155,25,Female,High School,Python Basics,333,3,93,22,56,High,72,Auditory,5,Yes
+S08156,47,Male,Undergraduate,Cybersecurity,240,2,34,4,80,Low,58,Reading/Writing,1,No
+S08157,15,Female,Postgraduate,Cybersecurity,450,3,89,18,98,High,60,Visual,5,No
+S08158,34,Female,High School,Machine Learning,81,4,56,44,61,Medium,34,Visual,3,Yes
+S08159,49,Female,Postgraduate,Cybersecurity,135,4,63,40,62,High,58,Visual,1,No
+S08160,16,Female,Undergraduate,Web Development,399,2,75,21,84,Medium,78,Reading/Writing,4,No
+S08161,38,Female,Undergraduate,Cybersecurity,414,4,96,37,69,Low,93,Visual,5,No
+S08162,46,Male,High School,Web Development,404,1,69,4,64,Low,67,Visual,4,No
+S08163,41,Male,Undergraduate,Machine Learning,12,3,33,47,61,Medium,31,Visual,1,No
+S08164,45,Female,Undergraduate,Machine Learning,421,4,84,13,80,Medium,44,Reading/Writing,2,No
+S08165,49,Female,Undergraduate,Python Basics,66,4,35,26,74,Medium,82,Reading/Writing,4,No
+S08166,24,Female,Undergraduate,Web Development,150,4,96,6,73,High,37,Reading/Writing,5,No
+S08167,36,Male,Postgraduate,Machine Learning,387,1,91,1,79,High,63,Visual,3,No
+S08168,29,Male,Postgraduate,Machine Learning,361,2,33,16,85,High,94,Auditory,2,No
+S08169,27,Female,Undergraduate,Machine Learning,479,2,75,49,73,Medium,75,Kinesthetic,4,No
+S08170,42,Female,Undergraduate,Web Development,414,4,40,10,97,Low,35,Visual,2,No
+S08171,36,Male,Postgraduate,Python Basics,442,4,98,7,97,High,89,Visual,5,Yes
+S08172,26,Male,Undergraduate,Web Development,281,1,62,20,95,Medium,37,Kinesthetic,2,No
+S08173,43,Male,High School,Machine Learning,174,3,49,23,85,Low,85,Kinesthetic,4,No
+S08174,30,Female,Undergraduate,Machine Learning,166,2,88,8,49,Medium,39,Reading/Writing,4,No
+S08175,37,Male,High School,Cybersecurity,58,1,88,33,95,High,80,Kinesthetic,4,No
+S08176,36,Male,Undergraduate,Data Science,437,1,57,8,77,Medium,38,Reading/Writing,2,No
+S08177,46,Female,Undergraduate,Python Basics,310,3,45,21,78,Medium,45,Visual,5,No
+S08178,32,Male,Undergraduate,Data Science,401,1,65,19,58,Low,47,Visual,2,No
+S08179,38,Male,Undergraduate,Cybersecurity,376,1,51,43,59,Medium,38,Reading/Writing,4,No
+S08180,16,Male,High School,Data Science,384,1,70,18,60,Low,45,Reading/Writing,2,No
+S08181,24,Female,High School,Web Development,376,1,40,31,86,Medium,38,Reading/Writing,3,No
+S08182,35,Female,Undergraduate,Web Development,475,4,84,42,44,Medium,48,Auditory,3,No
+S08183,27,Other,Undergraduate,Data Science,18,4,74,43,43,Medium,54,Auditory,3,No
+S08184,42,Male,High School,Web Development,324,1,97,24,47,Medium,34,Auditory,2,No
+S08185,36,Male,Undergraduate,Python Basics,29,3,83,13,76,Medium,72,Auditory,1,No
+S08186,30,Male,Postgraduate,Python Basics,166,2,57,33,55,Low,38,Reading/Writing,5,No
+S08187,23,Female,Postgraduate,Web Development,210,3,48,21,63,High,36,Auditory,4,No
+S08188,29,Female,High School,Web Development,409,1,35,43,64,Medium,80,Visual,1,Yes
+S08189,20,Female,High School,Python Basics,38,4,53,22,77,Medium,36,Kinesthetic,4,Yes
+S08190,24,Female,Undergraduate,Web Development,413,4,85,34,67,Low,56,Auditory,3,No
+S08191,21,Female,Undergraduate,Data Science,147,3,65,28,69,High,51,Reading/Writing,1,No
+S08192,18,Female,High School,Cybersecurity,125,4,74,21,97,Medium,61,Kinesthetic,4,No
+S08193,48,Male,Undergraduate,Cybersecurity,307,1,42,36,84,Medium,90,Visual,2,No
+S08194,22,Female,Undergraduate,Machine Learning,130,4,72,48,85,Low,58,Visual,4,No
+S08195,44,Male,Undergraduate,Web Development,481,4,40,0,50,Medium,54,Reading/Writing,5,No
+S08196,30,Female,Undergraduate,Cybersecurity,58,1,91,25,64,Low,95,Auditory,1,No
+S08197,38,Female,Undergraduate,Web Development,381,1,96,40,74,High,60,Kinesthetic,4,No
+S08198,17,Female,Postgraduate,Python Basics,198,2,65,26,92,Medium,48,Reading/Writing,4,No
+S08199,26,Female,Undergraduate,Machine Learning,311,2,51,42,61,Medium,81,Kinesthetic,1,Yes
+S08200,17,Male,High School,Web Development,294,1,54,37,75,High,49,Visual,1,No
+S08201,34,Female,Undergraduate,Machine Learning,337,3,30,23,70,High,97,Reading/Writing,3,No
+S08202,36,Male,Undergraduate,Machine Learning,471,3,89,41,69,Medium,84,Reading/Writing,3,Yes
+S08203,48,Male,High School,Python Basics,272,2,46,28,79,Medium,42,Kinesthetic,1,No
+S08204,34,Male,Undergraduate,Web Development,440,2,61,24,49,Low,34,Kinesthetic,4,No
+S08205,37,Female,High School,Cybersecurity,204,3,59,21,45,Medium,97,Reading/Writing,3,No
+S08206,42,Female,High School,Python Basics,102,3,73,42,88,High,52,Kinesthetic,5,No
+S08207,45,Female,Undergraduate,Machine Learning,428,1,50,16,88,High,74,Auditory,1,No
+S08208,39,Male,Postgraduate,Machine Learning,307,2,90,33,85,Medium,52,Visual,5,No
+S08209,47,Female,Postgraduate,Web Development,484,2,61,4,96,Low,38,Reading/Writing,5,No
+S08210,32,Male,Undergraduate,Machine Learning,25,3,36,13,96,Medium,45,Auditory,2,No
+S08211,26,Female,High School,Data Science,349,2,54,46,44,High,62,Visual,2,No
+S08212,18,Female,Undergraduate,Cybersecurity,52,1,96,2,96,Medium,53,Auditory,1,No
+S08213,32,Other,High School,Web Development,255,4,50,10,69,Medium,92,Auditory,3,No
+S08214,41,Male,Undergraduate,Cybersecurity,413,2,32,3,44,Medium,32,Reading/Writing,1,No
+S08215,42,Male,Undergraduate,Data Science,491,3,70,46,67,Medium,91,Reading/Writing,4,No
+S08216,26,Male,Undergraduate,Data Science,332,1,84,1,53,Medium,90,Visual,4,No
+S08217,46,Female,Undergraduate,Web Development,306,3,58,24,66,Low,58,Kinesthetic,5,No
+S08218,23,Other,Undergraduate,Cybersecurity,378,3,68,7,52,High,68,Visual,5,No
+S08219,48,Female,Undergraduate,Web Development,58,1,53,18,60,Medium,53,Kinesthetic,2,Yes
+S08220,37,Female,Undergraduate,Machine Learning,167,1,68,27,90,Medium,43,Kinesthetic,3,No
+S08221,27,Male,Undergraduate,Web Development,383,2,88,33,51,Medium,71,Reading/Writing,1,Yes
+S08222,45,Female,High School,Python Basics,126,3,96,11,61,Medium,48,Auditory,5,Yes
+S08223,21,Female,Undergraduate,Web Development,178,4,81,36,51,Low,52,Auditory,5,No
+S08224,19,Female,Postgraduate,Python Basics,434,2,30,35,55,Medium,31,Reading/Writing,4,No
+S08225,41,Female,Postgraduate,Data Science,436,3,38,12,74,Medium,38,Visual,1,No
+S08226,23,Female,Undergraduate,Python Basics,284,2,96,47,55,Low,61,Reading/Writing,5,No
+S08227,26,Female,High School,Machine Learning,426,3,76,42,70,High,51,Visual,1,No
+S08228,46,Male,Undergraduate,Web Development,414,2,81,19,48,High,64,Auditory,4,No
+S08229,35,Female,Undergraduate,Cybersecurity,20,1,74,5,83,Low,89,Kinesthetic,3,No
+S08230,32,Female,Undergraduate,Data Science,285,3,76,22,58,Low,30,Kinesthetic,5,Yes
+S08231,15,Male,High School,Web Development,38,3,64,38,46,Medium,48,Visual,3,No
+S08232,33,Female,High School,Python Basics,52,1,62,40,86,Low,42,Reading/Writing,4,Yes
+S08233,21,Male,High School,Web Development,228,2,62,13,46,High,80,Kinesthetic,1,No
+S08234,35,Female,Postgraduate,Cybersecurity,67,1,93,31,63,Medium,81,Reading/Writing,5,No
+S08235,27,Male,Undergraduate,Machine Learning,122,3,49,8,74,High,73,Kinesthetic,1,Yes
+S08236,26,Male,Undergraduate,Cybersecurity,300,3,63,10,62,Medium,89,Kinesthetic,4,No
+S08237,39,Female,Undergraduate,Web Development,403,1,43,15,76,Low,34,Auditory,5,No
+S08238,35,Female,Undergraduate,Machine Learning,54,4,43,19,51,High,58,Auditory,2,No
+S08239,32,Female,Undergraduate,Web Development,205,2,52,22,90,Medium,42,Kinesthetic,2,No
+S08240,17,Female,Postgraduate,Python Basics,337,1,49,27,83,Low,55,Visual,4,No
+S08241,33,Female,High School,Data Science,307,2,47,49,49,Medium,66,Auditory,1,Yes
+S08242,19,Female,Undergraduate,Cybersecurity,31,4,93,8,71,High,99,Auditory,4,No
+S08243,24,Female,Undergraduate,Data Science,148,2,80,47,86,Low,31,Visual,3,No
+S08244,22,Female,Undergraduate,Cybersecurity,51,1,57,3,46,Medium,40,Kinesthetic,2,No
+S08245,25,Female,High School,Cybersecurity,83,2,81,29,51,Medium,61,Auditory,5,Yes
+S08246,44,Female,Postgraduate,Web Development,371,1,53,15,51,Low,59,Visual,4,No
+S08247,34,Male,Undergraduate,Machine Learning,15,1,88,34,65,Medium,37,Auditory,3,No
+S08248,38,Female,Postgraduate,Cybersecurity,466,4,54,27,85,Medium,49,Reading/Writing,5,No
+S08249,18,Female,Postgraduate,Web Development,280,1,55,38,84,Medium,38,Auditory,4,Yes
+S08250,40,Male,High School,Python Basics,384,1,73,47,98,Medium,73,Auditory,1,No
+S08251,44,Female,Undergraduate,Data Science,259,4,39,41,73,Medium,48,Auditory,5,No
+S08252,17,Male,Undergraduate,Python Basics,249,1,57,30,97,Medium,75,Auditory,4,No
+S08253,30,Female,Undergraduate,Python Basics,232,4,87,5,62,Low,85,Kinesthetic,5,No
+S08254,25,Female,Undergraduate,Python Basics,141,2,73,46,99,High,98,Reading/Writing,5,No
+S08255,22,Male,Undergraduate,Web Development,149,3,85,7,96,Medium,77,Reading/Writing,5,Yes
+S08256,40,Female,Undergraduate,Web Development,478,1,58,42,87,Medium,97,Auditory,5,No
+S08257,17,Male,High School,Cybersecurity,382,4,47,18,89,Medium,65,Auditory,3,Yes
+S08258,35,Female,Undergraduate,Web Development,59,2,84,11,41,Medium,70,Auditory,4,Yes
+S08259,26,Female,Postgraduate,Data Science,424,4,48,42,86,Medium,93,Kinesthetic,2,No
+S08260,31,Female,High School,Python Basics,11,3,87,46,52,High,82,Kinesthetic,2,No
+S08261,41,Female,High School,Web Development,104,3,77,25,45,Medium,61,Auditory,1,No
+S08262,34,Male,Postgraduate,Data Science,62,2,64,26,72,Medium,30,Reading/Writing,2,Yes
+S08263,41,Female,Undergraduate,Cybersecurity,320,4,83,36,86,Low,41,Visual,2,No
+S08264,20,Female,Undergraduate,Machine Learning,179,1,98,31,42,Medium,74,Kinesthetic,3,No
+S08265,41,Female,High School,Machine Learning,408,2,56,17,85,High,65,Reading/Writing,1,No
+S08266,31,Female,Undergraduate,Python Basics,484,1,61,47,42,Low,82,Visual,4,No
+S08267,19,Male,Undergraduate,Data Science,332,4,65,5,92,Medium,62,Visual,5,No
+S08268,30,Other,Undergraduate,Web Development,308,2,84,49,59,Low,73,Visual,5,Yes
+S08269,35,Female,Undergraduate,Machine Learning,68,3,60,43,90,High,74,Kinesthetic,2,No
+S08270,22,Male,Undergraduate,Data Science,406,1,81,17,84,Medium,83,Auditory,5,No
+S08271,42,Male,Undergraduate,Python Basics,404,3,41,26,86,Low,50,Visual,4,No
+S08272,18,Female,Undergraduate,Machine Learning,490,4,96,17,42,High,52,Kinesthetic,1,No
+S08273,42,Male,Postgraduate,Cybersecurity,61,1,53,28,89,Medium,64,Visual,2,No
+S08274,38,Female,Undergraduate,Data Science,179,1,92,14,44,Medium,34,Reading/Writing,3,No
+S08275,25,Male,High School,Web Development,287,2,40,15,49,Medium,30,Visual,5,No
+S08276,27,Male,Undergraduate,Python Basics,325,3,54,28,64,High,56,Reading/Writing,2,Yes
+S08277,31,Male,Undergraduate,Python Basics,264,1,74,49,69,Low,30,Kinesthetic,1,No
+S08278,22,Male,Undergraduate,Data Science,421,1,50,21,98,High,71,Reading/Writing,2,Yes
+S08279,24,Female,Undergraduate,Machine Learning,349,1,88,19,87,Medium,45,Auditory,5,No
+S08280,17,Male,Undergraduate,Web Development,220,2,68,25,87,Medium,78,Auditory,1,Yes
+S08281,34,Male,High School,Web Development,111,4,72,25,75,Low,33,Reading/Writing,1,No
+S08282,33,Male,High School,Python Basics,35,3,36,21,65,High,81,Auditory,4,No
+S08283,28,Male,Undergraduate,Python Basics,216,3,40,21,47,Medium,98,Reading/Writing,2,No
+S08284,42,Female,Undergraduate,Data Science,211,3,69,4,59,Medium,39,Kinesthetic,5,No
+S08285,20,Male,Postgraduate,Cybersecurity,226,4,41,2,75,Low,34,Auditory,2,No
+S08286,36,Male,Postgraduate,Machine Learning,462,4,85,30,59,Medium,71,Reading/Writing,5,No
+S08287,15,Female,Undergraduate,Python Basics,468,3,53,17,99,High,63,Auditory,2,No
+S08288,37,Other,Undergraduate,Machine Learning,135,4,99,37,67,Low,39,Visual,3,Yes
+S08289,45,Other,Undergraduate,Web Development,90,1,34,4,57,High,33,Kinesthetic,3,No
+S08290,45,Female,High School,Python Basics,372,4,44,13,53,Medium,43,Reading/Writing,2,Yes
+S08291,38,Female,High School,Web Development,396,3,70,10,91,Medium,42,Visual,4,No
+S08292,40,Male,Postgraduate,Data Science,144,2,83,11,79,Medium,39,Reading/Writing,4,No
+S08293,33,Male,Undergraduate,Data Science,355,1,33,46,96,Medium,98,Kinesthetic,5,No
+S08294,26,Male,High School,Data Science,178,4,70,46,83,Low,70,Visual,2,No
+S08295,21,Male,Undergraduate,Data Science,85,2,50,0,50,Low,81,Auditory,2,Yes
+S08296,41,Female,Undergraduate,Python Basics,209,4,83,29,66,Low,91,Kinesthetic,4,No
+S08297,47,Male,High School,Cybersecurity,227,4,35,18,71,High,79,Auditory,4,Yes
+S08298,15,Male,Undergraduate,Cybersecurity,274,4,52,35,92,Low,62,Visual,5,No
+S08299,42,Male,High School,Machine Learning,177,1,82,30,80,Medium,76,Visual,3,No
+S08300,40,Male,Undergraduate,Cybersecurity,56,2,43,21,41,Medium,85,Visual,2,No
+S08301,34,Male,Postgraduate,Web Development,85,1,36,38,55,Low,82,Auditory,2,No
+S08302,30,Female,High School,Cybersecurity,354,3,71,10,76,Low,44,Reading/Writing,4,No
+S08303,38,Female,High School,Python Basics,324,1,95,42,78,Medium,73,Auditory,4,No
+S08304,20,Male,Undergraduate,Data Science,287,1,72,48,40,High,64,Kinesthetic,4,No
+S08305,20,Female,Postgraduate,Machine Learning,273,3,46,26,51,Medium,35,Reading/Writing,5,Yes
+S08306,41,Female,High School,Cybersecurity,170,4,54,33,80,Medium,30,Auditory,1,No
+S08307,44,Other,High School,Web Development,37,3,83,19,62,Medium,55,Reading/Writing,1,No
+S08308,22,Female,Postgraduate,Python Basics,413,3,57,41,84,Low,35,Reading/Writing,1,No
+S08309,38,Female,High School,Cybersecurity,480,3,33,47,55,Medium,58,Visual,1,No
+S08310,36,Female,High School,Data Science,158,3,82,11,45,High,31,Visual,3,No
+S08311,20,Male,Undergraduate,Web Development,230,1,72,41,98,Low,70,Auditory,5,No
+S08312,47,Other,High School,Data Science,242,2,65,30,52,Medium,78,Reading/Writing,1,No
+S08313,29,Female,High School,Data Science,241,3,98,17,71,Medium,87,Kinesthetic,2,Yes
+S08314,40,Female,Undergraduate,Machine Learning,154,2,49,0,43,Medium,67,Reading/Writing,2,No
+S08315,16,Female,Undergraduate,Cybersecurity,155,2,70,25,50,Medium,53,Visual,4,No
+S08316,39,Female,Undergraduate,Data Science,45,1,66,16,75,Medium,85,Kinesthetic,1,No
+S08317,18,Other,Undergraduate,Web Development,93,2,95,0,90,Medium,80,Kinesthetic,3,No
+S08318,47,Female,Undergraduate,Data Science,269,2,79,13,98,Medium,46,Kinesthetic,5,Yes
+S08319,36,Male,Undergraduate,Data Science,116,1,66,25,97,High,92,Kinesthetic,3,Yes
+S08320,46,Female,High School,Machine Learning,265,3,91,36,59,Medium,54,Reading/Writing,4,No
+S08321,35,Female,Undergraduate,Web Development,342,2,72,8,57,Low,52,Visual,1,No
+S08322,20,Male,Undergraduate,Data Science,457,4,39,3,86,Medium,72,Auditory,2,Yes
+S08323,36,Male,High School,Cybersecurity,13,1,95,39,85,Medium,40,Kinesthetic,3,No
+S08324,16,Female,High School,Data Science,260,4,45,28,69,Low,39,Kinesthetic,1,No
+S08325,19,Male,High School,Machine Learning,404,1,54,28,49,Low,83,Auditory,5,Yes
+S08326,33,Male,High School,Python Basics,76,3,91,30,58,Medium,59,Kinesthetic,4,No
+S08327,39,Female,High School,Python Basics,232,2,64,47,62,Low,91,Visual,1,No
+S08328,15,Female,Postgraduate,Web Development,286,3,39,40,93,Medium,70,Auditory,3,No
+S08329,25,Male,Postgraduate,Data Science,459,2,74,5,62,High,81,Reading/Writing,2,No
+S08330,28,Female,Undergraduate,Data Science,444,1,54,30,99,Medium,45,Visual,1,No
+S08331,35,Female,Postgraduate,Cybersecurity,191,2,73,39,57,Low,96,Reading/Writing,5,No
+S08332,46,Male,Undergraduate,Python Basics,278,4,40,40,64,Medium,78,Auditory,3,Yes
+S08333,30,Male,Undergraduate,Machine Learning,318,4,95,38,66,Medium,32,Auditory,4,Yes
+S08334,35,Female,Undergraduate,Web Development,426,3,72,41,58,Medium,99,Kinesthetic,4,No
+S08335,25,Female,Undergraduate,Cybersecurity,214,2,88,27,43,Medium,98,Kinesthetic,2,Yes
+S08336,30,Male,Undergraduate,Machine Learning,283,4,46,44,87,Low,59,Visual,5,No
+S08337,40,Male,Undergraduate,Cybersecurity,152,4,87,11,72,Low,35,Kinesthetic,5,No
+S08338,34,Female,High School,Data Science,181,2,87,44,59,Low,86,Auditory,2,No
+S08339,38,Male,High School,Web Development,177,1,72,36,47,High,75,Kinesthetic,5,No
+S08340,31,Male,Undergraduate,Web Development,128,1,70,43,80,Medium,70,Auditory,4,No
+S08341,18,Female,Undergraduate,Python Basics,112,4,32,21,66,High,62,Visual,5,No
+S08342,17,Male,Postgraduate,Cybersecurity,52,3,31,25,94,Medium,46,Kinesthetic,2,No
+S08343,19,Female,Undergraduate,Machine Learning,413,3,86,17,42,Medium,99,Reading/Writing,4,Yes
+S08344,34,Male,Undergraduate,Machine Learning,60,1,59,1,52,Medium,75,Reading/Writing,2,No
+S08345,21,Male,Undergraduate,Python Basics,467,4,50,46,43,High,45,Kinesthetic,5,No
+S08346,22,Female,Postgraduate,Cybersecurity,365,1,93,1,90,High,74,Reading/Writing,4,No
+S08347,35,Male,High School,Data Science,113,4,69,36,75,Medium,62,Kinesthetic,5,No
+S08348,35,Female,Undergraduate,Python Basics,198,3,81,48,60,Medium,92,Kinesthetic,2,No
+S08349,32,Female,Undergraduate,Python Basics,265,2,57,11,79,Medium,63,Visual,4,No
+S08350,29,Female,Undergraduate,Data Science,429,1,81,12,54,Low,53,Visual,3,No
+S08351,47,Other,High School,Web Development,323,1,95,38,47,High,30,Kinesthetic,4,No
+S08352,45,Male,High School,Machine Learning,409,3,64,24,87,High,43,Kinesthetic,5,No
+S08353,23,Male,High School,Data Science,231,1,61,17,50,Medium,56,Kinesthetic,5,Yes
+S08354,40,Female,Undergraduate,Web Development,253,2,66,16,93,High,88,Visual,1,No
+S08355,31,Female,High School,Python Basics,84,2,93,40,98,Low,77,Visual,3,No
+S08356,36,Female,Undergraduate,Cybersecurity,118,3,73,32,51,Medium,37,Reading/Writing,3,No
+S08357,34,Female,Postgraduate,Python Basics,222,4,32,35,60,Medium,77,Reading/Writing,2,No
+S08358,36,Male,Undergraduate,Cybersecurity,72,1,52,21,90,Medium,56,Kinesthetic,3,No
+S08359,46,Male,Undergraduate,Web Development,71,4,78,11,41,Medium,63,Reading/Writing,3,No
+S08360,34,Female,Postgraduate,Web Development,394,4,70,19,57,Medium,67,Reading/Writing,3,No
+S08361,47,Male,Postgraduate,Python Basics,225,3,75,43,55,Low,81,Reading/Writing,5,Yes
+S08362,43,Female,Postgraduate,Machine Learning,363,1,90,48,44,High,45,Auditory,5,No
+S08363,29,Male,Postgraduate,Web Development,280,3,95,22,64,Medium,99,Auditory,4,No
+S08364,39,Male,Undergraduate,Data Science,119,3,78,33,41,Medium,32,Kinesthetic,3,Yes
+S08365,31,Female,High School,Data Science,335,1,65,34,66,Medium,72,Visual,4,No
+S08366,22,Female,High School,Cybersecurity,355,2,59,11,45,Medium,37,Reading/Writing,4,No
+S08367,42,Female,Undergraduate,Cybersecurity,19,4,54,39,90,Medium,40,Kinesthetic,5,No
+S08368,32,Male,Undergraduate,Machine Learning,384,1,56,14,48,High,78,Kinesthetic,4,No
+S08369,25,Female,Undergraduate,Machine Learning,450,2,63,40,76,Medium,59,Reading/Writing,2,No
+S08370,31,Female,Postgraduate,Cybersecurity,81,1,80,41,55,Medium,57,Kinesthetic,3,No
+S08371,49,Male,Undergraduate,Machine Learning,85,3,50,14,82,Medium,65,Visual,5,No
+S08372,39,Male,Postgraduate,Cybersecurity,356,4,62,8,88,Medium,46,Reading/Writing,5,Yes
+S08373,29,Female,Undergraduate,Machine Learning,172,1,98,30,70,High,73,Visual,4,No
+S08374,31,Male,Undergraduate,Web Development,134,3,71,13,94,Medium,87,Reading/Writing,1,No
+S08375,28,Male,Undergraduate,Python Basics,51,4,46,37,77,Medium,95,Kinesthetic,1,No
+S08376,47,Male,Undergraduate,Python Basics,54,4,55,23,65,Low,87,Reading/Writing,5,No
+S08377,27,Male,Undergraduate,Cybersecurity,355,1,58,17,66,High,64,Reading/Writing,5,No
+S08378,40,Female,High School,Web Development,490,2,34,5,69,High,30,Kinesthetic,1,No
+S08379,21,Male,Undergraduate,Python Basics,110,1,92,48,40,Medium,82,Visual,4,No
+S08380,33,Female,High School,Data Science,347,2,39,4,53,Low,73,Auditory,5,No
+S08381,16,Male,High School,Machine Learning,403,3,76,2,82,Medium,73,Visual,4,No
+S08382,43,Female,Undergraduate,Data Science,178,3,49,21,53,Medium,85,Auditory,1,No
+S08383,26,Female,Postgraduate,Cybersecurity,487,1,95,29,44,Medium,44,Reading/Writing,5,No
+S08384,27,Female,Undergraduate,Cybersecurity,149,4,72,40,41,High,66,Reading/Writing,5,No
+S08385,35,Female,Postgraduate,Data Science,421,2,54,42,93,Low,52,Reading/Writing,3,No
+S08386,42,Male,High School,Data Science,245,3,51,30,43,High,37,Reading/Writing,2,No
+S08387,37,Female,High School,Python Basics,160,3,98,33,46,Medium,63,Visual,1,No
+S08388,27,Male,Postgraduate,Data Science,238,4,69,4,57,Medium,31,Reading/Writing,3,No
+S08389,34,Female,High School,Data Science,147,3,91,29,79,High,36,Auditory,2,No
+S08390,28,Male,High School,Data Science,483,4,58,17,80,Low,97,Visual,5,No
+S08391,42,Male,Postgraduate,Machine Learning,320,4,48,33,57,Low,33,Auditory,2,No
+S08392,19,Female,Undergraduate,Data Science,391,4,43,5,67,Medium,85,Auditory,1,No
+S08393,43,Female,Undergraduate,Machine Learning,45,4,95,23,40,Medium,47,Auditory,1,No
+S08394,18,Male,Undergraduate,Machine Learning,167,2,80,42,49,Medium,31,Auditory,4,Yes
+S08395,37,Female,High School,Data Science,490,4,43,40,76,High,54,Visual,1,No
+S08396,45,Female,Undergraduate,Web Development,100,4,39,45,85,Low,57,Kinesthetic,1,No
+S08397,35,Female,Undergraduate,Machine Learning,334,2,87,49,52,High,60,Reading/Writing,5,No
+S08398,19,Female,High School,Machine Learning,234,3,81,47,93,Medium,30,Reading/Writing,2,No
+S08399,34,Female,Postgraduate,Machine Learning,302,2,57,15,96,High,89,Reading/Writing,1,No
+S08400,17,Female,Undergraduate,Web Development,268,4,77,42,63,High,50,Visual,3,No
+S08401,22,Male,High School,Cybersecurity,269,1,99,24,58,Medium,54,Kinesthetic,5,No
+S08402,17,Male,Undergraduate,Cybersecurity,168,1,74,42,46,Medium,39,Kinesthetic,5,No
+S08403,18,Male,High School,Cybersecurity,230,4,98,5,94,Low,62,Reading/Writing,5,Yes
+S08404,17,Female,High School,Python Basics,367,3,48,31,50,Medium,71,Auditory,5,No
+S08405,29,Female,Undergraduate,Data Science,196,1,75,35,77,High,39,Reading/Writing,5,Yes
+S08406,49,Male,Undergraduate,Web Development,367,1,43,34,81,Medium,81,Auditory,3,No
+S08407,44,Female,Undergraduate,Data Science,437,2,92,32,40,Medium,75,Kinesthetic,1,No
+S08408,45,Female,High School,Machine Learning,272,3,78,17,51,Medium,93,Kinesthetic,2,No
+S08409,43,Male,Undergraduate,Web Development,52,2,62,26,77,Medium,87,Auditory,4,No
+S08410,20,Male,Undergraduate,Data Science,435,4,42,31,54,Medium,50,Kinesthetic,5,No
+S08411,45,Male,Undergraduate,Web Development,26,2,58,20,99,High,54,Visual,1,No
+S08412,36,Female,High School,Web Development,103,2,49,15,75,High,62,Reading/Writing,4,No
+S08413,41,Female,Postgraduate,Data Science,315,3,36,21,99,Medium,33,Auditory,3,No
+S08414,42,Male,Undergraduate,Web Development,402,3,65,5,80,High,48,Visual,1,Yes
+S08415,25,Female,Postgraduate,Machine Learning,440,4,49,8,65,Low,35,Auditory,3,No
+S08416,40,Male,High School,Cybersecurity,345,1,36,33,96,Medium,36,Reading/Writing,4,No
+S08417,38,Female,High School,Cybersecurity,245,4,30,42,65,Low,55,Kinesthetic,3,No
+S08418,16,Female,Undergraduate,Data Science,139,1,54,49,75,Low,95,Auditory,2,No
+S08419,43,Male,High School,Cybersecurity,97,1,43,30,52,Medium,55,Reading/Writing,4,No
+S08420,48,Female,Undergraduate,Python Basics,195,4,31,10,86,Medium,99,Kinesthetic,2,No
+S08421,20,Male,Undergraduate,Python Basics,338,1,38,14,91,Low,41,Reading/Writing,4,No
+S08422,25,Male,Postgraduate,Web Development,429,1,42,0,74,Medium,98,Visual,3,No
+S08423,48,Male,High School,Machine Learning,90,1,71,39,52,Medium,45,Reading/Writing,1,No
+S08424,22,Female,High School,Data Science,200,2,59,18,76,Medium,48,Kinesthetic,5,Yes
+S08425,40,Female,High School,Cybersecurity,370,2,94,2,63,Low,31,Reading/Writing,4,No
+S08426,19,Female,Postgraduate,Data Science,128,3,33,37,49,Medium,91,Visual,1,No
+S08427,27,Male,Undergraduate,Web Development,236,4,96,2,42,High,34,Kinesthetic,2,No
+S08428,24,Female,High School,Machine Learning,175,2,53,23,68,Medium,70,Auditory,3,No
+S08429,42,Female,High School,Data Science,176,3,44,21,56,Low,64,Auditory,5,No
+S08430,36,Female,Postgraduate,Data Science,70,3,41,3,71,Medium,45,Visual,4,Yes
+S08431,17,Male,Undergraduate,Cybersecurity,464,3,65,32,42,Low,94,Reading/Writing,2,Yes
+S08432,48,Male,Undergraduate,Web Development,242,2,74,22,89,Medium,37,Auditory,2,No
+S08433,44,Female,High School,Cybersecurity,13,4,68,33,95,High,37,Kinesthetic,2,No
+S08434,32,Female,Postgraduate,Data Science,102,2,84,0,60,Medium,57,Reading/Writing,4,No
+S08435,31,Female,Postgraduate,Web Development,427,2,49,33,64,Medium,59,Auditory,3,No
+S08436,45,Male,High School,Python Basics,452,2,44,35,57,Medium,89,Visual,4,No
+S08437,15,Female,Undergraduate,Machine Learning,270,2,44,36,77,Medium,80,Auditory,3,No
+S08438,19,Male,Undergraduate,Data Science,491,1,60,14,61,High,40,Auditory,4,No
+S08439,24,Male,High School,Web Development,127,4,32,21,83,Low,50,Reading/Writing,5,Yes
+S08440,27,Male,High School,Cybersecurity,111,3,64,45,72,Medium,98,Kinesthetic,4,No
+S08441,31,Male,Undergraduate,Python Basics,410,1,83,37,58,High,47,Auditory,4,No
+S08442,40,Female,Undergraduate,Web Development,402,1,39,2,62,Medium,62,Auditory,1,No
+S08443,15,Female,Undergraduate,Machine Learning,28,4,97,30,70,Low,58,Auditory,2,No
+S08444,28,Male,Undergraduate,Python Basics,76,3,53,43,97,Low,81,Kinesthetic,5,No
+S08445,36,Male,High School,Python Basics,211,3,42,3,45,Medium,40,Auditory,1,No
+S08446,44,Female,Undergraduate,Python Basics,475,3,41,29,45,Low,46,Auditory,1,No
+S08447,40,Male,Undergraduate,Data Science,339,4,97,21,55,High,61,Auditory,1,Yes
+S08448,43,Male,Undergraduate,Data Science,214,3,92,24,64,High,39,Kinesthetic,4,No
+S08449,32,Female,Postgraduate,Cybersecurity,396,4,74,15,55,Medium,84,Reading/Writing,3,No
+S08450,38,Male,Postgraduate,Cybersecurity,102,3,34,44,69,High,75,Visual,3,Yes
+S08451,26,Female,Undergraduate,Python Basics,353,4,89,0,80,Medium,54,Reading/Writing,4,No
+S08452,40,Female,Postgraduate,Cybersecurity,457,3,31,11,75,Medium,39,Visual,5,No
+S08453,44,Female,Undergraduate,Machine Learning,498,2,73,39,43,High,69,Kinesthetic,1,Yes
+S08454,32,Female,High School,Machine Learning,257,4,99,31,40,Medium,42,Auditory,4,No
+S08455,31,Male,Undergraduate,Data Science,317,4,38,32,98,Medium,48,Visual,3,Yes
+S08456,37,Female,Postgraduate,Data Science,117,1,92,4,56,High,45,Auditory,3,No
+S08457,40,Female,Postgraduate,Cybersecurity,373,4,82,4,69,High,88,Auditory,3,No
+S08458,47,Female,Postgraduate,Machine Learning,317,2,86,0,57,Medium,44,Kinesthetic,3,No
+S08459,42,Male,High School,Python Basics,201,1,46,16,92,Medium,76,Kinesthetic,2,No
+S08460,35,Male,Undergraduate,Python Basics,407,3,36,17,63,Medium,41,Visual,5,No
+S08461,17,Male,Undergraduate,Python Basics,462,2,72,39,40,Medium,69,Kinesthetic,5,No
+S08462,21,Male,Undergraduate,Python Basics,281,1,90,17,67,Medium,94,Visual,4,No
+S08463,29,Female,Undergraduate,Machine Learning,117,3,66,35,69,High,76,Reading/Writing,5,No
+S08464,33,Male,Undergraduate,Web Development,207,3,83,2,93,High,32,Kinesthetic,4,Yes
+S08465,30,Other,Undergraduate,Web Development,218,4,99,5,71,Low,68,Reading/Writing,4,No
+S08466,46,Male,Undergraduate,Cybersecurity,429,3,53,48,41,Medium,39,Reading/Writing,1,No
+S08467,40,Female,Undergraduate,Data Science,81,1,36,4,48,High,75,Kinesthetic,4,No
+S08468,21,Male,High School,Cybersecurity,70,2,65,12,57,High,41,Kinesthetic,4,No
+S08469,25,Female,Undergraduate,Cybersecurity,321,4,84,4,71,High,72,Kinesthetic,5,No
+S08470,43,Female,Postgraduate,Python Basics,109,3,88,46,64,Medium,66,Reading/Writing,3,No
+S08471,41,Male,High School,Web Development,230,2,41,0,76,High,65,Visual,1,No
+S08472,41,Female,High School,Python Basics,218,1,76,46,65,High,93,Kinesthetic,1,No
+S08473,46,Male,Postgraduate,Cybersecurity,44,4,85,29,51,Low,90,Reading/Writing,1,No
+S08474,40,Male,High School,Data Science,331,3,83,16,69,High,34,Auditory,1,No
+S08475,27,Male,Undergraduate,Machine Learning,18,1,39,30,71,High,33,Kinesthetic,5,No
+S08476,42,Male,High School,Machine Learning,270,3,75,29,97,Medium,80,Visual,5,No
+S08477,34,Other,Undergraduate,Data Science,432,4,46,19,73,High,36,Kinesthetic,1,No
+S08478,40,Female,Postgraduate,Cybersecurity,172,1,97,35,91,Medium,65,Reading/Writing,5,No
+S08479,43,Female,Undergraduate,Python Basics,267,3,88,46,50,Low,88,Kinesthetic,2,No
+S08480,17,Male,Undergraduate,Data Science,63,4,51,25,65,Medium,69,Reading/Writing,5,No
+S08481,41,Male,Undergraduate,Data Science,451,3,32,41,41,Medium,48,Kinesthetic,1,No
+S08482,19,Male,Postgraduate,Data Science,59,1,86,34,57,High,85,Auditory,4,No
+S08483,28,Female,Undergraduate,Web Development,448,4,38,0,97,High,79,Visual,2,No
+S08484,37,Male,High School,Machine Learning,154,2,86,48,76,Low,49,Reading/Writing,4,No
+S08485,33,Male,Postgraduate,Machine Learning,410,2,37,39,97,Medium,51,Auditory,1,Yes
+S08486,48,Male,Undergraduate,Data Science,299,1,66,16,91,Medium,36,Kinesthetic,5,No
+S08487,29,Male,Postgraduate,Machine Learning,40,1,35,21,81,Medium,81,Auditory,3,No
+S08488,28,Male,Postgraduate,Web Development,166,4,62,47,48,Medium,96,Auditory,4,No
+S08489,21,Male,Undergraduate,Machine Learning,217,2,53,28,43,Medium,39,Kinesthetic,1,No
+S08490,17,Female,High School,Data Science,177,3,44,0,55,Medium,30,Visual,4,Yes
+S08491,42,Female,Undergraduate,Web Development,363,1,56,35,86,High,91,Visual,5,No
+S08492,39,Female,Postgraduate,Cybersecurity,495,1,94,5,41,High,92,Visual,4,No
+S08493,38,Male,High School,Web Development,86,3,87,32,87,High,87,Visual,5,Yes
+S08494,49,Male,Undergraduate,Machine Learning,408,2,91,40,47,Low,76,Kinesthetic,1,No
+S08495,17,Male,Undergraduate,Web Development,382,4,53,18,73,High,91,Visual,5,No
+S08496,40,Male,High School,Data Science,392,2,36,42,75,High,61,Kinesthetic,4,Yes
+S08497,36,Male,Undergraduate,Python Basics,184,3,64,24,56,Medium,30,Auditory,5,Yes
+S08498,21,Male,Undergraduate,Python Basics,136,3,85,15,63,High,86,Reading/Writing,3,Yes
+S08499,34,Female,Postgraduate,Machine Learning,481,2,46,0,55,Medium,45,Visual,4,No
+S08500,21,Female,High School,Machine Learning,293,4,60,5,86,Medium,75,Auditory,3,No
+S08501,22,Male,Undergraduate,Machine Learning,71,4,88,11,68,Medium,80,Auditory,1,No
+S08502,46,Male,Undergraduate,Data Science,272,4,50,49,45,High,52,Visual,2,No
+S08503,45,Male,Undergraduate,Python Basics,383,4,90,9,77,Low,65,Visual,3,Yes
+S08504,36,Male,Undergraduate,Data Science,321,3,54,32,54,Medium,35,Reading/Writing,5,Yes
+S08505,26,Male,High School,Python Basics,305,4,80,19,45,High,43,Kinesthetic,3,No
+S08506,49,Female,Undergraduate,Web Development,121,2,71,8,43,Medium,39,Kinesthetic,4,No
+S08507,22,Other,Undergraduate,Data Science,93,3,50,33,95,High,79,Visual,5,No
+S08508,25,Female,High School,Data Science,227,3,47,20,58,High,52,Reading/Writing,3,No
+S08509,30,Male,Undergraduate,Cybersecurity,76,3,83,14,79,Low,55,Reading/Writing,2,No
+S08510,36,Female,Undergraduate,Web Development,95,4,86,5,74,Medium,45,Reading/Writing,5,No
+S08511,28,Male,High School,Machine Learning,459,4,41,2,42,Low,78,Auditory,5,No
+S08512,29,Female,Undergraduate,Web Development,348,1,83,41,81,High,92,Visual,5,No
+S08513,46,Male,High School,Machine Learning,150,2,79,33,82,High,83,Visual,2,No
+S08514,33,Female,High School,Web Development,257,3,81,33,70,Medium,82,Kinesthetic,3,No
+S08515,36,Other,Undergraduate,Web Development,58,1,89,49,43,Medium,61,Kinesthetic,5,No
+S08516,33,Female,Postgraduate,Python Basics,255,3,32,6,60,High,61,Visual,1,No
+S08517,46,Female,Undergraduate,Python Basics,85,3,88,5,59,High,46,Reading/Writing,4,No
+S08518,29,Female,Undergraduate,Machine Learning,433,1,33,14,48,Medium,36,Auditory,1,Yes
+S08519,26,Female,Postgraduate,Python Basics,245,1,91,6,44,Medium,71,Kinesthetic,2,No
+S08520,37,Other,High School,Python Basics,135,2,92,7,75,High,95,Kinesthetic,3,No
+S08521,33,Female,Undergraduate,Python Basics,301,3,73,46,50,Low,38,Auditory,4,Yes
+S08522,23,Female,Undergraduate,Data Science,471,1,41,3,79,Medium,90,Reading/Writing,2,No
+S08523,21,Male,Undergraduate,Machine Learning,440,3,89,20,63,Medium,50,Reading/Writing,1,Yes
+S08524,33,Female,Undergraduate,Cybersecurity,445,2,57,16,41,High,72,Auditory,2,No
+S08525,42,Male,Postgraduate,Web Development,415,1,64,4,43,Low,93,Auditory,2,No
+S08526,45,Male,Undergraduate,Machine Learning,341,4,85,0,50,Medium,93,Auditory,2,Yes
+S08527,34,Male,Undergraduate,Data Science,167,4,69,4,98,Low,92,Auditory,5,No
+S08528,43,Female,Postgraduate,Python Basics,226,2,68,37,49,Medium,82,Auditory,3,No
+S08529,34,Female,High School,Web Development,293,2,65,21,90,Low,97,Visual,4,Yes
+S08530,42,Female,Undergraduate,Cybersecurity,36,4,31,48,72,High,77,Reading/Writing,3,No
+S08531,17,Female,Undergraduate,Python Basics,411,3,30,26,65,Low,60,Visual,4,No
+S08532,39,Female,Postgraduate,Cybersecurity,354,1,39,47,75,Medium,37,Auditory,2,No
+S08533,24,Female,Postgraduate,Machine Learning,470,2,67,38,78,Low,56,Reading/Writing,3,No
+S08534,27,Male,High School,Web Development,117,1,42,48,53,Medium,98,Auditory,1,No
+S08535,30,Female,Undergraduate,Python Basics,37,1,58,44,54,High,86,Kinesthetic,5,Yes
+S08536,48,Female,High School,Cybersecurity,424,2,75,32,44,Medium,96,Auditory,3,No
+S08537,18,Male,High School,Python Basics,345,4,60,20,58,High,84,Auditory,4,No
+S08538,41,Male,High School,Cybersecurity,245,2,52,37,79,Medium,64,Reading/Writing,4,No
+S08539,47,Male,High School,Machine Learning,97,3,66,48,65,Low,84,Auditory,4,No
+S08540,45,Female,Undergraduate,Machine Learning,243,4,34,20,77,Medium,45,Reading/Writing,4,No
+S08541,44,Female,Undergraduate,Cybersecurity,475,2,66,14,60,Medium,93,Visual,4,No
+S08542,40,Female,Postgraduate,Data Science,379,3,44,2,56,Low,89,Auditory,1,No
+S08543,21,Female,High School,Data Science,99,3,69,18,54,Medium,35,Kinesthetic,4,No
+S08544,28,Male,High School,Python Basics,324,2,92,24,94,Medium,85,Reading/Writing,1,No
+S08545,28,Female,Undergraduate,Web Development,420,1,81,13,96,Medium,69,Visual,2,No
+S08546,26,Female,Undergraduate,Cybersecurity,461,3,92,31,87,High,98,Auditory,2,No
+S08547,47,Other,Undergraduate,Web Development,113,2,43,5,84,Low,50,Auditory,3,No
+S08548,36,Male,High School,Machine Learning,97,3,50,5,83,High,38,Auditory,4,No
+S08549,30,Female,Undergraduate,Web Development,214,3,47,38,68,Medium,79,Reading/Writing,4,Yes
+S08550,39,Female,High School,Web Development,383,3,61,24,90,Medium,56,Kinesthetic,2,No
+S08551,37,Male,Undergraduate,Web Development,438,3,61,25,86,High,78,Visual,3,No
+S08552,48,Male,High School,Python Basics,447,2,38,29,53,High,69,Visual,4,No
+S08553,49,Female,High School,Cybersecurity,452,4,73,42,44,Medium,58,Reading/Writing,1,No
+S08554,44,Male,Undergraduate,Python Basics,194,3,31,3,71,High,33,Auditory,1,Yes
+S08555,24,Female,High School,Python Basics,460,4,85,31,49,Low,32,Visual,2,Yes
+S08556,46,Female,High School,Cybersecurity,338,1,44,27,57,Medium,43,Visual,5,No
+S08557,20,Female,Postgraduate,Python Basics,318,2,82,27,51,Medium,73,Kinesthetic,3,No
+S08558,26,Other,Postgraduate,Machine Learning,86,2,40,33,97,Medium,35,Auditory,1,No
+S08559,15,Male,High School,Web Development,229,4,97,43,61,High,36,Auditory,2,No
+S08560,46,Female,Postgraduate,Python Basics,423,4,92,21,76,Low,54,Kinesthetic,2,No
+S08561,17,Female,Undergraduate,Machine Learning,296,2,64,47,54,High,91,Visual,2,No
+S08562,38,Male,Undergraduate,Web Development,322,1,63,11,73,Low,64,Reading/Writing,4,No
+S08563,36,Female,High School,Data Science,262,4,51,22,47,High,66,Auditory,3,No
+S08564,38,Male,Undergraduate,Machine Learning,310,1,47,36,66,Medium,63,Reading/Writing,2,No
+S08565,15,Male,Postgraduate,Data Science,270,2,64,32,85,Medium,65,Visual,1,Yes
+S08566,35,Male,High School,Python Basics,177,4,86,33,44,High,81,Auditory,5,No
+S08567,37,Female,High School,Web Development,68,3,31,9,55,Medium,34,Kinesthetic,3,No
+S08568,32,Male,Undergraduate,Python Basics,473,4,69,10,65,Low,56,Visual,4,Yes
+S08569,41,Other,Postgraduate,Data Science,163,3,74,6,64,High,30,Reading/Writing,4,Yes
+S08570,38,Female,High School,Python Basics,388,1,58,11,99,Low,80,Visual,5,No
+S08571,22,Male,Undergraduate,Cybersecurity,137,2,42,28,89,Medium,39,Visual,1,Yes
+S08572,48,Male,Postgraduate,Cybersecurity,474,2,50,24,97,Low,53,Reading/Writing,5,No
+S08573,47,Female,High School,Cybersecurity,177,1,61,48,93,Low,51,Auditory,3,Yes
+S08574,29,Male,Undergraduate,Python Basics,411,4,51,48,77,Medium,44,Auditory,2,No
+S08575,24,Female,Undergraduate,Machine Learning,275,4,44,28,58,High,64,Reading/Writing,2,Yes
+S08576,30,Female,Postgraduate,Machine Learning,308,3,53,38,57,Low,58,Kinesthetic,2,No
+S08577,31,Female,Postgraduate,Data Science,478,4,53,46,61,Medium,93,Visual,5,No
+S08578,15,Male,Postgraduate,Cybersecurity,425,3,30,37,59,Medium,67,Auditory,2,No
+S08579,27,Male,Postgraduate,Machine Learning,285,4,70,43,98,Medium,38,Reading/Writing,1,No
+S08580,19,Female,High School,Web Development,16,2,90,27,48,High,76,Auditory,4,No
+S08581,38,Female,Undergraduate,Data Science,393,2,74,15,58,Medium,92,Reading/Writing,2,No
+S08582,43,Female,Postgraduate,Machine Learning,188,3,84,24,75,Medium,86,Reading/Writing,3,No
+S08583,37,Female,High School,Machine Learning,197,4,50,19,93,Low,38,Reading/Writing,1,No
+S08584,24,Male,Undergraduate,Machine Learning,372,3,33,7,84,Medium,89,Auditory,4,No
+S08585,35,Other,Undergraduate,Cybersecurity,34,2,69,12,55,Medium,75,Auditory,4,No
+S08586,38,Female,Postgraduate,Machine Learning,470,2,37,20,76,Medium,76,Auditory,2,No
+S08587,41,Female,Undergraduate,Data Science,55,2,88,4,49,Medium,80,Kinesthetic,2,Yes
+S08588,47,Female,Postgraduate,Data Science,35,4,83,40,59,Medium,73,Auditory,2,No
+S08589,31,Male,High School,Cybersecurity,225,2,89,25,55,High,43,Visual,5,No
+S08590,29,Female,Postgraduate,Cybersecurity,462,3,67,9,88,Low,51,Auditory,4,Yes
+S08591,45,Male,High School,Web Development,477,1,68,11,83,Low,60,Reading/Writing,4,No
+S08592,31,Male,Undergraduate,Cybersecurity,227,2,81,14,42,Medium,87,Auditory,1,No
+S08593,48,Male,Undergraduate,Data Science,400,2,63,23,45,Low,74,Reading/Writing,5,Yes
+S08594,33,Male,Undergraduate,Web Development,405,4,47,15,83,Medium,58,Kinesthetic,2,No
+S08595,38,Female,Undergraduate,Cybersecurity,265,2,34,49,90,Medium,36,Reading/Writing,5,Yes
+S08596,32,Male,Undergraduate,Web Development,144,1,73,42,85,Medium,59,Kinesthetic,3,Yes
+S08597,21,Male,High School,Web Development,290,3,99,48,52,Medium,71,Visual,3,No
+S08598,40,Male,Undergraduate,Machine Learning,329,4,32,40,59,High,97,Kinesthetic,2,No
+S08599,43,Male,High School,Machine Learning,270,1,48,46,97,Medium,38,Reading/Writing,2,No
+S08600,23,Female,High School,Python Basics,470,1,71,16,82,Medium,79,Visual,1,No
+S08601,37,Male,High School,Machine Learning,118,2,56,19,49,Medium,37,Auditory,5,No
+S08602,42,Female,Undergraduate,Machine Learning,413,3,41,36,77,Low,35,Visual,3,No
+S08603,33,Female,Undergraduate,Data Science,94,1,41,44,67,High,96,Reading/Writing,2,Yes
+S08604,45,Female,Undergraduate,Web Development,175,4,83,1,66,Medium,39,Reading/Writing,5,Yes
+S08605,41,Female,High School,Web Development,55,1,86,2,43,Medium,62,Auditory,2,No
+S08606,25,Female,Undergraduate,Web Development,297,4,88,20,66,Medium,61,Kinesthetic,2,No
+S08607,35,Female,Undergraduate,Cybersecurity,411,2,63,6,58,Medium,72,Auditory,5,No
+S08608,32,Female,Postgraduate,Web Development,308,3,74,49,96,Medium,86,Visual,5,No
+S08609,37,Female,Undergraduate,Data Science,221,4,57,38,44,Medium,39,Visual,1,No
+S08610,30,Female,Undergraduate,Cybersecurity,238,2,77,48,50,High,50,Visual,5,No
+S08611,23,Female,High School,Cybersecurity,464,4,34,7,76,High,38,Reading/Writing,2,No
+S08612,25,Male,Undergraduate,Web Development,309,1,82,8,77,Low,95,Visual,4,Yes
+S08613,25,Female,Undergraduate,Python Basics,422,2,75,46,88,Low,65,Auditory,5,No
+S08614,40,Male,Postgraduate,Data Science,88,4,65,36,58,Medium,84,Visual,4,Yes
+S08615,46,Male,Undergraduate,Data Science,185,3,30,33,53,Medium,53,Reading/Writing,2,No
+S08616,39,Male,Undergraduate,Data Science,416,4,64,4,47,High,59,Kinesthetic,1,No
+S08617,17,Female,Postgraduate,Cybersecurity,456,1,87,42,87,High,30,Kinesthetic,1,Yes
+S08618,16,Female,Undergraduate,Cybersecurity,454,1,66,36,71,Medium,45,Visual,5,Yes
+S08619,17,Female,Undergraduate,Python Basics,78,2,59,5,78,Medium,62,Visual,1,No
+S08620,42,Male,Postgraduate,Machine Learning,245,2,62,35,53,Low,31,Visual,1,Yes
+S08621,18,Male,Postgraduate,Data Science,170,2,34,1,99,Low,82,Reading/Writing,2,Yes
+S08622,29,Male,Postgraduate,Cybersecurity,21,2,39,49,72,Low,57,Kinesthetic,3,No
+S08623,39,Female,High School,Cybersecurity,327,3,30,35,60,Low,52,Auditory,1,No
+S08624,45,Male,Undergraduate,Machine Learning,418,4,34,18,68,Medium,73,Reading/Writing,1,No
+S08625,32,Female,Undergraduate,Machine Learning,283,4,32,20,49,Medium,34,Kinesthetic,5,No
+S08626,23,Male,Postgraduate,Data Science,159,1,72,19,58,Medium,44,Kinesthetic,5,No
+S08627,24,Male,High School,Web Development,420,1,55,23,77,High,85,Auditory,4,No
+S08628,43,Male,Undergraduate,Cybersecurity,268,2,94,44,41,High,89,Kinesthetic,1,No
+S08629,38,Male,Undergraduate,Python Basics,349,3,94,37,78,Medium,52,Visual,2,No
+S08630,31,Female,Postgraduate,Machine Learning,41,3,70,16,75,High,35,Visual,5,No
+S08631,20,Female,High School,Cybersecurity,410,1,42,25,88,Low,56,Auditory,5,Yes
+S08632,18,Male,Undergraduate,Machine Learning,336,2,87,15,41,Low,95,Visual,1,Yes
+S08633,40,Female,Postgraduate,Machine Learning,222,1,43,23,92,Low,37,Auditory,2,No
+S08634,18,Female,Postgraduate,Machine Learning,57,1,92,26,41,Medium,41,Auditory,2,No
+S08635,24,Male,Undergraduate,Python Basics,211,3,85,8,77,Low,85,Visual,4,No
+S08636,33,Female,High School,Cybersecurity,103,2,75,29,44,Low,62,Auditory,1,No
+S08637,31,Male,Undergraduate,Machine Learning,84,4,87,7,80,Medium,56,Auditory,3,No
+S08638,24,Female,Undergraduate,Python Basics,197,4,81,16,83,Low,64,Visual,1,No
+S08639,19,Male,Undergraduate,Web Development,63,2,68,34,44,Medium,60,Reading/Writing,3,No
+S08640,28,Female,High School,Machine Learning,406,3,82,26,84,High,54,Auditory,5,No
+S08641,18,Female,Undergraduate,Cybersecurity,345,3,72,46,70,Medium,51,Reading/Writing,3,No
+S08642,31,Female,High School,Machine Learning,194,4,70,49,73,High,51,Reading/Writing,4,No
+S08643,48,Other,Postgraduate,Machine Learning,446,2,91,19,45,High,37,Auditory,4,No
+S08644,19,Female,High School,Web Development,82,3,47,32,42,Medium,95,Kinesthetic,3,No
+S08645,18,Female,Undergraduate,Web Development,331,2,90,35,71,Medium,73,Kinesthetic,5,Yes
+S08646,42,Female,Undergraduate,Python Basics,139,1,77,35,89,Medium,71,Visual,4,No
+S08647,41,Male,Undergraduate,Data Science,249,4,59,14,63,Medium,42,Auditory,3,No
+S08648,20,Male,High School,Data Science,286,3,73,45,81,Medium,75,Visual,3,No
+S08649,38,Female,Undergraduate,Machine Learning,499,4,74,23,92,Medium,79,Reading/Writing,1,Yes
+S08650,46,Female,Postgraduate,Web Development,353,1,78,30,89,Low,55,Reading/Writing,1,No
+S08651,27,Male,Undergraduate,Web Development,235,3,51,11,40,High,86,Kinesthetic,2,Yes
+S08652,26,Male,Undergraduate,Machine Learning,372,3,65,2,56,Low,45,Kinesthetic,4,No
+S08653,19,Male,Postgraduate,Machine Learning,479,4,44,20,57,High,77,Reading/Writing,5,No
+S08654,31,Male,Undergraduate,Data Science,203,1,39,34,64,Medium,53,Reading/Writing,5,No
+S08655,24,Male,Undergraduate,Data Science,275,3,90,45,79,Medium,81,Reading/Writing,1,No
+S08656,25,Male,Undergraduate,Web Development,24,4,97,21,94,Medium,88,Visual,1,No
+S08657,21,Female,Undergraduate,Web Development,228,3,67,8,60,High,71,Kinesthetic,2,Yes
+S08658,47,Female,High School,Python Basics,266,4,37,48,87,High,92,Reading/Writing,3,No
+S08659,27,Female,Postgraduate,Cybersecurity,127,1,87,20,96,High,30,Auditory,2,No
+S08660,48,Male,High School,Web Development,271,1,54,14,99,Medium,41,Reading/Writing,1,No
+S08661,38,Female,Undergraduate,Data Science,281,2,48,11,48,Medium,93,Kinesthetic,4,No
+S08662,40,Male,Undergraduate,Machine Learning,39,4,32,18,59,High,87,Visual,2,Yes
+S08663,27,Male,Undergraduate,Web Development,27,1,47,43,85,Medium,78,Visual,1,Yes
+S08664,21,Female,Undergraduate,Web Development,107,1,57,10,55,Low,79,Reading/Writing,2,No
+S08665,42,Male,Undergraduate,Web Development,337,3,96,18,47,High,47,Kinesthetic,2,No
+S08666,41,Male,Undergraduate,Cybersecurity,153,4,45,36,90,Medium,98,Reading/Writing,5,No
+S08667,20,Male,Postgraduate,Data Science,172,4,81,32,96,High,61,Auditory,1,No
+S08668,15,Female,Undergraduate,Cybersecurity,207,4,38,10,92,Medium,65,Reading/Writing,3,No
+S08669,30,Female,Undergraduate,Web Development,416,3,62,10,82,Medium,72,Kinesthetic,4,No
+S08670,49,Female,Postgraduate,Python Basics,77,1,81,24,56,Medium,62,Visual,5,Yes
+S08671,39,Male,Undergraduate,Web Development,464,2,92,5,47,High,92,Reading/Writing,2,Yes
+S08672,20,Female,Undergraduate,Web Development,446,4,66,12,61,High,78,Visual,1,Yes
+S08673,42,Female,Postgraduate,Python Basics,366,3,46,27,57,Medium,96,Kinesthetic,4,No
+S08674,24,Female,Undergraduate,Cybersecurity,57,4,55,10,91,Medium,58,Visual,5,No
+S08675,42,Male,Undergraduate,Data Science,428,4,60,20,98,Medium,90,Visual,3,No
+S08676,23,Female,High School,Cybersecurity,330,4,36,36,63,Medium,46,Kinesthetic,1,No
+S08677,40,Male,Undergraduate,Cybersecurity,150,2,42,14,59,High,85,Visual,3,No
+S08678,15,Male,High School,Python Basics,84,1,45,27,52,Medium,47,Auditory,2,No
+S08679,22,Female,Undergraduate,Python Basics,371,3,31,12,81,Medium,90,Reading/Writing,4,Yes
+S08680,39,Female,Postgraduate,Data Science,447,2,92,37,41,Medium,39,Visual,5,Yes
+S08681,35,Male,High School,Cybersecurity,365,2,74,32,70,Medium,65,Auditory,4,No
+S08682,18,Male,High School,Machine Learning,359,4,92,45,69,Low,39,Visual,1,No
+S08683,40,Female,Undergraduate,Machine Learning,116,2,59,7,78,Medium,73,Visual,1,No
+S08684,44,Male,Undergraduate,Python Basics,358,1,62,34,43,High,94,Visual,2,No
+S08685,27,Female,High School,Data Science,303,3,99,22,82,Medium,37,Auditory,4,No
+S08686,17,Male,Undergraduate,Data Science,271,4,50,9,41,Low,68,Reading/Writing,4,No
+S08687,27,Male,Undergraduate,Cybersecurity,305,2,34,12,99,High,90,Visual,4,No
+S08688,15,Female,Undergraduate,Machine Learning,114,3,52,46,76,Medium,45,Reading/Writing,5,No
+S08689,31,Male,High School,Machine Learning,490,1,30,29,55,Medium,36,Auditory,4,No
+S08690,24,Female,Undergraduate,Data Science,143,2,50,44,91,Medium,92,Auditory,3,No
+S08691,15,Male,High School,Machine Learning,217,2,68,28,58,High,87,Visual,3,No
+S08692,37,Female,Undergraduate,Cybersecurity,180,4,41,21,81,Low,77,Auditory,1,No
+S08693,27,Female,Undergraduate,Data Science,227,3,67,32,72,Low,57,Visual,4,Yes
+S08694,27,Male,Undergraduate,Web Development,159,2,41,17,56,Low,76,Kinesthetic,1,No
+S08695,20,Male,Undergraduate,Python Basics,406,2,97,39,58,Medium,61,Reading/Writing,4,No
+S08696,30,Male,Undergraduate,Data Science,258,2,50,25,73,Medium,80,Visual,3,No
+S08697,42,Male,Postgraduate,Data Science,356,2,74,24,48,Medium,87,Auditory,2,No
+S08698,22,Male,Undergraduate,Cybersecurity,350,4,61,8,40,High,37,Visual,4,No
+S08699,38,Female,Undergraduate,Cybersecurity,495,3,73,17,86,High,80,Kinesthetic,1,No
+S08700,39,Male,Undergraduate,Web Development,125,4,92,9,58,Low,95,Auditory,3,No
+S08701,25,Male,Undergraduate,Python Basics,171,4,53,47,48,Medium,65,Kinesthetic,1,No
+S08702,38,Female,High School,Python Basics,50,3,78,26,90,Low,51,Visual,3,Yes
+S08703,20,Female,High School,Cybersecurity,126,1,33,34,47,Medium,53,Auditory,2,No
+S08704,19,Female,High School,Data Science,56,2,52,22,98,Medium,40,Auditory,1,No
+S08705,46,Male,High School,Cybersecurity,347,1,79,34,56,High,87,Auditory,5,No
+S08706,17,Male,Postgraduate,Cybersecurity,437,4,39,4,69,Medium,53,Reading/Writing,3,No
+S08707,43,Female,Undergraduate,Web Development,360,3,44,5,47,Medium,94,Visual,5,No
+S08708,15,Female,High School,Python Basics,230,1,95,43,81,Medium,47,Auditory,4,No
+S08709,35,Male,Undergraduate,Web Development,396,4,90,41,45,High,60,Visual,3,No
+S08710,18,Male,High School,Machine Learning,450,2,80,22,74,Medium,45,Auditory,4,No
+S08711,35,Male,High School,Machine Learning,64,1,70,39,61,Medium,68,Visual,2,Yes
+S08712,30,Male,Postgraduate,Cybersecurity,418,1,37,47,48,High,30,Reading/Writing,4,No
+S08713,33,Female,Undergraduate,Web Development,60,1,82,25,98,High,95,Visual,3,No
+S08714,37,Male,High School,Web Development,406,3,58,13,47,High,61,Reading/Writing,4,No
+S08715,42,Male,High School,Cybersecurity,190,1,33,10,54,Medium,39,Reading/Writing,1,No
+S08716,36,Male,High School,Cybersecurity,143,4,98,36,76,High,34,Auditory,1,Yes
+S08717,37,Female,Undergraduate,Machine Learning,124,2,73,4,72,Medium,48,Reading/Writing,5,No
+S08718,42,Female,High School,Machine Learning,25,3,34,44,88,Medium,31,Auditory,1,No
+S08719,22,Female,High School,Web Development,310,2,78,3,46,Low,50,Reading/Writing,1,No
+S08720,22,Female,Undergraduate,Cybersecurity,441,3,45,32,86,Medium,99,Auditory,3,No
+S08721,23,Male,Undergraduate,Web Development,289,3,79,12,83,Medium,36,Auditory,4,No
+S08722,37,Female,Undergraduate,Cybersecurity,289,1,82,41,68,Medium,93,Visual,5,No
+S08723,18,Female,Undergraduate,Machine Learning,235,2,77,3,84,Medium,64,Kinesthetic,3,Yes
+S08724,16,Female,Undergraduate,Cybersecurity,252,3,66,42,64,High,80,Visual,1,No
+S08725,22,Male,Postgraduate,Cybersecurity,408,3,61,20,90,Low,58,Reading/Writing,5,No
+S08726,17,Female,High School,Data Science,23,3,60,27,71,Medium,34,Visual,3,No
+S08727,15,Female,High School,Cybersecurity,350,1,43,46,65,High,94,Visual,1,No
+S08728,24,Male,High School,Python Basics,270,1,84,25,73,Medium,60,Reading/Writing,2,No
+S08729,35,Female,Undergraduate,Data Science,68,3,82,39,45,Medium,98,Kinesthetic,5,Yes
+S08730,31,Male,Undergraduate,Data Science,478,3,85,36,72,High,81,Auditory,5,No
+S08731,47,Male,Undergraduate,Data Science,307,3,97,23,50,Medium,76,Auditory,3,No
+S08732,38,Female,Postgraduate,Data Science,493,4,55,46,46,High,92,Auditory,2,Yes
+S08733,33,Female,Undergraduate,Cybersecurity,165,4,82,1,60,Medium,54,Visual,5,Yes
+S08734,25,Female,Undergraduate,Data Science,354,2,34,22,61,Low,38,Visual,4,No
+S08735,25,Male,Undergraduate,Python Basics,281,3,44,6,46,Medium,41,Visual,3,Yes
+S08736,34,Female,Postgraduate,Web Development,408,1,97,33,41,Medium,95,Kinesthetic,5,No
+S08737,20,Male,Undergraduate,Python Basics,476,1,56,33,51,High,55,Visual,4,No
+S08738,47,Male,Undergraduate,Web Development,164,3,83,32,80,Medium,49,Kinesthetic,1,No
+S08739,46,Male,High School,Web Development,342,2,55,35,52,Medium,46,Reading/Writing,4,Yes
+S08740,44,Male,Undergraduate,Cybersecurity,156,1,87,1,93,High,93,Reading/Writing,1,No
+S08741,27,Female,High School,Data Science,408,3,84,24,95,Medium,46,Auditory,1,No
+S08742,16,Female,High School,Machine Learning,163,1,77,40,94,High,85,Kinesthetic,4,No
+S08743,30,Male,Postgraduate,Data Science,484,4,32,9,59,High,43,Kinesthetic,4,No
+S08744,18,Male,Postgraduate,Python Basics,387,4,56,39,52,Low,84,Visual,5,No
+S08745,38,Male,High School,Data Science,361,3,80,34,57,High,46,Reading/Writing,3,No
+S08746,40,Male,Undergraduate,Cybersecurity,497,4,69,2,58,High,90,Visual,1,No
+S08747,49,Female,Postgraduate,Web Development,268,2,91,9,93,Low,85,Kinesthetic,2,No
+S08748,15,Female,Undergraduate,Python Basics,118,2,93,36,74,Medium,65,Reading/Writing,3,No
+S08749,19,Female,High School,Web Development,29,4,92,41,96,Low,86,Visual,2,No
+S08750,26,Female,Undergraduate,Python Basics,460,1,89,36,62,High,78,Visual,3,No
+S08751,47,Male,High School,Machine Learning,245,1,80,30,53,Low,58,Auditory,5,No
+S08752,15,Male,Postgraduate,Machine Learning,457,3,77,27,98,Medium,47,Visual,3,No
+S08753,32,Male,Undergraduate,Machine Learning,187,4,88,29,41,Medium,91,Auditory,5,No
+S08754,45,Male,Postgraduate,Data Science,386,2,69,36,88,Medium,47,Visual,3,Yes
+S08755,16,Female,Undergraduate,Cybersecurity,221,4,49,22,65,High,88,Kinesthetic,3,No
+S08756,48,Male,Undergraduate,Cybersecurity,410,1,44,29,81,Medium,63,Reading/Writing,3,No
+S08757,41,Female,High School,Web Development,75,4,56,11,53,High,40,Reading/Writing,3,No
+S08758,45,Female,High School,Data Science,298,2,30,46,73,Medium,39,Reading/Writing,3,No
+S08759,46,Male,Undergraduate,Python Basics,392,1,65,3,47,Low,88,Reading/Writing,1,No
+S08760,41,Female,Undergraduate,Python Basics,102,3,84,2,95,Medium,91,Kinesthetic,5,No
+S08761,26,Male,High School,Machine Learning,265,4,63,32,54,Medium,51,Visual,5,No
+S08762,30,Female,Undergraduate,Cybersecurity,307,2,87,24,69,High,93,Kinesthetic,1,No
+S08763,15,Male,Postgraduate,Machine Learning,88,1,54,44,93,Medium,63,Visual,5,Yes
+S08764,33,Female,Undergraduate,Cybersecurity,192,4,40,41,79,Low,91,Reading/Writing,4,No
+S08765,33,Female,High School,Cybersecurity,164,1,53,48,88,High,91,Auditory,3,No
+S08766,39,Female,Postgraduate,Machine Learning,384,1,77,41,98,Medium,40,Reading/Writing,4,No
+S08767,35,Male,Undergraduate,Machine Learning,371,1,45,44,59,Medium,54,Kinesthetic,1,No
+S08768,42,Male,High School,Cybersecurity,126,4,95,44,53,Medium,92,Reading/Writing,5,No
+S08769,18,Male,Undergraduate,Cybersecurity,77,1,49,29,51,Low,65,Kinesthetic,3,No
+S08770,28,Male,Undergraduate,Web Development,344,4,49,30,73,High,33,Visual,5,No
+S08771,41,Male,High School,Machine Learning,181,3,42,24,49,High,97,Auditory,1,No
+S08772,41,Female,High School,Machine Learning,169,4,64,24,83,Low,89,Reading/Writing,3,No
+S08773,26,Female,Postgraduate,Data Science,153,3,66,1,97,Low,79,Visual,1,No
+S08774,26,Male,High School,Data Science,403,2,90,36,94,Medium,47,Reading/Writing,2,No
+S08775,41,Male,Undergraduate,Cybersecurity,232,4,37,6,73,Medium,53,Visual,5,Yes
+S08776,25,Male,High School,Machine Learning,382,3,34,37,69,Low,40,Auditory,1,No
+S08777,16,Female,Undergraduate,Web Development,65,1,70,49,51,Medium,57,Kinesthetic,2,No
+S08778,27,Male,High School,Cybersecurity,295,2,89,18,54,High,41,Visual,1,Yes
+S08779,33,Other,Undergraduate,Web Development,299,4,83,49,73,High,76,Visual,5,No
+S08780,37,Female,Postgraduate,Machine Learning,293,4,88,2,54,Medium,65,Reading/Writing,4,Yes
+S08781,31,Male,Postgraduate,Web Development,353,4,63,28,73,Medium,59,Auditory,4,No
+S08782,36,Male,Postgraduate,Data Science,414,1,58,6,54,Low,58,Reading/Writing,2,No
+S08783,23,Male,High School,Web Development,400,1,98,46,81,Medium,84,Kinesthetic,4,No
+S08784,22,Other,Undergraduate,Python Basics,494,1,36,21,78,Medium,46,Auditory,1,No
+S08785,22,Female,Undergraduate,Cybersecurity,298,3,85,41,78,Medium,47,Visual,1,Yes
+S08786,20,Male,Undergraduate,Cybersecurity,147,3,66,9,50,Medium,86,Visual,4,No
+S08787,48,Other,Undergraduate,Cybersecurity,29,1,74,32,87,Medium,88,Reading/Writing,3,No
+S08788,44,Male,Undergraduate,Python Basics,57,4,43,24,66,Medium,37,Reading/Writing,3,Yes
+S08789,25,Male,Undergraduate,Python Basics,223,1,38,9,58,Medium,89,Reading/Writing,2,No
+S08790,26,Female,High School,Web Development,320,4,90,8,62,High,34,Auditory,5,Yes
+S08791,26,Female,Undergraduate,Python Basics,442,4,86,18,50,Low,98,Reading/Writing,4,Yes
+S08792,34,Female,High School,Web Development,399,4,76,22,92,High,55,Visual,1,No
+S08793,30,Female,High School,Python Basics,434,4,51,22,86,Medium,44,Kinesthetic,4,No
+S08794,40,Male,High School,Cybersecurity,463,1,85,13,70,Medium,57,Auditory,5,Yes
+S08795,39,Female,Undergraduate,Data Science,280,1,30,20,92,Low,39,Kinesthetic,2,No
+S08796,43,Female,Undergraduate,Data Science,65,3,30,36,46,Low,75,Visual,3,No
+S08797,16,Female,High School,Python Basics,20,1,62,24,83,High,68,Reading/Writing,4,No
+S08798,26,Male,Postgraduate,Web Development,161,1,30,10,73,High,73,Visual,3,No
+S08799,39,Other,Undergraduate,Python Basics,307,4,49,3,81,Medium,94,Kinesthetic,1,Yes
+S08800,35,Female,Undergraduate,Machine Learning,209,1,96,7,54,High,72,Reading/Writing,3,Yes
+S08801,18,Male,High School,Data Science,105,2,42,13,83,High,94,Auditory,5,No
+S08802,35,Male,Undergraduate,Data Science,385,3,62,22,54,Medium,73,Auditory,4,No
+S08803,38,Female,Undergraduate,Machine Learning,71,2,48,16,88,Medium,56,Auditory,5,No
+S08804,25,Female,High School,Python Basics,244,3,41,20,56,Medium,49,Kinesthetic,4,No
+S08805,47,Female,Undergraduate,Data Science,330,4,51,28,98,Low,93,Visual,5,No
+S08806,31,Female,Undergraduate,Cybersecurity,455,4,30,34,92,High,50,Kinesthetic,4,No
+S08807,35,Male,Undergraduate,Web Development,183,2,86,27,87,Medium,99,Auditory,3,No
+S08808,45,Male,Undergraduate,Machine Learning,80,3,33,38,88,Medium,71,Reading/Writing,3,No
+S08809,28,Male,Undergraduate,Web Development,356,3,35,39,82,Medium,98,Kinesthetic,2,Yes
+S08810,41,Male,Undergraduate,Python Basics,469,1,42,10,82,High,88,Auditory,3,No
+S08811,38,Male,Undergraduate,Python Basics,430,1,49,12,98,High,67,Reading/Writing,4,Yes
+S08812,15,Male,Undergraduate,Cybersecurity,126,2,91,5,99,Low,92,Kinesthetic,1,No
+S08813,42,Female,Undergraduate,Web Development,311,1,60,0,89,High,33,Reading/Writing,2,No
+S08814,20,Female,Postgraduate,Data Science,66,4,72,7,93,Medium,71,Reading/Writing,2,No
+S08815,26,Female,Postgraduate,Python Basics,134,2,74,49,88,Medium,39,Kinesthetic,3,No
+S08816,25,Female,High School,Web Development,102,2,44,42,91,Medium,99,Auditory,4,No
+S08817,33,Male,Undergraduate,Data Science,441,4,60,11,91,High,69,Kinesthetic,5,No
+S08818,37,Female,High School,Web Development,154,3,85,22,84,Low,99,Auditory,5,Yes
+S08819,28,Female,Undergraduate,Cybersecurity,71,2,69,43,76,High,80,Visual,2,No
+S08820,46,Male,High School,Web Development,472,4,57,44,91,High,94,Reading/Writing,5,No
+S08821,25,Other,High School,Data Science,315,4,63,23,45,Medium,96,Auditory,5,No
+S08822,36,Male,Undergraduate,Cybersecurity,27,2,99,14,72,Low,66,Auditory,1,No
+S08823,28,Male,Undergraduate,Python Basics,314,1,50,29,49,High,60,Visual,2,No
+S08824,18,Female,High School,Python Basics,342,4,49,16,46,High,56,Visual,2,Yes
+S08825,42,Female,High School,Data Science,390,2,83,24,63,Low,73,Kinesthetic,3,No
+S08826,21,Female,Postgraduate,Cybersecurity,254,4,93,20,41,High,34,Auditory,1,No
+S08827,36,Male,Undergraduate,Data Science,396,3,78,29,83,Medium,97,Visual,4,No
+S08828,49,Other,Undergraduate,Python Basics,18,4,79,32,41,Medium,47,Auditory,5,No
+S08829,43,Female,Undergraduate,Web Development,40,2,84,41,84,Medium,52,Auditory,1,No
+S08830,40,Male,Undergraduate,Python Basics,229,4,40,24,42,High,92,Reading/Writing,1,Yes
+S08831,15,Male,Undergraduate,Cybersecurity,94,2,42,2,97,Medium,70,Kinesthetic,3,No
+S08832,16,Male,High School,Machine Learning,73,1,91,10,67,High,63,Kinesthetic,3,Yes
+S08833,32,Male,High School,Machine Learning,55,1,78,19,83,High,56,Visual,1,Yes
+S08834,41,Female,High School,Machine Learning,496,1,58,3,61,Low,54,Auditory,4,No
+S08835,38,Female,Undergraduate,Data Science,128,4,66,43,53,Medium,46,Visual,1,No
+S08836,17,Female,Undergraduate,Data Science,213,3,57,43,90,Low,56,Auditory,1,No
+S08837,17,Female,Undergraduate,Web Development,270,2,84,17,92,Medium,55,Auditory,3,Yes
+S08838,43,Female,Undergraduate,Web Development,458,3,32,10,88,Low,69,Visual,3,No
+S08839,17,Male,Undergraduate,Python Basics,231,4,41,10,71,Medium,56,Visual,1,No
+S08840,29,Female,High School,Web Development,384,1,38,28,75,High,73,Auditory,5,No
+S08841,47,Male,High School,Data Science,207,3,53,36,44,Medium,91,Visual,4,Yes
+S08842,42,Male,Undergraduate,Data Science,356,1,78,10,83,High,31,Visual,1,No
+S08843,23,Female,Postgraduate,Web Development,20,4,75,30,64,High,78,Visual,4,No
+S08844,42,Male,Undergraduate,Python Basics,94,4,37,34,88,Medium,75,Auditory,1,Yes
+S08845,39,Male,Undergraduate,Cybersecurity,455,2,81,25,46,High,97,Visual,1,No
+S08846,20,Male,High School,Python Basics,462,1,51,29,61,Medium,70,Auditory,1,Yes
+S08847,26,Male,Undergraduate,Data Science,15,4,63,32,61,Low,60,Visual,5,No
+S08848,46,Male,Undergraduate,Python Basics,413,1,87,37,73,High,78,Reading/Writing,3,No
+S08849,30,Female,Undergraduate,Python Basics,310,1,35,7,61,Medium,50,Kinesthetic,2,No
+S08850,20,Female,Undergraduate,Web Development,492,3,96,4,48,Medium,60,Kinesthetic,3,No
+S08851,19,Male,Postgraduate,Python Basics,386,1,99,18,61,Medium,50,Reading/Writing,5,Yes
+S08852,44,Male,Undergraduate,Web Development,311,1,55,21,63,Low,35,Reading/Writing,2,No
+S08853,43,Female,High School,Python Basics,306,3,56,23,95,Medium,67,Reading/Writing,1,No
+S08854,45,Male,High School,Web Development,123,1,47,0,65,High,76,Visual,3,No
+S08855,18,Female,Undergraduate,Data Science,265,1,91,16,42,High,50,Visual,5,No
+S08856,21,Male,High School,Python Basics,391,2,98,25,63,High,62,Reading/Writing,5,No
+S08857,18,Female,High School,Cybersecurity,119,2,54,33,67,Low,63,Kinesthetic,5,No
+S08858,40,Female,Undergraduate,Data Science,497,2,64,8,93,High,45,Auditory,5,No
+S08859,34,Female,Undergraduate,Machine Learning,278,3,74,21,42,Medium,73,Auditory,5,No
+S08860,40,Male,High School,Data Science,496,4,30,9,42,High,77,Auditory,3,No
+S08861,43,Female,High School,Machine Learning,38,4,56,41,42,Medium,77,Auditory,2,No
+S08862,49,Male,High School,Machine Learning,201,4,79,23,69,High,55,Visual,3,No
+S08863,26,Male,Postgraduate,Web Development,80,4,97,22,85,High,64,Kinesthetic,2,Yes
+S08864,35,Male,Undergraduate,Data Science,419,1,66,38,83,High,92,Kinesthetic,5,Yes
+S08865,17,Female,Undergraduate,Cybersecurity,360,1,42,17,59,Medium,35,Visual,3,No
+S08866,39,Male,High School,Web Development,14,2,59,22,69,Medium,49,Reading/Writing,4,No
+S08867,33,Other,Undergraduate,Python Basics,446,3,50,8,62,Medium,85,Reading/Writing,3,No
+S08868,19,Male,High School,Python Basics,374,4,37,21,68,High,98,Visual,5,No
+S08869,49,Female,Undergraduate,Machine Learning,261,4,66,13,62,Medium,57,Reading/Writing,5,No
+S08870,45,Female,High School,Machine Learning,369,1,61,11,43,Medium,34,Reading/Writing,1,No
+S08871,28,Female,High School,Python Basics,180,3,95,0,93,Low,40,Auditory,2,No
+S08872,27,Female,High School,Cybersecurity,53,3,43,11,97,Medium,68,Reading/Writing,4,No
+S08873,20,Female,Undergraduate,Machine Learning,154,1,81,25,70,Medium,60,Reading/Writing,4,No
+S08874,26,Male,High School,Machine Learning,467,1,89,9,80,Low,71,Kinesthetic,5,Yes
+S08875,28,Female,Postgraduate,Web Development,180,4,91,7,87,High,48,Kinesthetic,1,No
+S08876,35,Female,Undergraduate,Machine Learning,443,2,34,44,52,Low,71,Visual,4,No
+S08877,39,Female,Undergraduate,Cybersecurity,339,4,89,5,88,Low,38,Reading/Writing,2,No
+S08878,48,Female,Postgraduate,Machine Learning,308,4,84,21,85,Low,80,Visual,1,No
+S08879,42,Male,Postgraduate,Python Basics,331,3,76,49,66,High,49,Reading/Writing,1,Yes
+S08880,40,Female,Undergraduate,Cybersecurity,393,1,81,23,75,Medium,64,Auditory,3,No
+S08881,15,Male,Undergraduate,Web Development,459,3,82,5,95,High,91,Kinesthetic,4,No
+S08882,16,Male,Undergraduate,Data Science,328,1,94,20,82,Low,91,Auditory,5,No
+S08883,31,Female,High School,Machine Learning,100,1,61,43,44,Low,78,Reading/Writing,4,No
+S08884,29,Female,High School,Data Science,378,4,89,22,52,High,59,Kinesthetic,4,No
+S08885,48,Male,Postgraduate,Machine Learning,43,1,33,4,78,Low,56,Reading/Writing,3,No
+S08886,15,Male,Undergraduate,Python Basics,144,3,87,8,42,Medium,43,Reading/Writing,1,Yes
+S08887,32,Other,Undergraduate,Machine Learning,447,2,71,4,49,Medium,68,Reading/Writing,3,Yes
+S08888,39,Male,Postgraduate,Web Development,291,3,81,16,57,Low,85,Reading/Writing,2,No
+S08889,30,Male,High School,Machine Learning,382,4,50,36,62,Medium,76,Visual,4,No
+S08890,42,Female,Postgraduate,Python Basics,283,3,90,39,64,Low,67,Visual,1,No
+S08891,22,Female,Undergraduate,Web Development,286,2,70,8,43,Medium,87,Kinesthetic,5,No
+S08892,47,Male,Undergraduate,Python Basics,203,1,37,43,52,Medium,80,Auditory,3,No
+S08893,39,Female,High School,Data Science,159,4,96,43,93,Medium,70,Auditory,5,No
+S08894,28,Male,High School,Data Science,416,2,47,33,46,Medium,70,Auditory,3,Yes
+S08895,31,Male,High School,Cybersecurity,355,3,98,17,58,Medium,76,Visual,3,No
+S08896,45,Male,Postgraduate,Machine Learning,256,3,62,40,95,Low,41,Kinesthetic,4,No
+S08897,40,Female,High School,Data Science,129,2,43,1,56,Low,81,Auditory,2,No
+S08898,21,Male,High School,Data Science,365,1,73,47,74,Medium,62,Visual,5,Yes
+S08899,46,Male,Undergraduate,Data Science,405,1,71,24,59,Medium,87,Visual,2,No
+S08900,17,Female,Undergraduate,Machine Learning,191,2,52,12,89,High,82,Auditory,4,Yes
+S08901,49,Male,High School,Python Basics,55,1,48,9,44,Low,90,Auditory,4,No
+S08902,23,Male,Undergraduate,Machine Learning,178,3,30,25,53,High,65,Kinesthetic,5,No
+S08903,26,Female,Undergraduate,Cybersecurity,483,3,55,31,51,Medium,67,Auditory,1,No
+S08904,20,Male,Undergraduate,Data Science,168,3,36,9,91,Medium,35,Kinesthetic,1,No
+S08905,15,Male,Postgraduate,Python Basics,256,3,33,8,62,Medium,88,Reading/Writing,2,No
+S08906,31,Male,Undergraduate,Data Science,180,1,79,32,67,Medium,42,Reading/Writing,4,No
+S08907,20,Male,High School,Python Basics,194,2,83,46,73,High,86,Visual,3,Yes
+S08908,41,Male,Undergraduate,Cybersecurity,198,1,81,23,41,Low,59,Kinesthetic,3,No
+S08909,28,Female,Postgraduate,Web Development,219,2,79,32,91,Medium,63,Visual,5,No
+S08910,46,Female,Undergraduate,Cybersecurity,269,2,63,36,51,High,30,Auditory,5,No
+S08911,40,Female,Undergraduate,Cybersecurity,72,1,83,43,45,High,93,Auditory,2,No
+S08912,27,Female,Undergraduate,Web Development,284,1,80,22,43,High,98,Auditory,2,No
+S08913,19,Male,Postgraduate,Python Basics,171,4,39,42,84,High,95,Visual,1,Yes
+S08914,18,Male,Undergraduate,Data Science,219,1,90,11,68,High,68,Reading/Writing,4,Yes
+S08915,21,Female,Postgraduate,Cybersecurity,230,2,52,43,43,Medium,58,Kinesthetic,2,Yes
+S08916,47,Female,Undergraduate,Python Basics,168,3,38,13,40,Medium,49,Auditory,5,No
+S08917,37,Male,High School,Machine Learning,91,4,98,32,48,Medium,64,Auditory,2,No
+S08918,42,Male,Postgraduate,Data Science,466,1,74,39,90,Low,74,Auditory,2,No
+S08919,35,Male,Postgraduate,Web Development,169,1,95,15,63,Medium,48,Kinesthetic,5,No
+S08920,40,Female,High School,Python Basics,363,4,62,0,88,High,56,Auditory,2,No
+S08921,39,Female,High School,Python Basics,172,1,61,11,77,Low,64,Auditory,2,No
+S08922,18,Male,Undergraduate,Python Basics,180,2,97,32,98,High,40,Reading/Writing,2,No
+S08923,35,Male,Undergraduate,Data Science,339,4,70,49,65,Medium,42,Kinesthetic,4,No
+S08924,23,Male,Undergraduate,Python Basics,444,4,68,29,60,Low,98,Kinesthetic,5,No
+S08925,32,Female,High School,Data Science,268,4,64,1,89,Medium,92,Kinesthetic,4,No
+S08926,38,Male,High School,Python Basics,425,4,43,44,50,High,58,Reading/Writing,2,No
+S08927,34,Female,Undergraduate,Machine Learning,65,3,53,23,65,Medium,93,Reading/Writing,1,No
+S08928,43,Male,High School,Data Science,146,4,66,14,55,High,82,Auditory,3,Yes
+S08929,18,Male,Undergraduate,Cybersecurity,482,2,77,31,68,Medium,62,Reading/Writing,3,No
+S08930,16,Other,Undergraduate,Web Development,31,3,73,37,92,Low,74,Visual,4,No
+S08931,25,Female,Postgraduate,Data Science,483,1,40,24,74,Medium,79,Auditory,4,No
+S08932,28,Female,Undergraduate,Data Science,92,2,65,22,91,High,37,Visual,3,No
+S08933,48,Female,Undergraduate,Machine Learning,195,1,68,30,84,High,97,Reading/Writing,2,No
+S08934,48,Female,High School,Cybersecurity,62,3,50,32,62,Medium,46,Visual,4,No
+S08935,46,Male,High School,Data Science,62,1,90,45,50,Medium,54,Auditory,5,No
+S08936,22,Male,High School,Cybersecurity,447,1,70,38,85,High,96,Kinesthetic,5,No
+S08937,38,Female,Postgraduate,Cybersecurity,51,1,99,7,44,Medium,48,Reading/Writing,5,No
+S08938,31,Other,Undergraduate,Python Basics,305,3,69,15,75,Medium,85,Reading/Writing,4,No
+S08939,26,Female,Undergraduate,Cybersecurity,315,3,38,25,44,High,79,Visual,4,No
+S08940,42,Female,Postgraduate,Data Science,300,1,79,2,95,Medium,67,Kinesthetic,3,No
+S08941,44,Female,High School,Web Development,296,1,84,13,42,Low,52,Auditory,5,Yes
+S08942,25,Female,Postgraduate,Cybersecurity,171,3,34,7,99,Medium,36,Kinesthetic,3,No
+S08943,48,Female,High School,Python Basics,435,3,59,7,61,High,80,Visual,1,No
+S08944,28,Female,Undergraduate,Data Science,339,2,42,19,70,Medium,56,Kinesthetic,4,No
+S08945,19,Other,High School,Cybersecurity,84,4,76,38,58,Medium,82,Kinesthetic,4,No
+S08946,36,Male,Undergraduate,Python Basics,371,2,56,41,86,Medium,51,Kinesthetic,1,Yes
+S08947,26,Female,High School,Web Development,304,1,47,20,44,High,92,Auditory,3,Yes
+S08948,35,Male,High School,Machine Learning,50,1,98,12,59,Low,43,Reading/Writing,1,No
+S08949,44,Male,Undergraduate,Python Basics,121,4,42,26,94,Medium,99,Auditory,1,No
+S08950,23,Male,High School,Python Basics,252,1,91,6,61,Low,33,Kinesthetic,2,No
+S08951,22,Male,High School,Web Development,101,1,96,38,98,High,53,Visual,4,No
+S08952,32,Female,Undergraduate,Python Basics,476,3,97,13,44,High,85,Kinesthetic,2,No
+S08953,38,Other,Undergraduate,Machine Learning,482,3,43,35,99,High,36,Reading/Writing,3,No
+S08954,31,Male,Undergraduate,Python Basics,211,4,87,20,78,Low,88,Kinesthetic,4,No
+S08955,39,Female,Undergraduate,Python Basics,416,3,94,48,64,High,48,Reading/Writing,1,No
+S08956,40,Male,High School,Machine Learning,134,4,80,5,98,High,90,Kinesthetic,1,No
+S08957,40,Male,Undergraduate,Web Development,306,1,39,41,86,High,90,Kinesthetic,5,No
+S08958,44,Female,Undergraduate,Machine Learning,307,3,80,38,68,High,72,Auditory,5,No
+S08959,24,Female,Undergraduate,Python Basics,88,4,75,22,93,Medium,48,Visual,3,No
+S08960,18,Female,Undergraduate,Machine Learning,473,4,54,25,42,High,31,Kinesthetic,2,No
+S08961,46,Male,High School,Web Development,138,4,58,14,81,Medium,91,Visual,4,Yes
+S08962,22,Male,Undergraduate,Cybersecurity,268,1,49,32,44,High,67,Visual,1,No
+S08963,39,Male,Undergraduate,Web Development,53,3,53,26,79,Medium,39,Auditory,3,No
+S08964,19,Male,Postgraduate,Cybersecurity,351,3,76,7,91,Medium,95,Visual,5,No
+S08965,47,Other,Postgraduate,Data Science,398,2,54,39,74,Medium,68,Kinesthetic,5,No
+S08966,44,Male,Undergraduate,Machine Learning,27,1,62,24,52,Low,31,Kinesthetic,1,No
+S08967,29,Female,High School,Python Basics,257,2,41,12,54,High,89,Visual,4,No
+S08968,47,Male,Postgraduate,Machine Learning,16,1,32,16,86,High,81,Kinesthetic,3,No
+S08969,17,Female,High School,Cybersecurity,232,1,40,46,77,High,65,Reading/Writing,3,No
+S08970,35,Female,Undergraduate,Web Development,90,2,50,44,96,Medium,46,Kinesthetic,3,No
+S08971,30,Female,High School,Cybersecurity,383,3,51,38,74,High,86,Visual,2,Yes
+S08972,17,Female,Postgraduate,Python Basics,407,3,63,22,94,High,54,Kinesthetic,4,No
+S08973,25,Female,Undergraduate,Cybersecurity,284,1,51,33,75,Medium,67,Reading/Writing,3,No
+S08974,38,Female,High School,Machine Learning,238,4,99,3,64,High,97,Reading/Writing,1,No
+S08975,42,Female,Undergraduate,Cybersecurity,354,3,83,29,79,Low,36,Reading/Writing,4,No
+S08976,22,Female,High School,Machine Learning,273,3,94,28,75,Low,64,Kinesthetic,2,Yes
+S08977,48,Female,High School,Data Science,320,4,79,40,52,Medium,88,Reading/Writing,4,Yes
+S08978,34,Male,High School,Python Basics,224,4,37,19,61,High,46,Kinesthetic,1,Yes
+S08979,20,Male,High School,Machine Learning,185,4,56,42,60,Medium,34,Auditory,4,No
+S08980,26,Female,Undergraduate,Data Science,84,4,89,32,76,Medium,97,Visual,2,No
+S08981,47,Female,High School,Machine Learning,116,2,77,38,77,Low,64,Visual,4,No
+S08982,47,Female,High School,Web Development,246,2,77,26,63,Low,48,Visual,2,No
+S08983,28,Male,Undergraduate,Machine Learning,203,1,51,37,42,High,50,Reading/Writing,5,No
+S08984,49,Male,Undergraduate,Python Basics,178,2,80,30,41,High,88,Reading/Writing,2,No
+S08985,33,Female,High School,Machine Learning,311,2,49,15,82,Low,79,Visual,5,No
+S08986,21,Male,High School,Web Development,132,4,31,29,72,High,36,Visual,5,No
+S08987,49,Male,Undergraduate,Cybersecurity,407,4,70,13,93,Medium,30,Auditory,3,No
+S08988,21,Female,High School,Machine Learning,15,1,70,12,55,High,32,Auditory,2,Yes
+S08989,21,Other,Undergraduate,Machine Learning,143,1,37,28,65,High,72,Auditory,2,Yes
+S08990,24,Female,High School,Data Science,53,3,89,33,78,High,67,Kinesthetic,5,Yes
+S08991,42,Male,High School,Data Science,23,4,59,36,64,Medium,91,Kinesthetic,2,No
+S08992,44,Male,Undergraduate,Python Basics,163,1,76,17,43,Low,56,Kinesthetic,3,Yes
+S08993,31,Male,Postgraduate,Cybersecurity,18,3,45,45,55,Medium,70,Kinesthetic,5,No
+S08994,23,Male,Undergraduate,Web Development,432,3,40,11,80,High,39,Auditory,4,No
+S08995,35,Female,Undergraduate,Cybersecurity,385,2,33,7,48,Medium,72,Kinesthetic,3,No
+S08996,44,Male,Undergraduate,Data Science,398,4,65,41,68,Low,66,Auditory,4,Yes
+S08997,37,Other,Undergraduate,Machine Learning,245,3,60,46,81,High,56,Reading/Writing,2,No
+S08998,39,Male,Undergraduate,Web Development,408,3,72,14,97,Medium,42,Kinesthetic,1,No
+S08999,19,Female,High School,Python Basics,33,3,49,46,91,Medium,93,Visual,5,No
+S09000,28,Female,High School,Machine Learning,87,4,91,6,89,Medium,41,Reading/Writing,1,No
+S09001,30,Male,Postgraduate,Data Science,178,2,67,37,64,High,43,Auditory,5,No
+S09002,24,Male,Postgraduate,Python Basics,256,2,71,47,68,Low,67,Kinesthetic,1,No
+S09003,27,Female,Undergraduate,Python Basics,109,1,78,41,53,High,98,Visual,1,No
+S09004,46,Female,Postgraduate,Python Basics,376,3,84,28,86,High,46,Visual,2,No
+S09005,39,Male,High School,Web Development,419,3,99,19,99,Medium,75,Visual,1,No
+S09006,38,Male,Undergraduate,Cybersecurity,294,1,89,41,62,High,64,Reading/Writing,4,No
+S09007,28,Male,High School,Web Development,87,2,73,7,98,High,91,Auditory,4,No
+S09008,23,Female,Postgraduate,Data Science,148,4,76,47,72,Medium,46,Visual,3,No
+S09009,22,Female,Undergraduate,Machine Learning,499,3,34,35,67,High,58,Visual,2,No
+S09010,44,Female,Undergraduate,Machine Learning,464,3,36,43,71,Low,33,Visual,2,No
+S09011,44,Male,Undergraduate,Machine Learning,194,4,67,44,83,Medium,45,Kinesthetic,4,No
+S09012,31,Male,Undergraduate,Cybersecurity,194,3,83,28,44,Low,51,Reading/Writing,4,No
+S09013,39,Male,High School,Web Development,467,2,70,42,46,High,92,Kinesthetic,4,No
+S09014,49,Male,Undergraduate,Python Basics,40,3,92,38,92,Low,35,Auditory,1,Yes
+S09015,32,Male,High School,Machine Learning,327,4,73,8,49,High,95,Kinesthetic,2,No
+S09016,34,Female,High School,Data Science,51,4,60,2,86,Low,34,Reading/Writing,5,No
+S09017,23,Male,Postgraduate,Cybersecurity,128,4,53,16,86,Low,68,Reading/Writing,2,No
+S09018,15,Male,Postgraduate,Cybersecurity,200,2,89,2,49,Low,88,Kinesthetic,3,Yes
+S09019,25,Female,Postgraduate,Machine Learning,232,1,55,45,88,Medium,85,Reading/Writing,4,No
+S09020,46,Female,Undergraduate,Web Development,413,4,86,28,51,Medium,98,Auditory,2,No
+S09021,18,Female,Undergraduate,Python Basics,389,3,37,4,97,Medium,90,Reading/Writing,3,No
+S09022,40,Male,High School,Python Basics,136,3,71,33,52,Low,85,Auditory,1,No
+S09023,45,Female,Undergraduate,Machine Learning,145,2,66,1,91,High,65,Auditory,1,Yes
+S09024,32,Male,High School,Machine Learning,148,3,50,8,97,Medium,50,Auditory,4,No
+S09025,46,Female,Undergraduate,Machine Learning,240,4,48,6,90,High,94,Visual,4,Yes
+S09026,19,Male,Undergraduate,Data Science,430,3,77,32,40,Medium,49,Visual,1,No
+S09027,26,Female,Postgraduate,Web Development,65,3,54,30,61,Medium,61,Visual,3,Yes
+S09028,27,Female,High School,Web Development,53,3,81,17,80,High,70,Reading/Writing,1,Yes
+S09029,41,Female,High School,Web Development,492,3,80,9,83,Medium,84,Reading/Writing,1,Yes
+S09030,33,Male,Undergraduate,Data Science,182,2,97,5,46,Medium,78,Visual,2,No
+S09031,17,Female,Undergraduate,Web Development,20,1,88,18,85,Medium,73,Reading/Writing,5,No
+S09032,49,Female,High School,Machine Learning,264,4,85,40,97,Medium,30,Reading/Writing,4,No
+S09033,42,Male,High School,Python Basics,247,1,49,32,46,Low,78,Reading/Writing,4,No
+S09034,33,Male,Undergraduate,Machine Learning,317,4,96,8,64,Medium,52,Auditory,4,No
+S09035,19,Male,Undergraduate,Machine Learning,79,2,61,35,97,High,50,Reading/Writing,4,No
+S09036,36,Female,Postgraduate,Machine Learning,288,4,39,0,57,Low,96,Kinesthetic,2,No
+S09037,40,Female,High School,Python Basics,498,4,65,49,87,Medium,98,Reading/Writing,5,No
+S09038,44,Female,Undergraduate,Python Basics,143,1,54,13,75,Medium,48,Auditory,4,No
+S09039,22,Male,Undergraduate,Python Basics,247,4,62,31,62,Low,65,Auditory,3,No
+S09040,29,Female,Postgraduate,Python Basics,35,3,78,25,41,Medium,86,Visual,2,Yes
+S09041,48,Female,Postgraduate,Machine Learning,229,3,55,25,71,Medium,53,Auditory,2,No
+S09042,36,Female,Undergraduate,Machine Learning,321,3,90,22,67,Medium,76,Reading/Writing,5,No
+S09043,39,Male,Undergraduate,Cybersecurity,400,1,76,2,43,Medium,61,Visual,1,No
+S09044,42,Male,High School,Data Science,395,4,42,22,44,High,34,Visual,4,No
+S09045,47,Female,Postgraduate,Web Development,335,4,42,40,41,Low,35,Reading/Writing,5,No
+S09046,16,Female,High School,Cybersecurity,351,3,47,15,51,Medium,59,Reading/Writing,5,Yes
+S09047,27,Female,Postgraduate,Machine Learning,192,2,52,23,62,High,98,Visual,1,No
+S09048,36,Male,Undergraduate,Machine Learning,474,4,35,31,75,Medium,48,Visual,4,Yes
+S09049,22,Female,Undergraduate,Web Development,279,1,44,41,42,High,87,Visual,2,Yes
+S09050,27,Male,Undergraduate,Web Development,402,4,60,15,81,High,67,Visual,5,No
+S09051,18,Male,Undergraduate,Cybersecurity,122,1,40,38,81,High,66,Kinesthetic,3,Yes
+S09052,15,Male,Undergraduate,Web Development,280,1,30,35,49,Medium,97,Auditory,1,Yes
+S09053,21,Female,Undergraduate,Web Development,296,4,88,7,62,Low,72,Visual,3,Yes
+S09054,24,Female,High School,Machine Learning,498,2,40,45,59,Low,38,Visual,2,Yes
+S09055,37,Female,High School,Machine Learning,450,3,73,34,45,High,54,Kinesthetic,2,No
+S09056,23,Male,Undergraduate,Data Science,232,4,35,15,66,Medium,91,Reading/Writing,5,Yes
+S09057,47,Female,Undergraduate,Python Basics,286,1,49,27,85,Medium,89,Visual,4,Yes
+S09058,32,Female,Undergraduate,Web Development,368,3,62,10,83,Medium,86,Auditory,1,No
+S09059,43,Female,High School,Machine Learning,220,3,52,32,50,High,34,Kinesthetic,4,No
+S09060,28,Male,Undergraduate,Data Science,186,3,49,1,54,Medium,49,Kinesthetic,3,No
+S09061,16,Female,Undergraduate,Cybersecurity,336,1,98,48,59,Low,78,Visual,5,No
+S09062,18,Female,High School,Cybersecurity,476,2,80,45,99,Medium,57,Kinesthetic,1,No
+S09063,36,Female,Undergraduate,Data Science,490,2,95,29,47,Medium,65,Kinesthetic,4,No
+S09064,40,Male,Undergraduate,Machine Learning,48,4,82,31,40,High,86,Reading/Writing,3,No
+S09065,23,Female,Undergraduate,Data Science,350,3,38,4,72,Medium,73,Auditory,5,No
+S09066,25,Female,Undergraduate,Python Basics,21,1,40,14,47,High,93,Visual,2,No
+S09067,31,Male,Undergraduate,Cybersecurity,333,1,32,39,66,Medium,98,Visual,3,Yes
+S09068,33,Female,Postgraduate,Machine Learning,445,4,85,44,88,High,35,Reading/Writing,1,No
+S09069,17,Female,Postgraduate,Machine Learning,134,2,72,1,62,High,63,Reading/Writing,3,Yes
+S09070,18,Female,Undergraduate,Cybersecurity,343,2,77,36,66,Low,76,Visual,1,No
+S09071,39,Male,Undergraduate,Machine Learning,295,4,88,22,42,High,94,Auditory,3,No
+S09072,48,Female,Undergraduate,Web Development,285,4,43,20,41,Low,31,Reading/Writing,3,No
+S09073,42,Male,High School,Web Development,10,4,65,12,51,High,88,Kinesthetic,4,No
+S09074,25,Male,Undergraduate,Machine Learning,474,4,91,20,90,Medium,44,Kinesthetic,1,No
+S09075,17,Female,Undergraduate,Cybersecurity,187,3,66,7,94,High,77,Reading/Writing,1,No
+S09076,32,Male,Undergraduate,Cybersecurity,262,2,63,6,98,Low,59,Visual,2,No
+S09077,43,Male,Undergraduate,Web Development,207,1,72,18,72,Medium,81,Visual,3,Yes
+S09078,19,Male,Postgraduate,Python Basics,498,4,82,18,64,Medium,49,Kinesthetic,4,No
+S09079,44,Male,Undergraduate,Web Development,329,3,95,2,51,Medium,61,Reading/Writing,1,Yes
+S09080,19,Male,Postgraduate,Python Basics,410,1,41,32,73,Low,69,Visual,1,No
+S09081,35,Female,Postgraduate,Machine Learning,296,3,96,39,89,High,98,Visual,5,No
+S09082,40,Female,Postgraduate,Data Science,245,3,90,0,70,High,55,Kinesthetic,1,No
+S09083,35,Male,High School,Cybersecurity,269,1,58,31,93,Medium,64,Reading/Writing,2,Yes
+S09084,26,Female,Postgraduate,Web Development,199,4,78,45,63,Medium,42,Kinesthetic,5,No
+S09085,25,Other,High School,Machine Learning,369,2,91,47,65,Medium,59,Kinesthetic,5,Yes
+S09086,35,Female,High School,Python Basics,367,4,31,27,70,High,70,Kinesthetic,2,No
+S09087,28,Female,Undergraduate,Cybersecurity,208,1,85,31,78,Low,61,Kinesthetic,3,No
+S09088,30,Female,Undergraduate,Web Development,191,4,45,11,75,Low,30,Visual,3,Yes
+S09089,48,Female,High School,Data Science,157,1,39,49,63,Medium,31,Kinesthetic,3,Yes
+S09090,25,Female,High School,Data Science,214,2,69,43,81,Low,51,Visual,5,Yes
+S09091,42,Male,High School,Web Development,253,3,47,47,82,High,53,Reading/Writing,2,No
+S09092,17,Male,Postgraduate,Machine Learning,233,1,61,28,41,Medium,96,Visual,5,No
+S09093,22,Male,High School,Web Development,44,1,38,44,57,Low,77,Reading/Writing,4,No
+S09094,48,Female,High School,Python Basics,435,2,37,22,59,High,59,Visual,3,Yes
+S09095,42,Male,Postgraduate,Data Science,304,1,47,23,97,Medium,60,Kinesthetic,4,No
+S09096,36,Female,Postgraduate,Cybersecurity,182,2,39,7,42,Low,96,Auditory,1,No
+S09097,24,Female,High School,Machine Learning,467,3,39,26,75,High,49,Kinesthetic,2,No
+S09098,19,Male,Postgraduate,Data Science,118,3,77,46,93,High,53,Reading/Writing,1,No
+S09099,25,Male,High School,Machine Learning,279,1,66,18,81,Medium,46,Visual,3,Yes
+S09100,26,Female,Undergraduate,Python Basics,221,2,97,25,77,Low,94,Visual,5,No
+S09101,48,Female,Undergraduate,Cybersecurity,300,1,95,34,86,High,84,Auditory,5,No
+S09102,41,Female,High School,Web Development,210,4,80,29,42,Medium,83,Auditory,3,No
+S09103,34,Male,Postgraduate,Web Development,134,3,70,28,76,Medium,91,Visual,5,No
+S09104,47,Male,Undergraduate,Machine Learning,329,4,87,22,78,Medium,62,Kinesthetic,5,Yes
+S09105,47,Male,Undergraduate,Machine Learning,406,2,58,26,51,Low,84,Visual,1,No
+S09106,21,Male,High School,Web Development,398,4,35,25,51,Medium,43,Auditory,3,No
+S09107,27,Male,High School,Web Development,426,3,54,6,75,Medium,60,Auditory,5,Yes
+S09108,40,Male,Undergraduate,Web Development,380,3,46,34,44,High,92,Kinesthetic,1,No
+S09109,32,Female,Undergraduate,Web Development,170,4,74,1,97,Low,42,Visual,5,No
+S09110,44,Male,Undergraduate,Machine Learning,104,4,41,9,63,Medium,40,Visual,4,No
+S09111,34,Male,Undergraduate,Python Basics,371,2,38,42,93,Medium,77,Visual,2,No
+S09112,49,Male,Undergraduate,Python Basics,206,1,85,14,71,Medium,64,Visual,4,No
+S09113,27,Male,Postgraduate,Web Development,145,4,73,41,66,Medium,74,Reading/Writing,3,No
+S09114,19,Female,Undergraduate,Machine Learning,239,1,55,14,91,High,90,Kinesthetic,2,No
+S09115,16,Male,High School,Machine Learning,94,4,50,4,62,Low,40,Kinesthetic,1,No
+S09116,43,Female,High School,Cybersecurity,420,4,45,13,64,Medium,55,Kinesthetic,4,No
+S09117,36,Female,Undergraduate,Cybersecurity,452,4,75,49,46,Medium,89,Visual,2,No
+S09118,32,Male,Undergraduate,Data Science,215,3,48,36,82,Medium,71,Auditory,2,Yes
+S09119,45,Female,Undergraduate,Data Science,174,4,68,17,71,High,99,Visual,2,No
+S09120,40,Male,Undergraduate,Python Basics,75,3,79,44,70,Medium,68,Kinesthetic,5,No
+S09121,22,Female,Undergraduate,Web Development,369,4,81,1,73,High,61,Auditory,5,No
+S09122,16,Male,Undergraduate,Web Development,446,2,76,29,96,High,35,Kinesthetic,4,No
+S09123,40,Female,Undergraduate,Machine Learning,369,2,63,34,95,Medium,49,Kinesthetic,2,No
+S09124,38,Female,Undergraduate,Data Science,292,1,38,8,50,High,98,Auditory,1,Yes
+S09125,48,Male,High School,Python Basics,255,4,62,44,70,Low,59,Kinesthetic,2,No
+S09126,27,Female,Undergraduate,Web Development,388,1,51,35,84,High,70,Reading/Writing,3,No
+S09127,49,Male,Undergraduate,Web Development,420,2,36,44,54,High,83,Reading/Writing,5,No
+S09128,46,Male,High School,Cybersecurity,421,2,54,29,87,Medium,98,Reading/Writing,3,No
+S09129,29,Female,High School,Data Science,431,1,62,29,43,Medium,62,Auditory,3,No
+S09130,44,Male,Undergraduate,Cybersecurity,255,1,52,40,69,Medium,77,Reading/Writing,4,No
+S09131,38,Male,Undergraduate,Cybersecurity,156,3,84,35,64,Medium,51,Auditory,2,No
+S09132,25,Female,High School,Cybersecurity,314,2,45,7,93,High,75,Kinesthetic,2,Yes
+S09133,35,Female,High School,Machine Learning,81,3,42,41,58,High,87,Kinesthetic,4,No
+S09134,40,Female,Undergraduate,Data Science,153,4,99,19,47,Medium,92,Reading/Writing,1,No
+S09135,19,Other,Undergraduate,Machine Learning,246,4,87,7,55,Medium,80,Visual,3,No
+S09136,49,Male,Undergraduate,Cybersecurity,38,4,70,29,99,Medium,87,Visual,1,No
+S09137,29,Male,Postgraduate,Web Development,448,2,99,38,60,Medium,85,Kinesthetic,1,No
+S09138,30,Male,Postgraduate,Web Development,190,3,67,8,87,Medium,38,Visual,3,Yes
+S09139,40,Male,Undergraduate,Data Science,104,4,87,11,43,Medium,51,Reading/Writing,2,No
+S09140,30,Female,Undergraduate,Web Development,446,4,48,31,40,High,46,Visual,4,No
+S09141,36,Male,Undergraduate,Cybersecurity,205,2,37,11,60,High,31,Kinesthetic,4,No
+S09142,38,Male,Undergraduate,Machine Learning,475,4,80,13,66,Low,42,Visual,5,No
+S09143,25,Female,High School,Machine Learning,152,2,58,0,99,Medium,76,Reading/Writing,4,No
+S09144,30,Other,High School,Cybersecurity,156,1,65,1,93,Medium,45,Visual,5,No
+S09145,24,Male,Undergraduate,Machine Learning,365,1,58,14,56,High,54,Reading/Writing,2,No
+S09146,44,Male,Postgraduate,Web Development,249,4,52,0,58,Medium,84,Reading/Writing,2,No
+S09147,34,Male,Undergraduate,Cybersecurity,68,1,66,7,69,Medium,31,Auditory,4,Yes
+S09148,15,Male,High School,Web Development,335,3,33,12,88,Medium,44,Auditory,3,Yes
+S09149,16,Male,High School,Data Science,57,2,97,21,87,Medium,88,Auditory,3,No
+S09150,26,Male,Undergraduate,Machine Learning,264,4,68,48,91,Low,68,Auditory,3,No
+S09151,30,Female,Undergraduate,Cybersecurity,131,3,64,24,75,Low,35,Reading/Writing,1,Yes
+S09152,48,Male,Undergraduate,Python Basics,87,2,62,17,85,Low,86,Visual,5,No
+S09153,17,Female,Undergraduate,Data Science,55,1,51,16,98,High,90,Visual,2,No
+S09154,22,Male,High School,Data Science,124,2,66,26,62,High,58,Kinesthetic,2,No
+S09155,49,Male,Postgraduate,Python Basics,143,1,50,29,88,Medium,79,Visual,1,Yes
+S09156,19,Female,High School,Web Development,378,2,72,35,75,Medium,55,Kinesthetic,4,No
+S09157,15,Male,Undergraduate,Web Development,461,2,60,5,82,Medium,70,Visual,3,No
+S09158,40,Male,Undergraduate,Cybersecurity,285,1,87,12,78,High,76,Reading/Writing,2,Yes
+S09159,30,Male,High School,Python Basics,297,3,92,14,55,Medium,71,Visual,1,No
+S09160,30,Female,Postgraduate,Python Basics,181,2,96,3,81,Medium,77,Reading/Writing,2,No
+S09161,42,Male,High School,Machine Learning,82,3,58,3,66,Medium,48,Reading/Writing,2,No
+S09162,48,Male,Undergraduate,Cybersecurity,173,3,46,37,46,Medium,52,Reading/Writing,4,No
+S09163,34,Female,High School,Data Science,326,1,69,30,42,Low,52,Visual,2,No
+S09164,47,Male,Postgraduate,Cybersecurity,97,2,53,22,50,High,36,Auditory,2,Yes
+S09165,36,Other,Undergraduate,Cybersecurity,287,1,32,26,73,High,85,Reading/Writing,1,No
+S09166,49,Male,Undergraduate,Web Development,470,1,69,22,91,Medium,61,Visual,2,No
+S09167,48,Male,High School,Cybersecurity,16,1,97,30,55,Medium,99,Reading/Writing,2,No
+S09168,29,Male,High School,Web Development,97,1,46,24,46,High,57,Kinesthetic,3,No
+S09169,48,Male,Postgraduate,Machine Learning,499,4,91,12,53,Medium,84,Visual,4,No
+S09170,41,Other,Undergraduate,Web Development,62,2,88,47,74,High,84,Kinesthetic,1,No
+S09171,34,Male,Postgraduate,Machine Learning,31,3,78,26,53,Low,86,Auditory,5,No
+S09172,21,Male,Postgraduate,Web Development,21,4,57,29,57,Medium,37,Reading/Writing,5,No
+S09173,34,Male,High School,Cybersecurity,88,1,39,1,81,Medium,80,Visual,1,No
+S09174,41,Male,High School,Machine Learning,129,3,65,13,78,Medium,60,Auditory,5,No
+S09175,49,Female,High School,Machine Learning,383,4,38,41,76,Medium,33,Auditory,5,No
+S09176,32,Male,High School,Python Basics,357,3,68,28,84,High,90,Auditory,1,No
+S09177,48,Female,Undergraduate,Web Development,148,3,78,10,87,Low,40,Auditory,1,Yes
+S09178,39,Male,Postgraduate,Cybersecurity,123,2,97,31,47,Low,59,Kinesthetic,3,No
+S09179,42,Female,Undergraduate,Machine Learning,204,2,56,29,47,High,81,Auditory,4,No
+S09180,32,Male,High School,Web Development,277,3,94,23,87,Low,63,Auditory,4,No
+S09181,26,Female,High School,Data Science,169,2,90,23,62,Medium,67,Kinesthetic,5,No
+S09182,45,Male,High School,Machine Learning,224,3,37,39,41,Medium,39,Visual,2,Yes
+S09183,49,Male,Postgraduate,Python Basics,417,4,94,42,98,Medium,35,Visual,1,No
+S09184,27,Male,High School,Machine Learning,235,3,70,49,71,Medium,59,Auditory,4,Yes
+S09185,44,Male,Undergraduate,Cybersecurity,384,4,58,37,42,Medium,80,Kinesthetic,1,No
+S09186,40,Female,Undergraduate,Data Science,37,3,31,44,95,Low,54,Visual,4,No
+S09187,26,Female,Undergraduate,Python Basics,403,4,31,14,45,Low,39,Visual,2,No
+S09188,29,Male,High School,Python Basics,405,3,49,27,53,Low,44,Visual,3,No
+S09189,16,Female,Postgraduate,Cybersecurity,229,4,42,22,50,Low,87,Reading/Writing,5,No
+S09190,16,Male,Undergraduate,Data Science,157,4,61,0,50,High,73,Auditory,5,No
+S09191,30,Male,High School,Machine Learning,236,4,68,8,75,High,57,Kinesthetic,2,Yes
+S09192,29,Male,High School,Python Basics,115,1,98,7,92,High,78,Auditory,1,Yes
+S09193,15,Female,Postgraduate,Cybersecurity,21,2,86,1,85,Low,34,Visual,2,No
+S09194,40,Female,Postgraduate,Cybersecurity,331,1,36,7,63,Medium,96,Reading/Writing,3,No
+S09195,20,Female,High School,Python Basics,416,4,92,46,90,Low,74,Auditory,1,No
+S09196,42,Male,Undergraduate,Web Development,357,3,87,22,53,High,75,Reading/Writing,4,No
+S09197,41,Female,Postgraduate,Web Development,203,3,54,15,79,High,78,Auditory,3,No
+S09198,44,Female,High School,Web Development,376,4,54,29,89,Medium,86,Reading/Writing,1,Yes
+S09199,36,Female,Undergraduate,Data Science,448,4,93,19,48,Medium,98,Reading/Writing,1,Yes
+S09200,30,Male,Undergraduate,Web Development,293,2,58,23,40,Medium,49,Visual,2,No
+S09201,36,Female,High School,Cybersecurity,466,1,89,1,88,Medium,40,Kinesthetic,1,No
+S09202,40,Female,Undergraduate,Machine Learning,228,2,93,34,85,Medium,56,Auditory,4,No
+S09203,35,Other,High School,Python Basics,153,1,69,43,59,Medium,78,Reading/Writing,2,No
+S09204,45,Female,Undergraduate,Cybersecurity,358,1,31,14,87,Low,60,Visual,2,No
+S09205,39,Male,Postgraduate,Data Science,191,1,34,31,72,Medium,54,Visual,3,No
+S09206,18,Male,High School,Machine Learning,231,4,83,25,57,High,91,Visual,5,No
+S09207,47,Female,Undergraduate,Python Basics,461,1,61,23,80,Medium,71,Reading/Writing,4,No
+S09208,15,Male,Undergraduate,Python Basics,43,3,73,23,65,Low,81,Auditory,2,No
+S09209,38,Female,Postgraduate,Web Development,489,4,76,31,85,High,59,Auditory,4,No
+S09210,36,Female,High School,Data Science,474,2,66,14,83,Medium,58,Kinesthetic,1,No
+S09211,29,Male,Postgraduate,Cybersecurity,257,1,36,6,62,Medium,85,Auditory,2,No
+S09212,18,Female,High School,Data Science,90,2,62,23,87,Medium,84,Visual,3,No
+S09213,15,Female,High School,Web Development,104,2,39,47,85,Medium,95,Kinesthetic,4,Yes
+S09214,34,Female,Postgraduate,Cybersecurity,101,4,92,10,66,Medium,30,Auditory,2,No
+S09215,46,Female,High School,Python Basics,354,2,54,10,77,Medium,69,Visual,4,No
+S09216,29,Male,High School,Data Science,355,2,77,40,74,Medium,44,Reading/Writing,1,Yes
+S09217,18,Female,High School,Data Science,132,3,79,30,53,Low,78,Reading/Writing,5,No
+S09218,32,Male,High School,Web Development,345,2,74,30,82,High,31,Reading/Writing,2,Yes
+S09219,49,Female,Undergraduate,Machine Learning,94,4,31,40,54,High,86,Auditory,1,No
+S09220,32,Female,High School,Data Science,189,3,83,20,80,Low,84,Reading/Writing,1,No
+S09221,40,Male,Postgraduate,Cybersecurity,301,2,51,35,72,Low,78,Visual,2,No
+S09222,29,Male,Postgraduate,Data Science,480,4,44,38,46,Medium,50,Auditory,3,No
+S09223,40,Male,Postgraduate,Cybersecurity,335,2,82,31,41,Medium,45,Kinesthetic,2,Yes
+S09224,43,Female,High School,Cybersecurity,81,1,89,29,45,Medium,53,Reading/Writing,2,No
+S09225,39,Female,Undergraduate,Data Science,232,2,45,4,62,Medium,77,Kinesthetic,4,No
+S09226,27,Female,Undergraduate,Python Basics,62,2,81,49,82,High,90,Kinesthetic,2,No
+S09227,19,Female,Postgraduate,Python Basics,138,1,72,1,87,Medium,93,Kinesthetic,1,No
+S09228,31,Female,High School,Machine Learning,198,2,36,2,67,Medium,86,Reading/Writing,5,Yes
+S09229,28,Female,High School,Web Development,405,1,46,44,59,Medium,69,Auditory,2,No
+S09230,25,Female,Undergraduate,Data Science,368,4,66,17,42,High,75,Visual,5,No
+S09231,39,Male,Undergraduate,Python Basics,90,3,68,33,50,High,34,Kinesthetic,3,Yes
+S09232,29,Male,Undergraduate,Web Development,92,3,93,23,50,High,34,Auditory,3,No
+S09233,49,Male,High School,Machine Learning,208,1,86,16,67,Medium,73,Auditory,2,No
+S09234,20,Female,High School,Machine Learning,439,4,59,44,49,Low,86,Kinesthetic,4,No
+S09235,31,Male,Postgraduate,Machine Learning,389,3,41,11,59,High,61,Kinesthetic,4,No
+S09236,40,Male,Postgraduate,Python Basics,456,2,76,49,78,Medium,51,Reading/Writing,2,No
+S09237,36,Male,Undergraduate,Python Basics,299,1,50,3,89,Medium,73,Reading/Writing,2,No
+S09238,34,Female,High School,Web Development,101,2,96,13,45,High,92,Visual,1,No
+S09239,26,Male,Undergraduate,Cybersecurity,159,2,87,15,48,Low,44,Visual,3,No
+S09240,37,Female,Undergraduate,Data Science,476,1,76,5,75,Medium,80,Kinesthetic,3,No
+S09241,39,Female,Undergraduate,Cybersecurity,323,1,52,11,53,Medium,87,Reading/Writing,2,No
+S09242,38,Male,Postgraduate,Machine Learning,115,1,85,23,68,Medium,95,Reading/Writing,4,No
+S09243,26,Female,Undergraduate,Machine Learning,459,4,37,14,89,Low,35,Visual,1,Yes
+S09244,29,Female,Undergraduate,Web Development,158,1,71,10,56,High,31,Kinesthetic,3,No
+S09245,49,Female,Undergraduate,Machine Learning,138,3,56,33,61,Low,53,Visual,3,Yes
+S09246,39,Female,High School,Python Basics,402,2,33,15,43,Medium,54,Reading/Writing,1,No
+S09247,40,Female,Undergraduate,Cybersecurity,359,3,88,48,42,Medium,64,Kinesthetic,4,Yes
+S09248,38,Female,Undergraduate,Cybersecurity,32,1,72,6,69,Medium,82,Kinesthetic,5,No
+S09249,17,Female,Undergraduate,Python Basics,90,3,76,15,44,High,42,Auditory,1,No
+S09250,35,Male,High School,Python Basics,144,3,56,22,59,High,39,Auditory,1,No
+S09251,27,Female,Undergraduate,Machine Learning,377,2,96,4,66,Low,36,Reading/Writing,1,No
+S09252,46,Female,Undergraduate,Web Development,398,3,36,35,44,High,73,Reading/Writing,2,No
+S09253,45,Male,Undergraduate,Web Development,254,2,97,25,91,Medium,38,Auditory,1,No
+S09254,28,Male,Undergraduate,Python Basics,472,1,39,17,68,Medium,49,Visual,5,No
+S09255,45,Male,High School,Web Development,211,1,37,47,94,Medium,99,Kinesthetic,5,No
+S09256,37,Female,Undergraduate,Python Basics,120,3,36,23,72,High,36,Kinesthetic,2,No
+S09257,17,Male,Undergraduate,Data Science,42,1,42,33,92,Low,35,Kinesthetic,5,No
+S09258,21,Male,Undergraduate,Web Development,275,1,68,43,98,Medium,72,Visual,4,No
+S09259,43,Female,Undergraduate,Machine Learning,282,3,68,21,66,Low,79,Visual,4,Yes
+S09260,22,Male,High School,Data Science,179,4,53,42,94,Medium,31,Auditory,1,No
+S09261,29,Female,Postgraduate,Web Development,430,1,70,4,48,Low,50,Auditory,4,No
+S09262,22,Female,High School,Web Development,489,1,67,1,44,Low,49,Visual,2,No
+S09263,38,Female,High School,Data Science,447,1,45,21,49,Medium,99,Kinesthetic,3,Yes
+S09264,44,Female,Undergraduate,Web Development,173,2,41,19,86,Medium,93,Visual,3,Yes
+S09265,25,Female,Undergraduate,Cybersecurity,212,3,57,12,94,Medium,56,Visual,3,No
+S09266,26,Female,Postgraduate,Web Development,196,1,40,23,53,Medium,61,Auditory,5,No
+S09267,29,Male,Undergraduate,Web Development,144,3,47,34,86,Low,54,Visual,4,Yes
+S09268,40,Male,Undergraduate,Machine Learning,357,2,81,41,50,Medium,58,Reading/Writing,5,No
+S09269,16,Male,Undergraduate,Cybersecurity,409,3,77,37,92,Low,95,Reading/Writing,2,No
+S09270,19,Male,Undergraduate,Cybersecurity,173,3,54,0,90,High,44,Auditory,4,Yes
+S09271,24,Female,High School,Web Development,377,1,48,31,89,Medium,77,Visual,5,No
+S09272,37,Other,Postgraduate,Python Basics,367,3,30,15,94,Medium,91,Visual,3,Yes
+S09273,22,Male,High School,Machine Learning,254,2,50,42,92,Low,60,Reading/Writing,2,No
+S09274,36,Male,Postgraduate,Data Science,199,2,55,22,67,High,50,Visual,5,Yes
+S09275,18,Male,Undergraduate,Python Basics,146,2,78,9,73,High,71,Kinesthetic,3,Yes
+S09276,17,Other,Undergraduate,Web Development,457,1,38,1,80,Low,54,Auditory,4,No
+S09277,46,Other,Undergraduate,Data Science,245,2,45,13,76,High,74,Auditory,2,No
+S09278,47,Male,Undergraduate,Cybersecurity,327,1,85,20,88,High,62,Auditory,1,No
+S09279,49,Female,Postgraduate,Data Science,164,2,66,25,55,High,62,Visual,1,No
+S09280,24,Female,Undergraduate,Machine Learning,495,1,63,11,70,High,88,Visual,2,No
+S09281,45,Male,Undergraduate,Machine Learning,41,3,89,36,84,Low,69,Kinesthetic,5,No
+S09282,29,Female,Undergraduate,Data Science,199,4,43,29,78,Medium,37,Auditory,1,No
+S09283,48,Female,Undergraduate,Cybersecurity,238,3,50,35,57,Medium,44,Kinesthetic,3,Yes
+S09284,28,Female,Undergraduate,Cybersecurity,445,1,98,10,99,Low,81,Kinesthetic,4,No
+S09285,21,Other,Postgraduate,Data Science,46,1,74,49,59,Medium,82,Kinesthetic,4,No
+S09286,35,Female,High School,Web Development,215,1,89,33,59,Medium,50,Visual,5,No
+S09287,28,Female,Undergraduate,Machine Learning,307,3,81,26,84,High,58,Visual,4,No
+S09288,18,Male,Undergraduate,Web Development,116,3,47,44,55,High,62,Kinesthetic,3,No
+S09289,29,Male,Undergraduate,Machine Learning,36,4,55,32,71,Medium,48,Reading/Writing,4,Yes
+S09290,42,Female,Postgraduate,Cybersecurity,89,4,59,29,61,Medium,99,Visual,4,No
+S09291,21,Female,Postgraduate,Cybersecurity,88,3,79,43,54,Medium,58,Auditory,1,No
+S09292,41,Male,Undergraduate,Python Basics,435,3,99,6,79,Low,62,Kinesthetic,3,No
+S09293,41,Female,Postgraduate,Data Science,66,1,98,21,70,Medium,87,Reading/Writing,3,No
+S09294,33,Male,Postgraduate,Cybersecurity,43,2,41,43,63,Low,73,Kinesthetic,4,No
+S09295,35,Male,High School,Python Basics,100,1,69,1,79,High,44,Auditory,4,No
+S09296,47,Male,Undergraduate,Data Science,169,3,52,16,55,Low,74,Reading/Writing,3,No
+S09297,37,Male,High School,Cybersecurity,416,1,57,35,82,Medium,33,Reading/Writing,4,No
+S09298,44,Female,Undergraduate,Machine Learning,89,2,47,23,50,High,77,Reading/Writing,4,No
+S09299,24,Female,High School,Web Development,43,2,90,49,50,Medium,69,Reading/Writing,4,No
+S09300,47,Male,Undergraduate,Cybersecurity,46,1,85,5,55,Low,61,Visual,4,No
+S09301,47,Male,Undergraduate,Machine Learning,91,1,33,8,68,Low,74,Kinesthetic,3,Yes
+S09302,49,Female,High School,Cybersecurity,397,3,75,26,43,Low,95,Visual,3,No
+S09303,31,Male,High School,Web Development,341,1,93,7,76,High,60,Visual,5,No
+S09304,35,Male,Undergraduate,Cybersecurity,383,2,58,11,76,Medium,55,Kinesthetic,3,No
+S09305,29,Female,Undergraduate,Data Science,81,1,84,30,74,Low,91,Kinesthetic,5,No
+S09306,23,Female,Undergraduate,Web Development,226,2,38,34,91,Medium,61,Reading/Writing,2,No
+S09307,45,Male,Postgraduate,Web Development,97,2,50,46,43,High,92,Auditory,4,No
+S09308,23,Female,High School,Data Science,156,1,89,14,80,Medium,77,Visual,2,No
+S09309,44,Female,Undergraduate,Web Development,330,4,60,41,99,Medium,93,Reading/Writing,4,Yes
+S09310,17,Female,Undergraduate,Data Science,434,4,96,19,62,Medium,30,Reading/Writing,1,No
+S09311,39,Male,Undergraduate,Web Development,289,4,62,21,48,Medium,40,Auditory,5,Yes
+S09312,30,Female,Undergraduate,Python Basics,216,2,91,28,74,High,44,Visual,2,No
+S09313,18,Male,High School,Python Basics,271,4,36,35,97,Low,53,Auditory,3,No
+S09314,33,Male,Postgraduate,Python Basics,183,1,53,41,50,Medium,87,Kinesthetic,5,Yes
+S09315,15,Other,Undergraduate,Data Science,398,3,53,11,68,High,43,Auditory,1,No
+S09316,49,Female,High School,Web Development,147,2,94,37,73,Medium,80,Visual,4,No
+S09317,17,Male,Undergraduate,Python Basics,271,1,52,39,69,Medium,91,Visual,5,No
+S09318,46,Male,Undergraduate,Data Science,287,4,36,8,44,Medium,49,Reading/Writing,5,No
+S09319,49,Male,High School,Python Basics,39,3,61,34,74,Medium,65,Visual,3,No
+S09320,22,Male,Undergraduate,Cybersecurity,360,2,31,41,44,Low,81,Auditory,4,No
+S09321,44,Female,Postgraduate,Data Science,145,2,82,32,83,High,50,Auditory,4,No
+S09322,16,Female,High School,Machine Learning,72,1,96,15,82,High,33,Auditory,2,No
+S09323,44,Female,Undergraduate,Python Basics,46,4,50,30,56,Medium,60,Auditory,3,Yes
+S09324,30,Female,Undergraduate,Cybersecurity,68,4,88,16,69,Low,52,Reading/Writing,4,No
+S09325,21,Female,Postgraduate,Web Development,236,4,30,41,74,Medium,55,Reading/Writing,3,No
+S09326,18,Male,Undergraduate,Python Basics,92,1,82,49,77,High,55,Reading/Writing,1,No
+S09327,20,Male,Postgraduate,Web Development,400,4,51,13,85,Medium,43,Visual,4,No
+S09328,32,Male,Postgraduate,Web Development,345,4,77,7,73,Medium,81,Auditory,3,No
+S09329,26,Male,Undergraduate,Machine Learning,258,3,94,20,51,Low,36,Kinesthetic,4,No
+S09330,45,Female,Postgraduate,Data Science,444,2,44,9,88,Medium,74,Kinesthetic,5,No
+S09331,23,Female,Undergraduate,Cybersecurity,71,3,70,32,89,Medium,51,Auditory,3,No
+S09332,15,Female,High School,Cybersecurity,371,3,53,41,71,Medium,91,Reading/Writing,4,No
+S09333,43,Male,High School,Python Basics,450,2,51,20,88,Medium,36,Auditory,5,No
+S09334,16,Male,High School,Web Development,107,3,71,15,50,Medium,91,Reading/Writing,4,Yes
+S09335,21,Female,Undergraduate,Python Basics,301,4,35,37,70,Medium,60,Visual,3,No
+S09336,43,Male,Postgraduate,Machine Learning,222,3,52,26,61,High,47,Auditory,5,Yes
+S09337,19,Male,Undergraduate,Machine Learning,280,2,83,12,92,Medium,54,Visual,2,No
+S09338,37,Male,Undergraduate,Cybersecurity,353,2,93,49,63,Medium,82,Reading/Writing,5,No
+S09339,42,Female,Postgraduate,Python Basics,182,4,73,9,52,Low,33,Auditory,1,No
+S09340,35,Male,Undergraduate,Cybersecurity,83,4,46,39,40,High,93,Reading/Writing,2,No
+S09341,25,Male,High School,Machine Learning,57,4,35,49,81,Medium,49,Auditory,2,No
+S09342,29,Female,High School,Python Basics,142,4,69,13,72,Low,65,Kinesthetic,1,No
+S09343,30,Male,Undergraduate,Machine Learning,49,4,88,30,69,Low,97,Auditory,1,No
+S09344,33,Female,High School,Python Basics,14,1,67,7,86,Medium,75,Reading/Writing,5,No
+S09345,21,Female,Postgraduate,Python Basics,113,3,33,11,63,Medium,79,Reading/Writing,4,No
+S09346,35,Male,Undergraduate,Cybersecurity,385,1,65,18,87,Medium,38,Reading/Writing,4,No
+S09347,28,Male,High School,Machine Learning,189,4,30,0,42,Medium,41,Visual,5,No
+S09348,21,Male,Undergraduate,Web Development,155,2,31,12,62,Medium,30,Auditory,5,No
+S09349,40,Female,Undergraduate,Web Development,337,3,32,20,58,Medium,30,Visual,3,No
+S09350,44,Female,Postgraduate,Machine Learning,35,3,40,33,52,Medium,90,Visual,4,No
+S09351,17,Female,High School,Data Science,363,2,79,28,73,High,64,Reading/Writing,5,Yes
+S09352,22,Female,Postgraduate,Web Development,383,2,58,6,68,High,37,Kinesthetic,5,No
+S09353,37,Male,High School,Cybersecurity,359,2,48,35,40,Medium,84,Auditory,3,No
+S09354,47,Male,Postgraduate,Cybersecurity,491,2,73,32,51,Medium,61,Visual,1,No
+S09355,24,Female,High School,Cybersecurity,498,3,32,20,99,Medium,70,Visual,2,Yes
+S09356,49,Male,Undergraduate,Web Development,473,3,46,37,95,Low,50,Reading/Writing,3,No
+S09357,38,Male,High School,Machine Learning,129,3,75,40,96,High,88,Reading/Writing,4,Yes
+S09358,46,Female,Undergraduate,Web Development,336,4,82,12,96,Low,60,Reading/Writing,1,No
+S09359,39,Female,Postgraduate,Machine Learning,257,4,91,43,91,Low,76,Kinesthetic,3,No
+S09360,20,Other,Undergraduate,Python Basics,481,1,55,3,84,High,96,Kinesthetic,2,No
+S09361,42,Female,Postgraduate,Cybersecurity,228,2,55,38,66,Medium,74,Visual,2,No
+S09362,47,Male,Undergraduate,Data Science,210,3,76,41,44,Medium,79,Reading/Writing,1,No
+S09363,19,Female,High School,Machine Learning,129,3,91,24,66,Medium,84,Visual,1,No
+S09364,22,Male,Postgraduate,Cybersecurity,291,3,52,32,60,High,53,Visual,4,Yes
+S09365,22,Female,High School,Cybersecurity,244,4,31,41,57,Medium,46,Kinesthetic,4,No
+S09366,41,Female,High School,Data Science,263,3,87,37,59,Medium,95,Reading/Writing,3,No
+S09367,16,Male,High School,Machine Learning,69,2,46,14,42,Low,64,Reading/Writing,4,Yes
+S09368,22,Female,Postgraduate,Cybersecurity,474,1,52,29,54,High,91,Visual,1,Yes
+S09369,40,Female,Undergraduate,Web Development,272,4,98,25,61,Low,43,Reading/Writing,5,No
+S09370,48,Male,Undergraduate,Python Basics,493,4,80,41,89,High,85,Reading/Writing,2,Yes
+S09371,15,Female,High School,Machine Learning,311,1,54,22,83,Low,83,Visual,3,No
+S09372,28,Female,Postgraduate,Machine Learning,426,1,63,27,97,Medium,32,Kinesthetic,3,No
+S09373,17,Male,Postgraduate,Cybersecurity,213,3,57,0,71,Medium,34,Visual,5,No
+S09374,19,Female,Undergraduate,Cybersecurity,68,4,35,44,44,Low,53,Reading/Writing,3,No
+S09375,33,Male,Undergraduate,Data Science,270,1,87,48,57,Medium,99,Visual,4,No
+S09376,37,Male,Undergraduate,Machine Learning,224,1,35,31,64,Medium,80,Reading/Writing,4,Yes
+S09377,30,Male,High School,Data Science,206,2,88,21,99,High,51,Visual,3,No
+S09378,44,Female,Undergraduate,Python Basics,258,1,35,38,44,Low,55,Kinesthetic,3,No
+S09379,21,Female,High School,Machine Learning,123,4,50,2,84,Medium,77,Visual,4,No
+S09380,36,Male,Undergraduate,Data Science,145,3,77,0,61,Medium,72,Kinesthetic,2,Yes
+S09381,21,Male,Undergraduate,Data Science,154,3,49,24,66,High,55,Reading/Writing,4,No
+S09382,37,Female,High School,Cybersecurity,356,3,32,9,62,Medium,78,Auditory,3,No
+S09383,35,Male,Undergraduate,Web Development,81,2,48,33,76,Medium,70,Auditory,1,No
+S09384,19,Male,Undergraduate,Python Basics,290,3,56,22,48,Medium,35,Auditory,1,No
+S09385,35,Female,High School,Machine Learning,191,3,97,11,79,High,32,Reading/Writing,5,Yes
+S09386,17,Male,Undergraduate,Python Basics,302,4,48,17,72,Low,39,Reading/Writing,3,No
+S09387,38,Female,Undergraduate,Web Development,137,3,88,33,54,High,69,Auditory,2,No
+S09388,33,Female,Undergraduate,Web Development,414,1,53,36,74,Medium,67,Auditory,3,No
+S09389,47,Male,Undergraduate,Machine Learning,19,3,75,37,53,Medium,85,Auditory,4,No
+S09390,28,Male,Undergraduate,Machine Learning,495,2,43,29,54,Medium,41,Auditory,3,No
+S09391,34,Male,Undergraduate,Data Science,125,1,68,34,53,Medium,66,Reading/Writing,1,No
+S09392,37,Male,High School,Cybersecurity,353,1,81,37,77,Medium,53,Kinesthetic,4,No
+S09393,39,Female,Undergraduate,Web Development,185,4,65,16,56,Medium,48,Reading/Writing,1,No
+S09394,27,Male,Undergraduate,Machine Learning,309,1,82,44,87,Low,98,Kinesthetic,5,Yes
+S09395,25,Male,High School,Web Development,356,3,66,47,99,Low,40,Visual,1,No
+S09396,48,Male,High School,Data Science,310,2,69,37,45,High,31,Auditory,1,No
+S09397,45,Female,High School,Web Development,442,4,77,7,73,High,40,Reading/Writing,2,No
+S09398,48,Male,High School,Machine Learning,317,3,65,6,85,Medium,31,Reading/Writing,2,No
+S09399,23,Female,Postgraduate,Cybersecurity,230,4,66,4,86,High,87,Reading/Writing,1,Yes
+S09400,41,Male,Undergraduate,Web Development,12,1,35,26,46,Low,69,Kinesthetic,2,No
+S09401,48,Male,High School,Web Development,117,1,30,34,83,Low,81,Visual,4,No
+S09402,26,Female,Undergraduate,Web Development,238,3,35,32,55,Medium,82,Reading/Writing,2,No
+S09403,28,Female,Undergraduate,Data Science,209,2,73,27,60,Low,87,Kinesthetic,5,No
+S09404,19,Male,Undergraduate,Data Science,330,2,56,43,56,Low,35,Auditory,5,Yes
+S09405,34,Male,High School,Machine Learning,66,2,34,42,91,High,39,Kinesthetic,4,Yes
+S09406,25,Male,Undergraduate,Machine Learning,41,4,57,23,77,High,86,Kinesthetic,1,No
+S09407,49,Male,Postgraduate,Data Science,326,3,69,41,79,Low,37,Reading/Writing,5,Yes
+S09408,34,Female,High School,Machine Learning,460,4,85,29,56,Medium,71,Auditory,1,No
+S09409,42,Other,Undergraduate,Data Science,464,1,46,29,57,Low,30,Kinesthetic,5,No
+S09410,15,Male,Postgraduate,Data Science,69,2,31,25,97,Medium,40,Auditory,3,Yes
+S09411,18,Male,Postgraduate,Web Development,68,3,69,38,70,Low,53,Reading/Writing,5,No
+S09412,41,Female,Undergraduate,Web Development,465,1,90,17,77,Medium,31,Auditory,1,No
+S09413,24,Other,Undergraduate,Machine Learning,36,1,31,35,50,High,76,Visual,1,Yes
+S09414,26,Female,Undergraduate,Web Development,368,2,90,27,53,Low,74,Reading/Writing,2,No
+S09415,17,Female,Undergraduate,Cybersecurity,155,3,91,16,78,Medium,96,Visual,2,No
+S09416,44,Female,Postgraduate,Web Development,452,2,42,9,96,Medium,68,Auditory,4,No
+S09417,33,Male,Postgraduate,Web Development,46,1,94,15,71,Low,83,Visual,1,No
+S09418,26,Female,Undergraduate,Web Development,425,1,58,2,64,Medium,95,Visual,5,Yes
+S09419,19,Female,High School,Data Science,354,4,90,35,91,Medium,92,Reading/Writing,2,No
+S09420,40,Other,High School,Cybersecurity,12,3,60,28,83,High,89,Reading/Writing,4,Yes
+S09421,25,Female,Postgraduate,Cybersecurity,390,1,57,4,75,Low,88,Auditory,3,Yes
+S09422,47,Male,High School,Python Basics,42,3,70,25,45,High,39,Auditory,3,No
+S09423,20,Female,Undergraduate,Cybersecurity,404,3,46,23,86,High,43,Visual,1,No
+S09424,40,Male,High School,Cybersecurity,226,4,75,33,45,Medium,45,Visual,1,No
+S09425,18,Male,Postgraduate,Python Basics,96,3,33,49,99,High,31,Visual,3,No
+S09426,25,Female,Undergraduate,Web Development,265,2,52,46,69,Medium,93,Auditory,3,No
+S09427,42,Male,Undergraduate,Python Basics,375,4,88,36,77,Medium,55,Kinesthetic,5,Yes
+S09428,33,Female,Undergraduate,Data Science,371,4,53,17,56,Low,70,Kinesthetic,4,No
+S09429,37,Male,Undergraduate,Data Science,171,3,55,12,40,Medium,41,Kinesthetic,4,No
+S09430,33,Other,Undergraduate,Cybersecurity,99,4,59,14,43,Low,57,Visual,2,No
+S09431,49,Male,High School,Web Development,279,2,42,30,54,Medium,99,Auditory,4,No
+S09432,48,Male,Undergraduate,Machine Learning,468,1,53,6,50,Low,46,Visual,4,No
+S09433,32,Male,Undergraduate,Python Basics,140,4,90,7,70,Medium,97,Reading/Writing,2,No
+S09434,35,Male,High School,Web Development,18,3,54,3,97,Medium,76,Reading/Writing,2,No
+S09435,34,Female,Postgraduate,Data Science,74,3,65,20,98,Low,78,Auditory,3,Yes
+S09436,15,Male,High School,Cybersecurity,127,4,42,41,70,High,74,Visual,2,No
+S09437,41,Male,Postgraduate,Cybersecurity,121,2,36,26,90,Low,38,Visual,5,Yes
+S09438,40,Female,Undergraduate,Web Development,139,4,92,18,61,Low,55,Reading/Writing,5,No
+S09439,27,Other,Undergraduate,Cybersecurity,43,2,77,49,98,Medium,32,Kinesthetic,4,No
+S09440,44,Male,High School,Data Science,440,2,62,9,49,High,57,Reading/Writing,1,No
+S09441,16,Male,High School,Python Basics,192,4,40,25,55,Medium,55,Kinesthetic,2,No
+S09442,26,Female,Undergraduate,Python Basics,370,3,86,39,41,Low,52,Reading/Writing,2,No
+S09443,24,Female,High School,Web Development,290,3,52,49,54,Medium,75,Reading/Writing,4,No
+S09444,41,Male,High School,Data Science,456,3,58,31,94,Medium,45,Kinesthetic,3,No
+S09445,36,Female,Postgraduate,Cybersecurity,440,3,30,0,46,Low,98,Reading/Writing,3,No
+S09446,27,Male,High School,Python Basics,202,2,68,43,75,Low,75,Kinesthetic,4,No
+S09447,27,Male,Undergraduate,Cybersecurity,395,1,54,14,74,Medium,59,Auditory,2,Yes
+S09448,47,Female,High School,Cybersecurity,352,3,30,20,89,Low,83,Kinesthetic,4,No
+S09449,19,Male,High School,Web Development,55,3,66,29,93,Low,55,Visual,5,No
+S09450,16,Female,High School,Machine Learning,136,1,46,30,42,Medium,54,Auditory,2,No
+S09451,37,Female,High School,Machine Learning,378,1,65,2,67,Low,41,Kinesthetic,3,Yes
+S09452,19,Male,High School,Python Basics,201,2,73,22,71,Medium,78,Auditory,2,Yes
+S09453,37,Male,Undergraduate,Machine Learning,188,1,41,32,89,Low,83,Reading/Writing,4,No
+S09454,24,Male,Undergraduate,Python Basics,254,2,99,15,68,Medium,35,Visual,1,Yes
+S09455,15,Female,Undergraduate,Web Development,238,2,43,28,91,Low,98,Auditory,3,No
+S09456,23,Female,Undergraduate,Web Development,34,4,62,27,58,Low,63,Visual,1,No
+S09457,29,Female,High School,Cybersecurity,83,1,57,44,92,Medium,45,Auditory,3,No
+S09458,16,Male,Undergraduate,Data Science,452,1,50,0,72,Low,65,Reading/Writing,3,No
+S09459,33,Female,Postgraduate,Data Science,29,1,84,16,67,High,36,Reading/Writing,2,No
+S09460,25,Female,Undergraduate,Python Basics,59,2,37,5,70,Medium,95,Reading/Writing,4,No
+S09461,31,Female,Undergraduate,Data Science,96,3,73,35,81,Medium,76,Reading/Writing,4,Yes
+S09462,22,Female,High School,Cybersecurity,356,4,60,38,75,Medium,90,Reading/Writing,5,No
+S09463,29,Female,Undergraduate,Web Development,93,3,35,3,52,Low,70,Visual,1,No
+S09464,26,Female,Postgraduate,Machine Learning,30,1,82,42,54,Low,88,Reading/Writing,5,No
+S09465,34,Female,Undergraduate,Python Basics,355,1,77,14,95,Medium,39,Auditory,4,No
+S09466,42,Male,Postgraduate,Machine Learning,61,4,77,32,51,Medium,74,Visual,1,No
+S09467,39,Male,Undergraduate,Data Science,201,2,34,33,47,Medium,68,Reading/Writing,2,No
+S09468,46,Other,Undergraduate,Data Science,315,4,61,21,64,High,55,Reading/Writing,3,No
+S09469,17,Female,Postgraduate,Cybersecurity,136,2,78,21,61,Medium,90,Visual,1,Yes
+S09470,23,Male,High School,Cybersecurity,18,2,43,42,63,High,43,Kinesthetic,2,Yes
+S09471,17,Female,Postgraduate,Web Development,33,1,47,28,82,Medium,85,Kinesthetic,2,No
+S09472,20,Female,Undergraduate,Python Basics,93,3,34,1,79,Medium,61,Visual,3,No
+S09473,29,Female,Undergraduate,Cybersecurity,498,1,67,26,96,Low,85,Kinesthetic,2,No
+S09474,16,Male,Undergraduate,Python Basics,41,1,89,40,75,Medium,66,Visual,1,No
+S09475,31,Female,Postgraduate,Cybersecurity,352,4,71,14,93,Medium,42,Kinesthetic,1,No
+S09476,16,Female,High School,Python Basics,364,4,79,48,72,High,58,Visual,2,No
+S09477,36,Female,Undergraduate,Data Science,152,4,71,11,44,Medium,85,Kinesthetic,3,No
+S09478,23,Male,Undergraduate,Python Basics,325,4,83,48,45,High,70,Reading/Writing,4,No
+S09479,25,Male,High School,Python Basics,325,1,31,10,68,Low,34,Visual,1,No
+S09480,44,Female,Undergraduate,Cybersecurity,444,4,90,19,68,Medium,81,Reading/Writing,5,No
+S09481,17,Male,Postgraduate,Machine Learning,289,3,94,17,92,Low,49,Kinesthetic,3,No
+S09482,43,Female,Postgraduate,Machine Learning,275,1,49,8,83,Low,73,Auditory,4,No
+S09483,28,Female,Postgraduate,Cybersecurity,374,1,56,17,81,Medium,71,Kinesthetic,4,No
+S09484,49,Male,High School,Data Science,178,2,34,13,82,Medium,76,Visual,5,No
+S09485,23,Male,Postgraduate,Cybersecurity,163,2,86,36,80,High,47,Visual,1,Yes
+S09486,16,Male,Undergraduate,Web Development,302,2,55,28,85,Medium,39,Auditory,5,No
+S09487,41,Female,Undergraduate,Python Basics,351,1,31,35,59,High,91,Auditory,2,No
+S09488,25,Female,Postgraduate,Python Basics,382,2,70,5,50,Medium,61,Reading/Writing,4,No
+S09489,40,Female,Postgraduate,Data Science,15,2,64,6,80,High,94,Visual,2,No
+S09490,41,Male,Postgraduate,Cybersecurity,353,4,94,39,87,High,30,Auditory,4,No
+S09491,31,Male,High School,Data Science,477,3,54,45,50,Medium,93,Kinesthetic,1,Yes
+S09492,33,Male,Postgraduate,Web Development,240,4,43,18,94,High,61,Reading/Writing,3,No
+S09493,40,Male,Postgraduate,Python Basics,434,3,71,12,73,Medium,67,Auditory,5,No
+S09494,42,Male,High School,Machine Learning,221,3,87,12,82,Medium,91,Visual,5,Yes
+S09495,49,Male,High School,Web Development,22,2,35,34,40,Medium,40,Auditory,5,Yes
+S09496,27,Male,Undergraduate,Machine Learning,263,3,60,22,69,Medium,87,Kinesthetic,1,No
+S09497,21,Male,Undergraduate,Python Basics,353,3,73,24,91,Medium,49,Kinesthetic,1,No
+S09498,42,Female,Undergraduate,Python Basics,403,1,81,19,71,Medium,74,Reading/Writing,3,No
+S09499,40,Male,Undergraduate,Data Science,468,2,77,18,87,Medium,78,Visual,2,No
+S09500,34,Female,Undergraduate,Machine Learning,140,4,33,2,40,Low,78,Reading/Writing,3,No
+S09501,41,Female,Undergraduate,Python Basics,443,4,81,47,56,Medium,39,Kinesthetic,2,No
+S09502,41,Female,Postgraduate,Web Development,252,4,65,6,66,High,87,Auditory,2,No
+S09503,42,Female,High School,Data Science,64,1,40,11,40,Medium,39,Auditory,4,No
+S09504,26,Female,High School,Machine Learning,361,4,38,37,97,Medium,32,Reading/Writing,4,No
+S09505,43,Male,Undergraduate,Data Science,223,1,76,33,91,High,59,Kinesthetic,5,No
+S09506,33,Male,Undergraduate,Data Science,113,4,81,25,43,Medium,68,Reading/Writing,1,No
+S09507,25,Male,Undergraduate,Cybersecurity,375,4,67,15,55,High,48,Visual,4,No
+S09508,24,Other,High School,Data Science,196,1,68,34,61,Medium,74,Reading/Writing,2,No
+S09509,30,Female,High School,Cybersecurity,416,2,49,48,48,High,38,Auditory,4,No
+S09510,29,Male,Undergraduate,Data Science,361,1,50,29,97,Low,73,Visual,4,No
+S09511,28,Female,Undergraduate,Python Basics,126,1,51,24,45,Medium,66,Auditory,4,No
+S09512,47,Female,High School,Cybersecurity,304,4,87,27,55,Medium,89,Visual,3,No
+S09513,25,Female,Undergraduate,Data Science,386,1,30,39,95,High,34,Auditory,5,No
+S09514,24,Male,High School,Web Development,476,2,87,35,91,High,79,Reading/Writing,4,No
+S09515,48,Female,Undergraduate,Cybersecurity,464,4,45,1,97,High,88,Visual,2,No
+S09516,34,Female,Postgraduate,Cybersecurity,251,1,44,15,78,High,91,Kinesthetic,4,No
+S09517,43,Female,Undergraduate,Python Basics,288,3,52,47,85,Low,97,Visual,4,No
+S09518,23,Female,Undergraduate,Data Science,376,2,48,3,48,Low,70,Reading/Writing,4,No
+S09519,48,Male,Postgraduate,Python Basics,378,4,56,22,89,Medium,42,Visual,1,No
+S09520,36,Male,High School,Web Development,448,3,71,33,44,Medium,53,Kinesthetic,1,No
+S09521,31,Female,Undergraduate,Machine Learning,403,1,43,26,52,Low,54,Reading/Writing,3,No
+S09522,49,Female,High School,Web Development,223,2,95,42,48,Medium,50,Auditory,5,No
+S09523,46,Male,Undergraduate,Data Science,443,1,52,4,93,Medium,70,Visual,4,No
+S09524,38,Male,Undergraduate,Cybersecurity,497,3,47,41,53,Low,44,Kinesthetic,4,Yes
+S09525,21,Female,Postgraduate,Data Science,274,4,47,23,67,High,41,Kinesthetic,2,Yes
+S09526,29,Male,Undergraduate,Web Development,495,2,51,2,86,High,59,Auditory,3,No
+S09527,16,Male,Undergraduate,Python Basics,208,2,95,28,75,Low,39,Kinesthetic,1,No
+S09528,31,Female,Postgraduate,Python Basics,164,4,43,21,48,Medium,51,Visual,2,No
+S09529,29,Male,High School,Python Basics,167,3,77,0,66,High,63,Visual,1,Yes
+S09530,45,Male,High School,Data Science,243,2,59,12,52,High,47,Reading/Writing,3,No
+S09531,31,Male,High School,Web Development,216,1,49,43,46,Medium,38,Auditory,1,Yes
+S09532,17,Male,Undergraduate,Machine Learning,483,4,93,22,51,Low,93,Auditory,5,No
+S09533,38,Female,High School,Cybersecurity,81,3,54,31,66,Low,69,Auditory,5,No
+S09534,46,Female,Undergraduate,Data Science,450,1,59,25,85,High,37,Auditory,4,No
+S09535,18,Male,Postgraduate,Python Basics,486,1,59,27,79,High,43,Auditory,1,No
+S09536,35,Female,Undergraduate,Web Development,184,4,78,8,91,High,31,Reading/Writing,1,No
+S09537,22,Male,High School,Web Development,426,3,49,45,43,Medium,66,Kinesthetic,3,No
+S09538,46,Male,High School,Cybersecurity,445,2,93,28,47,High,35,Kinesthetic,2,Yes
+S09539,32,Female,Undergraduate,Python Basics,244,1,31,8,66,Medium,51,Auditory,1,No
+S09540,26,Female,Undergraduate,Machine Learning,276,3,32,39,80,Medium,75,Visual,2,No
+S09541,44,Female,Postgraduate,Cybersecurity,107,4,98,43,68,Low,67,Kinesthetic,5,No
+S09542,42,Male,Undergraduate,Web Development,245,4,83,29,90,Medium,88,Reading/Writing,2,No
+S09543,17,Male,Undergraduate,Web Development,257,2,86,15,49,Medium,96,Auditory,4,No
+S09544,31,Female,Postgraduate,Cybersecurity,444,2,93,44,70,Medium,46,Kinesthetic,4,No
+S09545,36,Male,High School,Cybersecurity,178,1,97,7,86,Low,33,Reading/Writing,2,No
+S09546,25,Female,Undergraduate,Data Science,72,2,57,36,86,Medium,65,Auditory,5,No
+S09547,37,Female,High School,Cybersecurity,452,1,42,1,79,Medium,79,Kinesthetic,2,No
+S09548,49,Female,High School,Machine Learning,59,3,49,14,64,Medium,75,Visual,5,No
+S09549,30,Female,Undergraduate,Data Science,76,2,69,42,64,High,58,Kinesthetic,1,Yes
+S09550,45,Male,Postgraduate,Machine Learning,114,4,38,38,95,Medium,61,Reading/Writing,4,No
+S09551,48,Male,High School,Data Science,492,3,32,21,43,High,46,Visual,5,No
+S09552,36,Female,Undergraduate,Machine Learning,66,1,78,9,87,Low,41,Visual,5,No
+S09553,38,Male,Undergraduate,Data Science,488,1,78,32,52,Low,64,Kinesthetic,5,No
+S09554,39,Female,Undergraduate,Data Science,166,3,85,2,82,Medium,66,Visual,3,No
+S09555,24,Other,Postgraduate,Cybersecurity,367,4,73,20,83,Medium,93,Auditory,3,No
+S09556,43,Male,Undergraduate,Web Development,42,1,53,23,40,Medium,35,Reading/Writing,5,No
+S09557,35,Male,Undergraduate,Web Development,372,2,92,21,96,Medium,93,Kinesthetic,3,No
+S09558,33,Male,Postgraduate,Web Development,306,2,93,26,52,Medium,46,Reading/Writing,2,Yes
+S09559,35,Female,Undergraduate,Python Basics,286,3,78,20,46,Medium,61,Reading/Writing,1,Yes
+S09560,19,Male,Undergraduate,Data Science,354,1,76,15,76,Medium,50,Reading/Writing,4,No
+S09561,41,Female,Postgraduate,Data Science,191,2,67,44,62,High,84,Visual,5,No
+S09562,27,Male,Undergraduate,Web Development,193,4,55,48,62,Medium,95,Kinesthetic,5,No
+S09563,17,Male,High School,Machine Learning,275,1,97,48,62,High,89,Reading/Writing,2,No
+S09564,28,Female,Undergraduate,Machine Learning,104,2,68,3,85,Medium,53,Auditory,4,Yes
+S09565,39,Male,Undergraduate,Web Development,80,4,84,13,59,Medium,65,Visual,2,Yes
+S09566,15,Female,Undergraduate,Web Development,413,3,31,9,91,Low,70,Auditory,5,Yes
+S09567,18,Female,Postgraduate,Web Development,121,1,40,20,57,Medium,94,Kinesthetic,4,No
+S09568,33,Male,Postgraduate,Web Development,453,4,75,40,72,High,37,Reading/Writing,3,No
+S09569,48,Female,Undergraduate,Cybersecurity,135,2,96,2,45,Medium,36,Visual,2,Yes
+S09570,35,Female,Undergraduate,Cybersecurity,199,3,63,19,94,Medium,95,Auditory,1,No
+S09571,41,Female,High School,Machine Learning,428,3,92,8,50,Low,81,Reading/Writing,5,No
+S09572,28,Male,High School,Data Science,287,3,72,43,73,Low,48,Kinesthetic,2,No
+S09573,31,Male,High School,Cybersecurity,264,4,50,9,65,Low,36,Kinesthetic,3,No
+S09574,16,Male,Undergraduate,Python Basics,393,4,75,44,61,High,68,Visual,3,No
+S09575,32,Female,Postgraduate,Machine Learning,332,3,94,15,76,Low,43,Visual,1,No
+S09576,15,Male,Undergraduate,Cybersecurity,299,1,77,31,92,Medium,38,Reading/Writing,1,Yes
+S09577,49,Female,Undergraduate,Web Development,269,2,35,39,42,High,30,Reading/Writing,2,No
+S09578,24,Female,Undergraduate,Web Development,331,2,52,34,98,Medium,60,Visual,4,No
+S09579,21,Female,High School,Machine Learning,384,3,88,34,61,Low,64,Reading/Writing,2,No
+S09580,26,Male,Undergraduate,Python Basics,23,1,70,46,99,Medium,82,Visual,1,No
+S09581,18,Male,Undergraduate,Machine Learning,55,1,62,4,53,Medium,92,Kinesthetic,4,No
+S09582,43,Female,Undergraduate,Web Development,33,1,55,36,60,Low,90,Kinesthetic,3,No
+S09583,42,Female,High School,Web Development,492,2,96,11,60,Low,45,Kinesthetic,3,Yes
+S09584,35,Male,Postgraduate,Machine Learning,328,1,53,33,56,Low,45,Auditory,2,No
+S09585,41,Female,Undergraduate,Machine Learning,181,4,70,20,62,High,53,Visual,3,No
+S09586,21,Female,High School,Data Science,183,2,34,24,64,Medium,79,Reading/Writing,1,No
+S09587,19,Female,Undergraduate,Cybersecurity,246,4,73,44,94,Medium,31,Kinesthetic,4,Yes
+S09588,24,Male,Postgraduate,Python Basics,303,3,69,12,41,Medium,70,Kinesthetic,2,No
+S09589,34,Male,High School,Web Development,272,2,91,1,87,Medium,96,Visual,5,No
+S09590,33,Female,Postgraduate,Web Development,125,2,88,31,80,Medium,99,Kinesthetic,4,No
+S09591,40,Male,Undergraduate,Data Science,379,4,50,27,70,Low,63,Kinesthetic,5,No
+S09592,29,Male,Undergraduate,Cybersecurity,224,2,96,49,40,Medium,86,Visual,4,Yes
+S09593,32,Female,Undergraduate,Data Science,379,1,80,27,51,Medium,57,Reading/Writing,1,No
+S09594,25,Male,Undergraduate,Data Science,36,4,56,6,46,Medium,70,Auditory,1,No
+S09595,27,Female,Undergraduate,Data Science,369,4,78,23,45,High,87,Kinesthetic,2,No
+S09596,43,Female,High School,Web Development,290,3,41,13,43,Medium,64,Reading/Writing,2,No
+S09597,16,Male,High School,Machine Learning,474,1,93,37,45,Medium,58,Reading/Writing,3,No
+S09598,39,Male,High School,Python Basics,447,2,81,14,77,Low,56,Reading/Writing,5,No
+S09599,48,Female,Postgraduate,Data Science,130,1,33,35,68,Medium,54,Reading/Writing,3,No
+S09600,28,Female,Postgraduate,Python Basics,110,3,38,41,83,High,61,Visual,1,No
+S09601,18,Male,Undergraduate,Cybersecurity,158,2,77,37,83,Medium,74,Visual,1,No
+S09602,27,Male,Undergraduate,Cybersecurity,446,2,87,16,99,Medium,55,Visual,1,No
+S09603,17,Male,High School,Cybersecurity,353,3,67,16,82,Medium,67,Reading/Writing,4,Yes
+S09604,27,Female,High School,Web Development,350,4,40,49,99,Low,56,Visual,1,No
+S09605,40,Male,Postgraduate,Web Development,175,4,77,33,69,Medium,39,Kinesthetic,2,No
+S09606,40,Male,High School,Python Basics,476,4,55,0,97,Medium,40,Kinesthetic,5,No
+S09607,19,Female,Undergraduate,Python Basics,460,3,52,24,63,Low,48,Visual,1,No
+S09608,38,Male,Postgraduate,Python Basics,204,3,50,18,85,High,61,Auditory,2,No
+S09609,49,Male,Undergraduate,Data Science,273,3,76,24,83,Medium,37,Kinesthetic,3,No
+S09610,40,Male,Postgraduate,Machine Learning,96,2,49,33,90,Medium,87,Kinesthetic,3,No
+S09611,35,Other,Undergraduate,Web Development,474,1,51,23,62,Medium,70,Visual,1,No
+S09612,35,Female,Undergraduate,Cybersecurity,55,4,60,48,72,Medium,92,Reading/Writing,5,No
+S09613,16,Female,Undergraduate,Web Development,373,3,73,8,62,Low,54,Kinesthetic,2,No
+S09614,39,Female,High School,Data Science,236,1,56,47,89,High,97,Visual,5,No
+S09615,27,Female,High School,Web Development,351,3,39,20,89,Low,88,Visual,3,No
+S09616,33,Female,Undergraduate,Machine Learning,386,1,32,29,96,High,31,Visual,3,No
+S09617,37,Male,Undergraduate,Cybersecurity,183,1,91,16,95,High,38,Auditory,3,No
+S09618,22,Female,Undergraduate,Machine Learning,225,2,43,1,43,High,95,Visual,5,No
+S09619,45,Female,Undergraduate,Machine Learning,283,1,40,39,83,High,82,Reading/Writing,4,No
+S09620,27,Female,Undergraduate,Web Development,227,1,32,37,73,High,93,Visual,3,No
+S09621,16,Male,Postgraduate,Python Basics,177,1,41,49,67,Medium,60,Kinesthetic,3,Yes
+S09622,43,Female,Undergraduate,Cybersecurity,150,1,45,38,80,High,39,Auditory,5,No
+S09623,46,Female,Postgraduate,Machine Learning,152,2,61,27,66,Medium,44,Reading/Writing,3,No
+S09624,38,Female,Undergraduate,Data Science,261,3,75,10,97,High,31,Auditory,5,No
+S09625,41,Female,Postgraduate,Web Development,473,4,90,27,50,High,87,Kinesthetic,3,No
+S09626,48,Female,Undergraduate,Machine Learning,260,1,83,24,91,High,69,Auditory,1,No
+S09627,35,Male,High School,Machine Learning,466,2,42,40,66,Medium,44,Reading/Writing,3,No
+S09628,39,Male,High School,Data Science,182,1,81,14,42,Medium,70,Reading/Writing,5,No
+S09629,24,Female,Undergraduate,Machine Learning,72,4,92,25,66,Low,73,Visual,2,No
+S09630,29,Female,High School,Python Basics,213,4,93,26,88,Medium,87,Kinesthetic,4,No
+S09631,46,Female,Undergraduate,Web Development,305,2,44,19,61,Medium,42,Auditory,3,No
+S09632,21,Male,Undergraduate,Cybersecurity,23,4,49,38,80,High,96,Visual,1,No
+S09633,37,Male,High School,Data Science,444,3,85,11,84,Low,88,Visual,2,No
+S09634,38,Male,Undergraduate,Cybersecurity,487,2,39,16,66,Medium,74,Reading/Writing,1,No
+S09635,48,Other,Undergraduate,Python Basics,447,1,52,41,83,Medium,41,Kinesthetic,4,No
+S09636,41,Male,High School,Cybersecurity,424,1,31,43,87,Medium,85,Reading/Writing,3,No
+S09637,49,Female,Postgraduate,Cybersecurity,52,1,63,1,86,Low,45,Kinesthetic,4,No
+S09638,29,Female,Undergraduate,Data Science,333,1,90,23,54,Medium,48,Auditory,4,No
+S09639,37,Other,Undergraduate,Web Development,441,2,54,8,52,Low,57,Auditory,5,No
+S09640,30,Male,Postgraduate,Cybersecurity,127,3,57,45,51,Medium,59,Auditory,5,Yes
+S09641,15,Female,High School,Web Development,11,4,94,13,54,Medium,86,Auditory,2,No
+S09642,33,Female,Undergraduate,Data Science,378,1,97,30,42,Low,63,Auditory,5,Yes
+S09643,20,Male,Undergraduate,Machine Learning,310,3,96,42,79,Medium,91,Reading/Writing,2,No
+S09644,39,Male,Undergraduate,Machine Learning,389,3,51,37,82,High,33,Reading/Writing,1,No
+S09645,35,Female,High School,Python Basics,438,1,85,13,78,Medium,61,Reading/Writing,5,Yes
+S09646,49,Male,Postgraduate,Machine Learning,371,4,81,34,56,Medium,74,Kinesthetic,5,No
+S09647,40,Male,Postgraduate,Data Science,112,3,60,26,83,Medium,79,Auditory,4,No
+S09648,20,Female,High School,Data Science,54,3,34,25,92,Medium,49,Auditory,3,No
+S09649,30,Male,High School,Data Science,495,4,54,21,69,High,41,Kinesthetic,3,No
+S09650,29,Male,Undergraduate,Web Development,451,2,72,29,51,Medium,46,Auditory,4,Yes
+S09651,34,Female,Undergraduate,Web Development,65,1,94,14,61,Low,55,Kinesthetic,4,No
+S09652,38,Male,Postgraduate,Web Development,288,3,51,31,82,Medium,38,Kinesthetic,1,No
+S09653,45,Male,Undergraduate,Machine Learning,304,3,80,20,42,Medium,96,Visual,1,No
+S09654,25,Female,Undergraduate,Data Science,315,4,32,19,61,High,53,Kinesthetic,1,Yes
+S09655,45,Female,High School,Cybersecurity,384,3,49,25,66,High,81,Auditory,2,No
+S09656,16,Female,High School,Web Development,460,1,79,2,63,Medium,59,Auditory,2,No
+S09657,41,Female,High School,Machine Learning,92,4,59,6,50,High,68,Visual,3,No
+S09658,38,Female,High School,Python Basics,385,3,51,4,46,Medium,47,Visual,2,No
+S09659,35,Female,Undergraduate,Python Basics,55,1,74,2,58,Medium,34,Kinesthetic,5,No
+S09660,26,Female,Undergraduate,Web Development,496,1,41,30,75,Medium,98,Kinesthetic,1,No
+S09661,39,Male,Postgraduate,Machine Learning,379,2,57,39,61,High,52,Kinesthetic,2,No
+S09662,32,Male,Postgraduate,Cybersecurity,97,2,90,44,70,Medium,74,Visual,4,No
+S09663,37,Female,Postgraduate,Web Development,456,2,63,17,93,High,77,Reading/Writing,3,No
+S09664,36,Female,Postgraduate,Cybersecurity,298,1,79,36,96,Low,69,Auditory,1,Yes
+S09665,21,Male,Postgraduate,Data Science,200,2,90,32,49,Low,75,Auditory,2,No
+S09666,34,Female,Undergraduate,Web Development,170,3,78,1,69,Low,72,Kinesthetic,3,No
+S09667,39,Male,High School,Web Development,411,2,44,3,73,Medium,55,Kinesthetic,1,No
+S09668,21,Male,Postgraduate,Machine Learning,415,1,43,25,70,Medium,73,Visual,3,No
+S09669,18,Male,Undergraduate,Python Basics,218,2,50,22,66,High,88,Reading/Writing,4,No
+S09670,19,Female,High School,Data Science,183,1,78,23,76,Medium,65,Reading/Writing,4,No
+S09671,33,Female,Undergraduate,Cybersecurity,338,1,67,7,70,Medium,31,Reading/Writing,2,No
+S09672,18,Female,Undergraduate,Python Basics,467,2,47,45,41,High,87,Kinesthetic,5,No
+S09673,29,Male,High School,Python Basics,242,2,34,47,47,Medium,92,Kinesthetic,4,No
+S09674,29,Male,Undergraduate,Cybersecurity,60,1,63,16,68,High,32,Kinesthetic,4,Yes
+S09675,42,Female,High School,Cybersecurity,270,1,36,3,86,Low,89,Visual,2,No
+S09676,33,Female,Undergraduate,Data Science,323,3,99,29,48,Medium,40,Reading/Writing,4,Yes
+S09677,49,Male,Undergraduate,Web Development,479,2,35,44,58,High,71,Auditory,4,No
+S09678,49,Male,High School,Cybersecurity,34,1,89,12,52,High,38,Kinesthetic,4,No
+S09679,28,Female,Undergraduate,Cybersecurity,356,1,96,16,81,Low,78,Auditory,2,No
+S09680,39,Female,High School,Data Science,487,2,74,48,62,Medium,45,Visual,5,No
+S09681,17,Female,Undergraduate,Cybersecurity,17,2,67,48,78,Medium,42,Reading/Writing,1,No
+S09682,44,Female,Undergraduate,Machine Learning,105,2,81,30,56,High,98,Visual,5,Yes
+S09683,37,Male,Undergraduate,Python Basics,25,4,73,3,53,Low,99,Auditory,3,No
+S09684,30,Female,High School,Web Development,14,3,34,5,62,Medium,84,Visual,5,Yes
+S09685,26,Male,Postgraduate,Python Basics,288,2,59,33,75,High,72,Auditory,3,No
+S09686,30,Male,Postgraduate,Data Science,359,4,85,18,58,Medium,53,Auditory,2,No
+S09687,22,Male,Undergraduate,Python Basics,42,4,31,4,61,High,55,Auditory,5,No
+S09688,16,Female,Undergraduate,Python Basics,215,4,83,30,84,High,38,Visual,3,No
+S09689,32,Male,Undergraduate,Web Development,403,4,88,28,57,Medium,64,Visual,2,No
+S09690,37,Female,Undergraduate,Web Development,338,2,92,42,99,Low,46,Auditory,1,No
+S09691,24,Female,High School,Web Development,105,1,31,3,55,Low,70,Visual,1,No
+S09692,23,Other,Postgraduate,Machine Learning,374,3,54,39,91,Low,49,Kinesthetic,2,No
+S09693,29,Female,Undergraduate,Cybersecurity,200,4,87,19,89,Medium,95,Auditory,5,Yes
+S09694,28,Female,Undergraduate,Machine Learning,130,1,32,23,96,Medium,75,Reading/Writing,4,No
+S09695,44,Female,High School,Web Development,30,3,84,41,46,High,71,Visual,5,No
+S09696,44,Female,Undergraduate,Web Development,434,4,70,11,57,Medium,67,Kinesthetic,4,No
+S09697,37,Male,High School,Machine Learning,408,2,91,18,95,High,95,Reading/Writing,5,Yes
+S09698,19,Other,Undergraduate,Cybersecurity,78,1,81,41,41,Medium,55,Reading/Writing,1,No
+S09699,34,Female,Postgraduate,Python Basics,257,4,35,22,73,Low,36,Visual,3,No
+S09700,34,Female,Undergraduate,Cybersecurity,272,3,84,44,59,Low,90,Reading/Writing,1,No
+S09701,31,Female,Undergraduate,Web Development,97,2,73,22,61,Low,46,Visual,5,Yes
+S09702,30,Male,High School,Machine Learning,327,2,69,23,62,High,90,Auditory,4,Yes
+S09703,29,Male,Undergraduate,Python Basics,426,3,85,10,62,Low,32,Reading/Writing,5,No
+S09704,35,Female,High School,Python Basics,357,3,66,38,56,High,56,Kinesthetic,3,No
+S09705,32,Female,Undergraduate,Cybersecurity,139,1,77,14,96,Low,31,Reading/Writing,1,No
+S09706,22,Female,High School,Cybersecurity,307,2,44,43,40,Medium,90,Auditory,4,No
+S09707,49,Male,Undergraduate,Python Basics,396,3,45,37,61,Medium,37,Auditory,2,No
+S09708,38,Female,Postgraduate,Data Science,492,2,65,16,89,Medium,61,Visual,5,No
+S09709,27,Male,Undergraduate,Cybersecurity,149,4,51,32,87,Low,50,Auditory,2,Yes
+S09710,19,Female,Undergraduate,Data Science,85,2,37,41,62,High,95,Auditory,4,No
+S09711,44,Male,Postgraduate,Cybersecurity,177,4,83,41,97,Medium,98,Reading/Writing,1,No
+S09712,25,Male,Undergraduate,Data Science,442,2,86,41,43,Medium,65,Auditory,2,No
+S09713,30,Male,Postgraduate,Data Science,296,3,35,28,50,Low,65,Visual,3,No
+S09714,18,Male,High School,Machine Learning,176,4,88,47,72,High,47,Kinesthetic,3,No
+S09715,17,Female,Undergraduate,Machine Learning,442,3,45,34,62,Medium,60,Visual,1,No
+S09716,36,Female,Undergraduate,Machine Learning,271,2,82,14,74,Medium,75,Kinesthetic,5,No
+S09717,30,Female,Undergraduate,Web Development,73,1,49,37,93,High,81,Visual,5,No
+S09718,36,Male,High School,Data Science,354,1,77,49,53,Medium,83,Kinesthetic,1,No
+S09719,31,Male,Undergraduate,Cybersecurity,431,4,87,25,54,High,44,Visual,1,No
+S09720,43,Male,Undergraduate,Data Science,212,3,82,42,45,Medium,37,Auditory,3,No
+S09721,19,Female,Undergraduate,Machine Learning,154,2,50,5,47,Medium,36,Visual,4,No
+S09722,48,Female,Undergraduate,Data Science,361,3,51,22,81,Medium,45,Reading/Writing,2,No
+S09723,46,Male,High School,Cybersecurity,301,3,30,15,67,Low,91,Kinesthetic,4,No
+S09724,20,Male,Undergraduate,Web Development,418,1,77,34,40,Medium,85,Visual,2,No
+S09725,25,Male,Undergraduate,Data Science,222,1,49,43,40,Low,98,Reading/Writing,5,No
+S09726,35,Male,Undergraduate,Cybersecurity,187,4,30,43,79,High,58,Reading/Writing,3,No
+S09727,41,Male,Undergraduate,Web Development,36,3,59,17,69,Medium,88,Auditory,2,No
+S09728,21,Male,Undergraduate,Machine Learning,407,1,47,41,76,Medium,38,Reading/Writing,5,No
+S09729,38,Female,Postgraduate,Data Science,282,4,93,34,61,Medium,35,Kinesthetic,2,No
+S09730,32,Male,Postgraduate,Python Basics,206,3,75,3,45,Medium,73,Auditory,3,Yes
+S09731,23,Male,High School,Python Basics,161,3,72,44,84,Low,73,Reading/Writing,1,Yes
+S09732,45,Male,Undergraduate,Python Basics,146,2,41,22,93,High,68,Visual,2,Yes
+S09733,33,Female,Undergraduate,Python Basics,365,3,80,6,77,Medium,83,Kinesthetic,2,No
+S09734,48,Male,Undergraduate,Web Development,346,3,61,27,97,High,50,Reading/Writing,1,Yes
+S09735,16,Male,High School,Web Development,399,3,94,24,42,Medium,59,Kinesthetic,2,No
+S09736,28,Male,Postgraduate,Data Science,407,3,80,1,80,Medium,85,Visual,2,No
+S09737,31,Male,Undergraduate,Web Development,356,2,40,36,59,Low,80,Kinesthetic,5,No
+S09738,45,Other,Undergraduate,Machine Learning,88,1,56,44,57,Medium,58,Kinesthetic,1,No
+S09739,31,Male,Undergraduate,Python Basics,355,2,77,23,57,High,35,Visual,1,No
+S09740,23,Male,Undergraduate,Data Science,67,1,63,24,61,High,75,Kinesthetic,5,Yes
+S09741,32,Female,Undergraduate,Web Development,425,2,42,49,77,High,58,Auditory,5,No
+S09742,40,Female,High School,Data Science,111,2,30,23,40,Low,43,Kinesthetic,1,No
+S09743,46,Other,Postgraduate,Python Basics,112,4,31,32,70,Medium,32,Auditory,4,No
+S09744,49,Other,Postgraduate,Machine Learning,488,1,99,28,95,High,53,Visual,5,No
+S09745,30,Male,High School,Cybersecurity,299,2,58,11,54,Low,64,Kinesthetic,4,No
+S09746,27,Female,Undergraduate,Python Basics,350,2,51,43,96,High,53,Reading/Writing,5,No
+S09747,45,Female,Undergraduate,Data Science,65,4,95,17,94,Medium,69,Kinesthetic,1,Yes
+S09748,31,Male,Undergraduate,Machine Learning,419,3,78,49,44,Low,98,Reading/Writing,1,No
+S09749,25,Female,High School,Data Science,262,4,90,37,77,Medium,93,Visual,3,No
+S09750,48,Female,Undergraduate,Cybersecurity,17,3,80,32,81,Low,79,Kinesthetic,2,Yes
+S09751,47,Other,High School,Machine Learning,273,2,56,3,66,High,38,Visual,3,No
+S09752,49,Female,Postgraduate,Cybersecurity,361,3,84,14,78,High,96,Auditory,5,No
+S09753,28,Female,High School,Cybersecurity,259,3,59,23,74,Medium,72,Visual,5,No
+S09754,43,Male,High School,Cybersecurity,261,2,36,48,52,Medium,45,Auditory,5,No
+S09755,47,Male,Undergraduate,Data Science,34,4,68,36,68,Medium,58,Kinesthetic,5,No
+S09756,15,Female,Undergraduate,Machine Learning,228,3,79,28,71,Medium,88,Reading/Writing,2,No
+S09757,43,Other,Undergraduate,Web Development,204,3,51,10,87,Medium,89,Reading/Writing,5,No
+S09758,42,Female,High School,Python Basics,72,3,73,26,88,High,64,Reading/Writing,1,No
+S09759,17,Male,Undergraduate,Cybersecurity,463,1,44,39,97,Low,46,Reading/Writing,2,Yes
+S09760,15,Male,Postgraduate,Data Science,385,1,71,7,62,High,97,Kinesthetic,1,No
+S09761,37,Female,Undergraduate,Web Development,493,2,79,27,80,Medium,62,Kinesthetic,3,No
+S09762,25,Female,Undergraduate,Machine Learning,60,3,75,10,71,High,46,Kinesthetic,4,Yes
+S09763,46,Male,Undergraduate,Cybersecurity,115,4,65,34,43,Low,81,Kinesthetic,1,No
+S09764,46,Female,High School,Cybersecurity,237,4,75,30,78,Medium,73,Kinesthetic,2,No
+S09765,28,Male,Undergraduate,Cybersecurity,427,3,70,28,42,Medium,38,Visual,4,No
+S09766,33,Male,High School,Python Basics,221,1,57,2,97,Medium,46,Reading/Writing,5,No
+S09767,47,Male,Undergraduate,Machine Learning,438,4,58,15,74,Low,32,Auditory,1,No
+S09768,28,Male,Undergraduate,Web Development,396,1,68,6,54,Medium,37,Auditory,2,No
+S09769,28,Male,High School,Web Development,392,1,34,4,87,Medium,36,Reading/Writing,5,No
+S09770,31,Male,High School,Data Science,407,2,87,24,78,High,74,Visual,2,No
+S09771,22,Male,Undergraduate,Cybersecurity,376,4,58,31,68,Low,64,Visual,3,No
+S09772,18,Male,Undergraduate,Web Development,204,2,47,1,71,Medium,61,Reading/Writing,1,No
+S09773,45,Male,Undergraduate,Data Science,49,4,82,21,71,Low,57,Kinesthetic,1,No
+S09774,32,Male,Undergraduate,Machine Learning,299,4,41,47,82,High,74,Auditory,5,No
+S09775,25,Female,Undergraduate,Data Science,227,2,74,1,70,Low,45,Reading/Writing,3,No
+S09776,42,Female,Undergraduate,Cybersecurity,238,4,56,17,79,Medium,83,Auditory,1,No
+S09777,36,Female,Undergraduate,Machine Learning,290,4,41,47,63,High,80,Kinesthetic,3,No
+S09778,29,Male,High School,Web Development,241,1,57,15,81,Medium,73,Kinesthetic,2,No
+S09779,47,Male,Undergraduate,Web Development,380,2,30,38,76,High,89,Auditory,1,Yes
+S09780,20,Male,High School,Cybersecurity,47,2,68,4,67,Medium,36,Visual,2,No
+S09781,27,Male,Undergraduate,Web Development,245,4,69,41,96,Medium,33,Reading/Writing,3,No
+S09782,38,Male,High School,Python Basics,32,1,63,9,54,Medium,54,Visual,2,No
+S09783,18,Female,Postgraduate,Data Science,390,2,56,30,50,Medium,86,Kinesthetic,5,No
+S09784,20,Female,High School,Machine Learning,117,1,55,15,58,High,55,Auditory,1,No
+S09785,26,Male,Undergraduate,Python Basics,370,4,69,31,47,Low,76,Reading/Writing,2,No
+S09786,25,Male,Postgraduate,Data Science,256,3,57,12,66,Low,80,Kinesthetic,1,No
+S09787,35,Female,Undergraduate,Machine Learning,287,2,75,16,97,Low,47,Kinesthetic,2,No
+S09788,44,Female,Undergraduate,Machine Learning,261,3,64,19,54,Medium,65,Kinesthetic,2,No
+S09789,41,Female,Postgraduate,Web Development,60,4,96,29,76,Medium,75,Kinesthetic,2,Yes
+S09790,47,Female,Postgraduate,Machine Learning,480,2,56,10,75,Medium,91,Visual,4,No
+S09791,26,Female,Undergraduate,Data Science,301,4,78,8,88,Medium,69,Visual,1,No
+S09792,22,Male,Undergraduate,Machine Learning,150,3,90,46,45,High,83,Visual,3,No
+S09793,41,Male,High School,Machine Learning,155,3,99,7,64,High,76,Reading/Writing,2,Yes
+S09794,19,Female,Undergraduate,Machine Learning,137,2,47,2,58,High,38,Reading/Writing,1,No
+S09795,41,Male,Undergraduate,Cybersecurity,364,2,58,45,82,High,94,Kinesthetic,3,Yes
+S09796,41,Male,Undergraduate,Cybersecurity,380,4,73,38,83,Medium,88,Kinesthetic,2,Yes
+S09797,28,Male,High School,Web Development,142,1,78,22,50,Medium,79,Kinesthetic,5,No
+S09798,19,Male,Postgraduate,Cybersecurity,493,1,74,46,53,High,49,Visual,1,Yes
+S09799,49,Female,High School,Machine Learning,331,3,35,42,82,Medium,87,Visual,3,Yes
+S09800,36,Male,Undergraduate,Python Basics,154,3,37,43,85,Medium,81,Auditory,4,No
+S09801,17,Male,High School,Web Development,157,4,73,19,63,Medium,84,Visual,2,Yes
+S09802,25,Male,High School,Machine Learning,211,1,83,3,59,Medium,72,Reading/Writing,4,Yes
+S09803,28,Female,Postgraduate,Data Science,444,4,47,49,92,Medium,60,Kinesthetic,1,No
+S09804,15,Male,Undergraduate,Python Basics,317,1,42,3,55,Low,53,Reading/Writing,4,No
+S09805,42,Female,High School,Web Development,106,4,33,23,96,High,43,Auditory,1,No
+S09806,20,Other,Postgraduate,Cybersecurity,192,1,42,6,63,Low,48,Auditory,4,Yes
+S09807,31,Female,Undergraduate,Data Science,439,4,61,42,44,Medium,44,Visual,4,No
+S09808,33,Female,Undergraduate,Cybersecurity,94,4,95,13,48,Low,61,Auditory,5,No
+S09809,37,Female,Undergraduate,Machine Learning,24,3,42,38,73,Low,45,Auditory,3,No
+S09810,45,Female,Undergraduate,Data Science,226,3,73,17,51,Medium,83,Reading/Writing,2,No
+S09811,35,Male,High School,Python Basics,150,4,90,43,89,Low,97,Visual,4,No
+S09812,27,Male,Undergraduate,Python Basics,320,1,83,6,59,Medium,72,Visual,1,Yes
+S09813,43,Female,Undergraduate,Machine Learning,489,1,54,45,79,Low,45,Visual,3,Yes
+S09814,17,Female,Postgraduate,Python Basics,214,3,97,21,44,High,40,Kinesthetic,3,No
+S09815,45,Other,Undergraduate,Python Basics,117,3,34,1,91,Medium,42,Reading/Writing,4,No
+S09816,26,Female,Undergraduate,Web Development,32,2,94,38,80,High,88,Reading/Writing,3,No
+S09817,46,Female,High School,Python Basics,340,1,68,48,60,Medium,40,Auditory,2,No
+S09818,41,Male,High School,Data Science,294,1,74,26,84,Medium,86,Auditory,1,Yes
+S09819,35,Male,Undergraduate,Machine Learning,118,1,32,20,62,Low,72,Reading/Writing,2,No
+S09820,39,Male,High School,Web Development,421,3,63,9,45,Medium,58,Visual,3,No
+S09821,34,Female,Undergraduate,Web Development,164,3,79,48,44,Low,41,Reading/Writing,3,No
+S09822,49,Male,Undergraduate,Machine Learning,241,2,31,36,41,Medium,98,Auditory,3,No
+S09823,49,Female,Postgraduate,Data Science,99,2,62,32,90,Low,46,Auditory,1,No
+S09824,27,Male,High School,Data Science,236,1,62,2,59,Medium,45,Visual,5,Yes
+S09825,43,Female,Undergraduate,Web Development,351,2,48,8,94,Medium,45,Kinesthetic,3,Yes
+S09826,38,Other,Postgraduate,Web Development,64,3,37,48,69,Medium,48,Kinesthetic,1,No
+S09827,36,Male,Undergraduate,Python Basics,266,3,83,41,71,High,51,Auditory,1,No
+S09828,44,Male,High School,Machine Learning,409,1,38,14,42,Medium,67,Kinesthetic,2,No
+S09829,32,Female,High School,Python Basics,76,1,94,0,76,High,84,Kinesthetic,1,Yes
+S09830,32,Female,High School,Cybersecurity,277,2,84,15,58,High,69,Kinesthetic,4,No
+S09831,32,Male,Undergraduate,Machine Learning,114,3,96,38,70,Low,36,Reading/Writing,4,No
+S09832,49,Male,High School,Machine Learning,457,1,52,35,56,Medium,77,Visual,2,Yes
+S09833,15,Male,Postgraduate,Data Science,300,1,81,1,73,High,92,Kinesthetic,1,No
+S09834,41,Female,High School,Machine Learning,45,4,67,32,85,High,74,Visual,4,Yes
+S09835,30,Female,Undergraduate,Machine Learning,162,1,40,8,60,Low,32,Auditory,4,No
+S09836,48,Male,High School,Data Science,477,1,86,40,80,Medium,51,Auditory,4,Yes
+S09837,16,Male,Undergraduate,Cybersecurity,71,1,54,49,63,Low,47,Visual,1,No
+S09838,27,Male,Undergraduate,Cybersecurity,352,3,87,19,90,High,39,Visual,4,No
+S09839,40,Male,Undergraduate,Cybersecurity,219,3,31,3,89,Low,41,Visual,1,No
+S09840,24,Male,Undergraduate,Python Basics,261,1,65,12,94,High,89,Auditory,4,No
+S09841,22,Female,Undergraduate,Web Development,100,2,83,49,46,High,76,Auditory,2,No
+S09842,25,Male,High School,Cybersecurity,357,4,43,35,50,Low,68,Visual,2,No
+S09843,35,Female,Postgraduate,Data Science,216,1,49,34,42,Medium,50,Kinesthetic,3,Yes
+S09844,45,Male,Undergraduate,Web Development,393,3,40,15,91,High,83,Kinesthetic,5,Yes
+S09845,24,Female,Undergraduate,Machine Learning,10,1,85,9,55,Medium,72,Kinesthetic,4,No
+S09846,17,Female,Undergraduate,Machine Learning,83,4,47,11,92,Medium,54,Reading/Writing,1,No
+S09847,23,Male,Undergraduate,Cybersecurity,394,1,98,21,90,Medium,60,Auditory,5,Yes
+S09848,29,Female,Postgraduate,Web Development,138,4,88,38,44,Medium,49,Reading/Writing,2,No
+S09849,29,Female,Undergraduate,Python Basics,158,4,83,33,67,Low,31,Kinesthetic,1,No
+S09850,30,Male,High School,Python Basics,281,2,70,26,85,Low,67,Reading/Writing,1,No
+S09851,32,Male,Postgraduate,Data Science,98,1,53,23,91,Medium,66,Kinesthetic,2,No
+S09852,39,Male,Undergraduate,Python Basics,92,4,59,42,67,Medium,80,Kinesthetic,5,No
+S09853,26,Male,High School,Web Development,327,4,80,31,49,High,75,Reading/Writing,1,Yes
+S09854,47,Male,Undergraduate,Cybersecurity,270,1,52,17,45,Medium,70,Kinesthetic,1,No
+S09855,19,Female,Undergraduate,Python Basics,272,1,63,2,59,Medium,87,Auditory,2,Yes
+S09856,16,Female,Postgraduate,Data Science,352,2,52,0,83,Medium,31,Reading/Writing,1,Yes
+S09857,16,Female,High School,Cybersecurity,74,1,65,25,86,Medium,35,Visual,5,Yes
+S09858,47,Female,High School,Python Basics,85,4,64,32,67,High,48,Kinesthetic,2,No
+S09859,24,Male,High School,Python Basics,321,3,91,4,82,Medium,79,Reading/Writing,3,Yes
+S09860,18,Female,Undergraduate,Machine Learning,12,2,70,1,99,High,84,Reading/Writing,3,No
+S09861,20,Male,High School,Data Science,221,1,32,36,61,Low,83,Reading/Writing,2,Yes
+S09862,33,Female,Undergraduate,Web Development,112,3,62,28,51,High,73,Kinesthetic,3,No
+S09863,20,Male,Undergraduate,Machine Learning,411,2,87,5,68,High,85,Reading/Writing,2,Yes
+S09864,47,Female,High School,Cybersecurity,431,2,35,12,91,Medium,60,Visual,1,No
+S09865,36,Female,High School,Python Basics,111,2,77,48,71,Medium,68,Reading/Writing,4,No
+S09866,19,Male,High School,Python Basics,343,1,74,41,96,Low,97,Kinesthetic,3,No
+S09867,36,Female,Postgraduate,Data Science,254,1,53,49,95,Medium,58,Auditory,4,No
+S09868,30,Male,Undergraduate,Data Science,88,1,82,32,91,High,93,Reading/Writing,2,No
+S09869,34,Other,Postgraduate,Cybersecurity,19,1,38,2,41,Medium,49,Kinesthetic,4,No
+S09870,44,Female,Undergraduate,Data Science,256,1,76,7,41,Medium,57,Visual,3,No
+S09871,48,Female,Undergraduate,Data Science,137,1,82,27,91,High,87,Reading/Writing,2,No
+S09872,16,Female,Undergraduate,Python Basics,334,3,53,33,46,High,67,Kinesthetic,1,No
+S09873,16,Female,Postgraduate,Cybersecurity,93,3,55,3,67,High,48,Reading/Writing,3,No
+S09874,47,Male,Undergraduate,Data Science,71,4,99,6,86,Medium,98,Reading/Writing,5,Yes
+S09875,42,Female,Undergraduate,Cybersecurity,433,4,84,38,63,Medium,58,Visual,2,No
+S09876,24,Male,Postgraduate,Data Science,14,4,58,38,78,Medium,72,Auditory,2,Yes
+S09877,16,Male,Postgraduate,Python Basics,287,2,67,21,76,Medium,35,Kinesthetic,1,No
+S09878,26,Female,High School,Cybersecurity,237,2,65,48,79,Medium,83,Kinesthetic,5,No
+S09879,23,Female,High School,Machine Learning,391,1,93,28,92,Medium,62,Kinesthetic,1,No
+S09880,39,Male,Postgraduate,Web Development,402,4,37,38,42,High,85,Auditory,5,Yes
+S09881,28,Male,Postgraduate,Web Development,109,2,75,31,72,Medium,84,Kinesthetic,4,Yes
+S09882,17,Male,High School,Machine Learning,190,2,78,36,87,High,47,Visual,5,No
+S09883,31,Female,Undergraduate,Machine Learning,428,1,60,32,73,High,92,Reading/Writing,5,No
+S09884,29,Male,Undergraduate,Cybersecurity,136,2,39,46,50,Medium,79,Auditory,5,Yes
+S09885,49,Female,Postgraduate,Machine Learning,184,2,38,25,93,Low,92,Auditory,1,No
+S09886,40,Female,Postgraduate,Cybersecurity,325,2,60,5,96,Low,50,Reading/Writing,4,No
+S09887,24,Female,Undergraduate,Cybersecurity,477,2,38,18,96,Medium,91,Auditory,2,No
+S09888,33,Female,Undergraduate,Web Development,77,1,34,7,77,Medium,99,Reading/Writing,2,No
+S09889,15,Male,Undergraduate,Cybersecurity,128,1,91,22,72,High,75,Visual,5,Yes
+S09890,49,Female,Undergraduate,Web Development,262,2,77,26,45,High,87,Visual,1,No
+S09891,47,Male,High School,Cybersecurity,62,3,66,21,48,High,65,Visual,5,No
+S09892,45,Female,Undergraduate,Data Science,14,3,68,36,53,High,87,Auditory,4,No
+S09893,44,Male,Postgraduate,Data Science,61,1,75,15,79,Medium,57,Reading/Writing,3,Yes
+S09894,21,Female,Postgraduate,Machine Learning,164,2,82,2,78,Low,35,Kinesthetic,4,No
+S09895,36,Male,Postgraduate,Cybersecurity,210,3,45,1,61,Low,59,Kinesthetic,2,No
+S09896,27,Male,High School,Data Science,121,3,31,33,49,High,61,Kinesthetic,2,Yes
+S09897,22,Female,Undergraduate,Web Development,457,2,79,0,95,Medium,85,Reading/Writing,4,Yes
+S09898,46,Male,Undergraduate,Machine Learning,52,2,78,36,95,Low,62,Visual,5,No
+S09899,30,Male,Undergraduate,Python Basics,315,1,50,48,71,High,35,Reading/Writing,5,Yes
+S09900,47,Female,Postgraduate,Web Development,480,4,45,12,40,High,34,Kinesthetic,2,No
+S09901,44,Female,Undergraduate,Cybersecurity,162,4,36,26,52,Low,47,Visual,3,No
+S09902,36,Female,High School,Machine Learning,474,1,80,49,86,Low,46,Visual,1,No
+S09903,28,Male,Undergraduate,Web Development,227,1,48,41,69,Medium,82,Reading/Writing,2,No
+S09904,46,Female,High School,Machine Learning,201,1,69,32,65,Medium,52,Visual,1,No
+S09905,35,Other,High School,Cybersecurity,232,3,88,5,41,Medium,38,Reading/Writing,2,No
+S09906,41,Female,Postgraduate,Cybersecurity,18,2,95,15,92,Low,67,Kinesthetic,4,Yes
+S09907,37,Male,High School,Python Basics,82,1,38,36,83,High,90,Auditory,4,No
+S09908,28,Female,High School,Python Basics,298,4,86,16,77,High,76,Visual,3,No
+S09909,19,Female,Undergraduate,Cybersecurity,323,3,62,33,52,Medium,51,Kinesthetic,5,No
+S09910,40,Female,High School,Web Development,315,2,33,39,55,High,86,Reading/Writing,5,Yes
+S09911,16,Female,Postgraduate,Python Basics,382,4,60,49,73,Medium,51,Auditory,5,No
+S09912,46,Other,Undergraduate,Python Basics,15,4,67,41,51,High,62,Reading/Writing,5,No
+S09913,41,Male,Undergraduate,Web Development,371,1,35,6,47,High,92,Kinesthetic,5,No
+S09914,45,Female,High School,Web Development,349,3,45,31,53,Low,90,Reading/Writing,2,No
+S09915,40,Male,Undergraduate,Python Basics,328,4,84,4,88,Medium,89,Kinesthetic,1,No
+S09916,49,Male,Postgraduate,Cybersecurity,119,3,57,32,88,Low,78,Reading/Writing,1,No
+S09917,16,Male,Undergraduate,Cybersecurity,470,3,84,35,95,Medium,31,Visual,5,Yes
+S09918,25,Female,Postgraduate,Cybersecurity,33,1,91,28,61,High,91,Auditory,2,No
+S09919,32,Female,Postgraduate,Data Science,381,2,41,5,99,Low,48,Kinesthetic,3,No
+S09920,20,Male,Undergraduate,Machine Learning,14,4,80,20,63,Medium,49,Kinesthetic,4,No
+S09921,37,Female,Postgraduate,Cybersecurity,297,2,75,3,55,Medium,32,Auditory,2,No
+S09922,47,Male,Postgraduate,Python Basics,151,3,42,38,70,Medium,62,Auditory,5,Yes
+S09923,33,Female,Undergraduate,Web Development,426,2,71,40,96,High,41,Kinesthetic,5,No
+S09924,20,Male,Undergraduate,Cybersecurity,306,4,89,0,91,Medium,92,Visual,2,No
+S09925,18,Male,Undergraduate,Python Basics,146,1,32,12,63,High,65,Visual,1,No
+S09926,37,Female,High School,Data Science,198,2,75,47,71,Medium,98,Visual,2,Yes
+S09927,46,Female,High School,Cybersecurity,485,1,82,43,75,Medium,60,Kinesthetic,2,No
+S09928,28,Female,High School,Data Science,227,2,63,25,80,High,89,Visual,2,No
+S09929,43,Female,High School,Machine Learning,212,2,79,33,48,Medium,45,Kinesthetic,1,No
+S09930,26,Female,Undergraduate,Machine Learning,350,4,89,16,68,Medium,51,Auditory,5,No
+S09931,22,Female,Undergraduate,Cybersecurity,68,3,56,47,81,Medium,68,Auditory,3,No
+S09932,45,Male,High School,Cybersecurity,268,4,42,28,47,Medium,66,Visual,3,Yes
+S09933,33,Male,Undergraduate,Machine Learning,236,1,94,28,79,Low,65,Visual,4,No
+S09934,24,Male,Undergraduate,Cybersecurity,134,1,40,18,87,Low,90,Visual,2,No
+S09935,18,Female,High School,Python Basics,49,2,34,7,87,Medium,89,Kinesthetic,5,No
+S09936,19,Female,High School,Python Basics,298,2,61,18,70,Medium,96,Auditory,5,No
+S09937,45,Male,Postgraduate,Data Science,141,4,95,25,61,Medium,89,Auditory,4,No
+S09938,26,Male,Undergraduate,Web Development,297,4,75,23,88,Medium,82,Visual,4,No
+S09939,47,Female,High School,Web Development,376,1,81,38,62,Low,96,Auditory,3,No
+S09940,16,Female,Undergraduate,Data Science,422,1,33,49,60,Medium,72,Kinesthetic,2,No
+S09941,20,Male,High School,Data Science,117,2,64,15,59,Medium,87,Auditory,5,No
+S09942,43,Female,Undergraduate,Web Development,166,2,40,32,86,Medium,52,Visual,5,No
+S09943,30,Male,Undergraduate,Machine Learning,184,2,84,17,65,Medium,54,Auditory,4,No
+S09944,38,Male,Undergraduate,Web Development,164,1,73,25,41,Medium,97,Reading/Writing,2,No
+S09945,47,Male,Postgraduate,Python Basics,453,1,91,18,88,Low,35,Auditory,5,No
+S09946,26,Female,Undergraduate,Data Science,143,2,76,10,44,Medium,79,Kinesthetic,2,Yes
+S09947,36,Female,Undergraduate,Web Development,366,4,46,42,65,Medium,89,Visual,3,No
+S09948,26,Male,Undergraduate,Web Development,386,4,58,47,58,Low,45,Kinesthetic,5,No
+S09949,33,Female,Postgraduate,Python Basics,33,2,46,20,78,Medium,67,Kinesthetic,4,No
+S09950,45,Female,Undergraduate,Web Development,73,3,81,2,59,Medium,86,Kinesthetic,1,Yes
+S09951,38,Male,High School,Machine Learning,313,1,38,19,94,Medium,97,Reading/Writing,5,No
+S09952,20,Female,Postgraduate,Web Development,31,4,86,38,82,Medium,66,Kinesthetic,1,No
+S09953,21,Female,High School,Python Basics,145,3,93,2,66,High,54,Auditory,4,Yes
+S09954,16,Female,High School,Cybersecurity,57,3,39,40,54,High,41,Auditory,4,No
+S09955,31,Male,Postgraduate,Web Development,395,1,73,0,52,High,46,Reading/Writing,2,No
+S09956,35,Male,High School,Web Development,260,2,97,14,43,Low,30,Auditory,1,No
+S09957,27,Other,Undergraduate,Cybersecurity,378,2,96,40,75,Medium,31,Visual,2,No
+S09958,30,Female,Undergraduate,Python Basics,301,2,91,28,40,High,80,Kinesthetic,5,No
+S09959,28,Female,Undergraduate,Python Basics,92,2,44,5,60,Low,60,Kinesthetic,5,Yes
+S09960,42,Male,Undergraduate,Python Basics,300,2,93,11,74,Medium,55,Visual,3,No
+S09961,31,Male,Postgraduate,Data Science,139,1,95,40,86,Low,74,Auditory,5,No
+S09962,43,Male,High School,Web Development,304,3,45,31,93,Medium,88,Reading/Writing,1,No
+S09963,16,Female,Postgraduate,Python Basics,169,4,91,28,70,Low,88,Reading/Writing,4,No
+S09964,20,Female,Postgraduate,Web Development,18,4,84,44,41,High,89,Auditory,5,Yes
+S09965,46,Female,Undergraduate,Machine Learning,373,4,47,7,88,Medium,30,Kinesthetic,5,Yes
+S09966,35,Female,Postgraduate,Machine Learning,153,3,93,24,72,Low,32,Reading/Writing,3,No
+S09967,18,Male,High School,Web Development,97,3,45,46,73,High,42,Visual,2,No
+S09968,27,Male,Undergraduate,Web Development,457,4,99,33,83,Medium,55,Kinesthetic,2,No
+S09969,22,Male,Undergraduate,Python Basics,231,1,67,34,65,Low,67,Auditory,2,Yes
+S09970,33,Male,Undergraduate,Python Basics,365,1,99,1,51,Low,81,Kinesthetic,5,No
+S09971,37,Female,Undergraduate,Data Science,230,4,98,7,96,Medium,64,Visual,2,Yes
+S09972,17,Male,High School,Cybersecurity,405,3,74,2,90,Medium,41,Visual,4,No
+S09973,16,Other,Undergraduate,Python Basics,316,2,56,5,66,Low,79,Reading/Writing,2,No
+S09974,24,Female,Undergraduate,Cybersecurity,388,1,97,39,85,Low,88,Visual,3,No
+S09975,22,Male,Undergraduate,Python Basics,346,4,44,1,64,High,49,Visual,5,Yes
+S09976,22,Male,Postgraduate,Cybersecurity,209,3,58,4,68,Medium,77,Reading/Writing,2,No
+S09977,17,Female,High School,Web Development,418,3,62,17,83,Medium,97,Reading/Writing,1,No
+S09978,40,Male,Undergraduate,Data Science,74,3,44,45,45,High,42,Reading/Writing,1,No
+S09979,16,Female,High School,Cybersecurity,155,1,87,34,61,Medium,77,Kinesthetic,4,No
+S09980,45,Female,Undergraduate,Cybersecurity,483,4,99,2,77,Medium,68,Auditory,3,No
+S09981,36,Female,Postgraduate,Cybersecurity,134,1,68,29,99,Medium,67,Kinesthetic,1,No
+S09982,27,Female,Undergraduate,Web Development,429,1,68,25,42,Medium,65,Visual,5,No
+S09983,30,Female,High School,Data Science,463,2,92,33,51,High,87,Reading/Writing,5,No
+S09984,26,Female,Undergraduate,Web Development,23,4,50,48,48,High,91,Auditory,4,No
+S09985,20,Female,Undergraduate,Machine Learning,196,4,80,8,68,High,88,Kinesthetic,2,No
+S09986,21,Female,Postgraduate,Data Science,398,1,55,0,72,Low,98,Kinesthetic,2,No
+S09987,15,Male,Undergraduate,Python Basics,292,2,80,24,99,High,81,Auditory,5,No
+S09988,47,Female,Undergraduate,Python Basics,218,4,38,9,53,High,87,Auditory,3,No
+S09989,48,Female,Postgraduate,Web Development,403,2,37,12,94,High,98,Auditory,2,Yes
+S09990,32,Male,High School,Web Development,26,3,52,42,46,High,68,Reading/Writing,4,Yes
+S09991,39,Male,Undergraduate,Data Science,373,3,43,20,70,High,79,Auditory,1,Yes
+S09992,34,Female,Postgraduate,Cybersecurity,224,2,79,43,97,Medium,58,Visual,1,No
+S09993,16,Male,High School,Cybersecurity,176,3,40,22,98,Low,87,Reading/Writing,1,No
+S09994,24,Male,High School,Python Basics,183,4,49,25,91,Low,68,Reading/Writing,1,No
+S09995,41,Female,High School,Python Basics,226,1,87,38,61,High,92,Visual,4,Yes
+S09996,26,Female,Undergraduate,Machine Learning,162,2,87,27,73,Medium,68,Kinesthetic,2,No
+S09997,37,Male,Postgraduate,Machine Learning,447,2,39,10,68,Medium,46,Reading/Writing,1,Yes
+S09998,40,Female,Postgraduate,Machine Learning,105,4,50,23,41,High,64,Visual,1,No
+S09999,44,Male,High School,Python Basics,245,2,84,39,85,Medium,38,Visual,2,No
+S10000,39,Female,Undergraduate,Machine Learning,171,2,88,8,69,Medium,97,Visual,2,No

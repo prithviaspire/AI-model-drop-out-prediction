@@ -1,0 +1,19 @@
+Data Preprocessing for Imbalanced Data
+======================================
+To address the significant class imbalance in the training data (where "No Dropout" is the majority class), we use the **SMOTE (Synthetic Minority Over-sampling Technique)**.
+
+- **What it does:** SMOTE creates new, synthetic data points for the minority class ("Yes Dropout") instead of just duplicating existing ones.
+- **Why it's used:** This balances the class distribution in the training set, helping the Random Forest model learn the patterns of the minority class more effectively and avoid simply predicting the majority class every time.
+- **Important Note:** SMOTE is applied **only** to the training data, not the test data, to ensure that the model's performance is evaluated on unseen, original data.
+
+Hyperparameter Tuning for Random Forest
+=======================================
+
+This file explains the hyperparameter values being tested for the Random Forest model in `random-forest.py`.
+
+The tuning process uses GridSearchCV to find the best combination of hyperparameters from the a predefined grid of values.
+
+| Hyperparameter | Values to be Tested | Description                                                                                                                     |
+| :--------------- | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
+| `n_estimators`   | `100`, `200`, `300`     | The number of decision trees in the forest. More trees can lead to better performance but also increase computational cost. |
+| `max_depth`      | `None`, `10`, `20`, `30` | The maximum depth of each tree. `None` means nodes are expanded until all leaves are pure. Deeper trees can capture more complex patterns but risk overfitting. | 

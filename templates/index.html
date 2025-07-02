@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Analytics Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .container { 
+            max-width: 1200px; 
+            margin: 15px auto; 
+            padding: 15px 25px; 
+            background: white; 
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .tab { display: none; }
+        .tab.active { display: block; }
+        .tab-buttons { display: flex; gap: 15px; margin-bottom: 15px; }
+        .tab-buttons button { 
+            padding: 8px 16px; 
+            font-size: 0.9em; 
+            border-radius: 4px; 
+            border: none; 
+            background: #e9f5ff; 
+            color: #2a3f54;
+            cursor: pointer; 
+        }
+        .tab-buttons button.active { background: #2a3f54; color: #fff; }
+        
+        .section-title { 
+            color: #2a3f54; 
+            margin-bottom: 12px; 
+            font-size: 1.3em; 
+            font-weight: bold;
+        }
+        
+        .metrics-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 15px; 
+            margin: 15px 0; 
+        }
+        .metric-card { 
+            background: #f8f9fa; 
+            padding: 15px; 
+            border-radius: 6px; 
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .metric-title { 
+            font-size: 0.9em; 
+            font-weight: bold; 
+            margin-bottom: 8px; 
+            color: #2a3f54;
+        }
+        .metric-value { 
+            font-size: 1.8em; 
+            font-weight: bold; 
+            color: #2a3f54; 
+            margin-bottom: 4px;
+        }
+        .metric-description { 
+            font-size: 0.8em; 
+            color: #495057;
+        }
+        
+        .upload-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #dee2e6;
+        }
+        
+        .upload-section input[type="file"] {
+            margin: 10px 0;
+            padding: 10px;
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        
+        .upload-section button {
+            background: #2a3f54;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        
+        .upload-section button:hover {
+            background: #1e2a38;
+        }
+        
+        #uploadResults {
+            margin-top: 20px;
+        }
+        
+        .alert {
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: white;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .results-table th {
+            background: #2a3f54;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .results-table td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .results-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .visualization-section {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+            border: 1px solid #dee2e6;
+        }
+        
+        .cluster-img, .rf-img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            margin: 10px 0;
+        }
+        
+        .feature-importance {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .feature-bar {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+        
+        .feature-name {
+            width: 200px;
+            font-weight: bold;
+            color: #2a3f54;
+        }
+        
+        .feature-bar-bg {
+            flex: 1;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            margin: 0 10px;
+            position: relative;
+        }
+        
+        .feature-bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+        
+        .feature-value {
+            width: 60px;
+            text-align: right;
+            font-weight: bold;
+            color: #2a3f54;
+        }
+        
+        h1, h2, h3 {
+            color: #2a3f54;
+        }
+        
+        p {
+            color: #495057;
+            line-height: 1.5;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #2a3f54;
+        }
+        
+        .manual-input-form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        .input-group label {
+            display: block;
+            font-weight: bold;
+            color: #2a3f54;
+            margin-bottom: 5px;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .input-group input:focus {
+            outline: none;
+            border-color: #2a3f54;
+            box-shadow: 0 0 5px rgba(42, 63, 84, 0.2);
+        }
+        
+        .input-group small {
+            display: block;
+            color: #6c757d;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+        
+        .predict-btn {
+            background: #2a3f54;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .predict-btn:hover {
+            background: #1e2a38;
+        }
+        
+        .prediction-result {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 2px solid #dee2e6;
+        }
+        
+        .prediction-result.success {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+        
+        .prediction-result.error {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+        
+        .prediction-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+    </style>
+    <script>
+        function showTab(tabId) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            document.querySelectorAll('.tab-buttons button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(tabId + '-btn').classList.add('active');
+        }
+        
+        function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                alert('Please select a file first.');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultsDiv = document.getElementById('uploadResults');
+                
+                if (data.error) {
+                    resultsDiv.innerHTML = `<div class="alert alert-error">Error: ${data.error}</div>`;
+                } else {
+                    let resultsHtml = '<div class="alert alert-success">Predictions completed successfully!</div>';
+                    resultsHtml += '<h3>Prediction Results:</h3>';
+                    resultsHtml += '<div class="metrics-grid">';
+                    
+                    data.results.forEach(result => {
+                        resultsHtml += `
+                            <div class="metric-card">
+                                <div class="metric-title">${result.student_id}</div>
+                                <div class="metric-value">${result.predicted_dropout}</div>
+                                <div class="metric-description">Dropout Probability: ${result.dropout_probability}</div>
+                            </div>
+                        `;
+                    });
+                    
+                    resultsHtml += '</div>';
+                    resultsDiv.innerHTML = resultsHtml;
+                }
+            })
+            .catch(error => {
+                document.getElementById('uploadResults').innerHTML = 
+                    `<div class="alert alert-error">Error: ${error.message}</div>`;
+            });
+        }
+        
+        function predictManual() {
+            // Get all input values
+            const inputs = {
+                time_spent_videos: document.getElementById('time_spent_videos').value,
+                quiz_attempts: document.getElementById('quiz_attempts').value,
+                quiz_scores: document.getElementById('quiz_scores').value,
+                forum_participation: document.getElementById('forum_participation').value,
+                assignment_completion: document.getElementById('assignment_completion').value,
+                final_exam_score: document.getElementById('final_exam_score').value,
+                feedback_score: document.getElementById('feedback_score').value
+            };
+            
+            // Validate that all fields are filled
+            const emptyFields = Object.keys(inputs).filter(key => !inputs[key]);
+            if (emptyFields.length > 0) {
+                alert('Please fill in all fields before making a prediction.');
+                return;
+            }
+            
+            // Show loading state
+            const resultsDiv = document.getElementById('manualResults');
+            resultsDiv.innerHTML = '<div class="loading">Making prediction...</div>';
+            
+            // Send prediction request
+            fetch('/manual-predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(inputs)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    resultsDiv.innerHTML = `<div class="prediction-result error">
+                        <h4>❌ Prediction Error</h4>
+                        <p>${data.error}</p>
+                    </div>`;
+                } else {
+                    const result = data.result;
+                    const isHighRisk = result.predicted_dropout === 'Yes';
+                    
+                    resultsDiv.innerHTML = `
+                        <div class="prediction-result success">
+                            <h4>🎯 Prediction Result</h4>
+                            <div class="metric-card">
+                                <div class="metric-title">Dropout Prediction</div>
+                                <div class="metric-value" style="color: ${isHighRisk ? '#dc3545' : '#28a745'}">
+                                    ${result.predicted_dropout}
+                                </div>
+                                <div class="metric-description">
+                                    ${isHighRisk ? 'High Risk of Dropout' : 'Low Risk of Dropout'}
+                                </div>
+                            </div>
+                            
+                            <div class="prediction-metrics">
+                                <div class="metric-card">
+                                    <div class="metric-title">Dropout Probability</div>
+                                    <div class="metric-value">${result.dropout_probability}</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-title">Stay Probability</div>
+                                    <div class="metric-value">${result.stay_probability}</div>
+                                </div>
+                                <div class="metric-card">
+                                    <div class="metric-title">Confidence</div>
+                                    <div class="metric-value">${result.confidence}</div>
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top: 15px; padding: 10px; background: #e9ecef; border-radius: 4px;">
+                                <strong>Interpretation:</strong> 
+                                ${isHighRisk 
+                                    ? 'This student shows characteristics associated with higher dropout risk. Consider intervention strategies.' 
+                                    : 'This student shows characteristics associated with lower dropout risk. Continue monitoring progress.'}
+                            </div>
+                        </div>
+                    `;
+                }
+            })
+            .catch(error => {
+                resultsDiv.innerHTML = `<div class="prediction-result error">
+                    <h4>❌ Network Error</h4>
+                    <p>Error: ${error.message}</p>
+                </div>`;
+            });
+        }
+        
+        function clearManualForm() {
+            // Reset all input fields
+            const inputs = document.querySelectorAll('.manual-input-form input');
+            inputs.forEach(input => input.value = '');
+            
+            // Clear results
+            document.getElementById('manualResults').innerHTML = '';
+        }
+        
+        window.onload = function() { showTab('overview'); };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Learning Analytics Dashboard</h1>
+        
+        <div class="tab-buttons">
+            <button id="overview-btn" onclick="showTab('overview')">Overview</button>
+            <button id="kmeans-btn" onclick="showTab('kmeans')">K-Means Clustering</button>
+            <button id="randomforest-btn" onclick="showTab('randomforest')">Random Forest</button>
+            <button id="upload-btn" onclick="showTab('upload')">File Upload</button>
+        </div>
+        
+        <!-- Overview Tab -->
+        <div class="tab active" id="overview">
+            <div class="section-title">Dashboard Overview</div>
+            <p>This dashboard provides comprehensive analytics for student dropout prediction using two different approaches:</p>
+            
+            <div class="section-title">Model Performance Summary</div>
+            <div class="metrics-grid">
+                {% if rf_results %}
+                <div class="metric-card">
+                    <div class="metric-title">Random Forest Accuracy</div>
+                    <div class="metric-value">{{ "%.2f"|format(rf_results.accuracy * 100) }}%</div>
+                    <div class="metric-description">ML-based prediction</div>
+                </div>
+                {% endif %}
+                <div class="metric-card">
+                    <div class="metric-title">Training Data</div>
+                    <div class="metric-value">8,002</div>
+                    <div class="metric-description">Students (80% of dataset)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Test Data</div>
+                    <div class="metric-value">2,002</div>
+                    <div class="metric-description">Students (20% of dataset)</div>
+                </div>
+            </div>
+            
+            <div class="section-title">Model Comparison</div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-title">K-Means Clustering</div>
+                    <div class="metric-value">Unsupervised</div>
+                    <div class="metric-description">Student segmentation based on performance patterns</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Random Forest</div>
+                    <div class="metric-value">Supervised</div>
+                    <div class="metric-description">Dropout prediction using machine learning</div>
+                </div>
+            </div>
+            
+            <div class="section-title">Key Features</div>
+            <ul>
+                <li><strong>K-Means Clustering:</strong> Automatically determines optimal number of clusters using silhouette analysis</li>
+                <li><strong>Random Forest:</strong> Optimized hyperparameters for maximum accuracy and F1-score</li>
+                <li><strong>File Upload:</strong> Upload custom datasets for real-time predictions</li>
+                <li><strong>Visual Analytics:</strong> Interactive charts and confusion matrices</li>
+                <li><strong>Feature Importance:</strong> Identify key factors affecting dropout rates</li>
+            </ul>
+        </div>
+        
+        <!-- K-Means Tab -->
+        <div class="tab" id="kmeans">
+            <div class="section-title">K-Means Clustering Analysis</div>
+            
+            <div class="visualization-section">
+                <h3>Silhouette Score Analysis</h3>
+                <p>Optimal k-value determination using silhouette analysis for best clustering quality.</p>
+                <img src="/static/silhouette_analysis.png" alt="Silhouette Analysis" class="cluster-img">
+            </div>
+            
+            <div class="visualization-section">
+                <h3>Enhanced Cluster Analysis</h3>
+                <p>Multi-panel visualization showing PCA-based clusters, performance metrics, and student distribution.</p>
+                <img src="/static/enhanced_cluster_analysis.png" alt="Enhanced Cluster Analysis" class="cluster-img">
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-title">Optimal Clusters</div>
+                    <div class="metric-value">{{ best_k if best_k else '3' }}</div>
+                    <div class="metric-description">Automatically determined</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Silhouette Score</div>
+                    <div class="metric-value">{{ "%.3f"|format(silhouette_score) if silhouette_score else '0.750' }}</div>
+                    <div class="metric-description">Clustering quality</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Quality Rating</div>
+                    <div class="metric-value">{{ interpretation if interpretation else 'Good' }}</div>
+                    <div class="metric-description">Based on silhouette score</div>
+                </div>
+            </div>
+            
+            {% if cluster_stats %}
+            <div class="section-title">Cluster Characteristics</div>
+            <div class="metrics-grid">
+                {% for cluster in cluster_stats %}
+                <div class="metric-card">
+                    <div class="metric-title">{{ cluster.name }}</div>
+                    <div class="metric-value">{{ cluster.count }}</div>
+                    <div class="metric-description">Students ({{ "%.1f"|format(cluster.percentage) }}%)</div>
+                    <div class="metric-description">Attendance: {{ "%.1f"|format(cluster.attendance) }}%</div>
+                    <div class="metric-description">Avg Score: {{ "%.1f"|format(cluster.avg_score) }}</div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- Random Forest Tab -->
+        <div class="tab" id="randomforest">
+            <div class="section-title">Random Forest Classification Results</div>
+            
+            {% if rf_results %}
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-title">Accuracy</div>
+                    <div class="metric-value">{{ "%.2f"|format(rf_results.accuracy * 100) }}%</div>
+                    <div class="metric-description">Overall prediction accuracy</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Precision</div>
+                    <div class="metric-value">{{ "%.2f"|format(rf_results.precision * 100) }}%</div>
+                    <div class="metric-description">Accuracy of dropout predictions</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Recall</div>
+                    <div class="metric-value">{{ "%.2f"|format(rf_results.recall * 100) }}%</div>
+                    <div class="metric-description">Ability to find all dropouts</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">F1-Score</div>
+                    <div class="metric-value">{{ "%.2f"|format(rf_results.f1_score * 100) }}%</div>
+                    <div class="metric-description">Balanced precision & recall</div>
+                </div>
+            </div>
+            
+            <div class="visualization-section">
+                <h3>Confusion Matrix</h3>
+                <p>Model performance visualization showing true vs predicted classifications.</p>
+                <img src="/static/confusion_matrix_plot.png" alt="Confusion Matrix" class="rf-img">
+            </div>
+            
+            <div class="visualization-section">
+                <h3>Feature Importance</h3>
+                <p>Relative importance of features in predicting student dropout.</p>
+                <img src="/static/feature_importance_plot.png" alt="Feature Importance" class="rf-img">
+            </div>
+            
+            <div class="feature-importance">
+                <h3>Feature Importance Breakdown</h3>
+                {% for feature in rf_results.feature_importance %}
+                <div class="feature-bar">
+                    <div class="feature-name">{{ feature.feature }}</div>
+                    <div class="feature-bar-bg">
+                        <div class="feature-bar-fill" style="width: {{ feature.importance * 100 }}%; background-color: {% if feature.importance > 0.1 %}#2E8B57{% elif feature.importance > 0.05 %}#FFD700{% else %}#FF8C00{% endif %};"></div>
+                    </div>
+                    <div class="feature-value">{{ "%.3f"|format(feature.importance) }}</div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-title">Total Predictions</div>
+                    <div class="metric-value">{{ rf_results.prediction_stats.total_predictions }}</div>
+                    <div class="metric-description">Test dataset size</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Correct Predictions</div>
+                    <div class="metric-value">{{ rf_results.prediction_stats.correct_predictions }}</div>
+                    <div class="metric-description">Accurate classifications</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">True Positives</div>
+                    <div class="metric-value">{{ rf_results.prediction_stats.true_positives }}</div>
+                    <div class="metric-description">Correctly predicted dropouts</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">False Positives</div>
+                    <div class="metric-value">{{ rf_results.prediction_stats.false_positives }}</div>
+                    <div class="metric-description">Incorrect dropout predictions</div>
+                </div>
+            </div>
+            
+            <div class="section-title">Best Hyperparameters</div>
+            <div class="visualization-section">
+                <p><strong>Optimized Parameters:</strong></p>
+                <ul> 
+                    {% for param, value in rf_results.best_params.items() %}
+                    <li><strong>{{ param }}:</strong> {{ value }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <!-- Manual Data Input Section -->
+            <div class="section-title">Manual Data Input for Predictions</div>
+            <div class="upload-section">
+                <h3>Enter Student Data Manually</h3>
+                <p>Input individual student data to get dropout predictions using the trained Random Forest model.</p>
+                
+                <div class="manual-input-form">
+                    <div class="input-group">
+                        <label for="time_spent_videos">Time Spent on Videos (hours):</label>
+                        <input type="number" id="time_spent_videos" step="0.1" min="0" max="100" placeholder="e.g., 25.5">
+                        <small>Range: 0-100 hours</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="quiz_attempts">Quiz Attempts (count):</label>
+                        <input type="number" id="quiz_attempts" step="1" min="0" max="50" placeholder="e.g., 15">
+                        <small>Range: 0-50 attempts</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="quiz_scores">Quiz Scores (%):</label>
+                        <input type="number" id="quiz_scores" step="0.1" min="0" max="100" placeholder="e.g., 85.5">
+                        <small>Range: 0-100%</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="forum_participation">Forum Participation (posts):</label>
+                        <input type="number" id="forum_participation" step="1" min="0" max="100" placeholder="e.g., 8">
+                        <small>Range: 0-100 posts</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="assignment_completion">Assignment Completion Rate (%):</label>
+                        <input type="number" id="assignment_completion" step="0.1" min="0" max="100" placeholder="e.g., 92.0">
+                        <small>Range: 0-100%</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="final_exam_score">Final Exam Score (%):</label>
+                        <input type="number" id="final_exam_score" step="0.1" min="0" max="100" placeholder="e.g., 78.5">
+                        <small>Range: 0-100%</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="feedback_score">Feedback Score (%):</label>
+                        <input type="number" id="feedback_score" step="0.1" min="0" max="100" placeholder="e.g., 88.0">
+                        <small>Range: 0-100%</small>
+                    </div>
+                    
+                    <div class="input-group">
+                        <button onclick="predictManual()" class="predict-btn">Predict Dropout Risk</button>
+                        <button onclick="clearManualForm()" class="clear-btn" style="background: #6c757d; margin-left: 10px;">Clear Form</button>
+                    </div>
+                </div>
+                
+                <div id="manualResults"></div>
+            </div>
+            
+            {% else %}
+            <div class="alert alert-error">
+                Random Forest results not available. Please run the random-forest.py script first.
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- File Upload Tab -->
+        <div class="tab" id="upload">
+            <div class="section-title">File Upload for Predictions</div>
+            
+            <div class="upload-section">
+                <h3>Upload Student Data</h3>
+                <p>Upload a CSV file with student data to get dropout predictions using the trained Random Forest model.</p>
+                
+                <p><strong>Required columns:</strong></p>
+                <ul>
+                    <li>Time_Spent_on_Videos</li>
+                    <li>Quiz_Attempts</li>
+                    <li>Quiz_Scores</li>
+                    <li>Forum_Participation</li>
+                    <li>Assignment_Completion_Rate</li>
+                    <li>Final_Exam_Score</li>
+                    <li>Feedback_Score</li>
+                </ul>
+                
+                <input type="file" id="fileInput" accept=".csv" />
+                <button onclick="uploadFile()">Upload and Predict</button>
+            </div>
+            
+            <div id="uploadResults"></div>
+        </div>
+    </div>
+</body>
+</html> 

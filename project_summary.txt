@@ -1,0 +1,164 @@
+Project Title: Student Learning Analytics - Clustering and Dropout Prediction
+
+---
+
+OVERVIEW:
+This project provides a complete pipeline for analyzing student learning data, performing unsupervised clustering to identify learning patterns, and predicting dropout likelihood using supervised machine learning. It features a web-based dashboard for interactive analysis and batch/manual predictions.
+
+---
+
+TECHNOLOGIES & FRAMEWORKS USED:
+- **Programming Language:** Python 3.x
+- **Web Framework:** Flask (for the interactive dashboard and API)
+- **Data Manipulation:** pandas, numpy
+- **Machine Learning:** scikit-learn (KMeans, RandomForestClassifier, StandardScaler, LabelEncoder, PCA, GridSearchCV)
+- **Visualization:** matplotlib, seaborn
+- **Frontend:** HTML5, CSS3 (custom, in static/style.css), Jinja2 templating (Flask)
+- **Other:** socket (for dynamic port selection)
+
+---
+
+DATA SOURCES:
+- `personalized_learning_dataset.csv` (10,000 rows): Main dataset for clustering and visualization
+- `csv_80_percent.csv` (8,000 rows): Training set for Random Forest classification
+- `csv_20_percent.csv` (2,000 rows): Test set for Random Forest classification
+
+---
+
+FILE STRUCTURE:
+- `k-means.py`: Main script for clustering, classification, and running the Flask web app
+- `random-forest.py`: Standalone script for Random Forest training/testing (CLI)
+- `split_20_percent.py`: Utility to split test data
+- `static/`: Contains generated plots and CSS
+- `templates/index.html`: Jinja2 template for the dashboard
+- `project_summary.txt`: This documentation
+
+---
+
+WORKFLOW & SCRIPTS:
+
+1. **k-means.py** (Main Web App)
+   - Loads and preprocesses data from CSV files
+   - **Feature Selection:**
+     - Time_Spent_on_Videos
+     - Quiz_Attempts
+     - Quiz_Scores
+     - Forum_Participation
+     - Assignment_Completion_Rate
+     - Final_Exam_Score
+     - Feedback_Score
+   - **Clustering:**
+     - Data normalized using StandardScaler
+     - KMeans clustering with hyperparameter tuning (k=2 to 6), best k chosen by silhouette score
+     - PCA reduces features to 2D for visualization
+     - Cluster assignments and centroids visualized and saved as PNG
+   - **Random Forest Classification:**
+     - Trains on 80% split, tests on 20%
+     - Target: Dropout_Likelihood (Yes/No, label-encoded)
+     - Hyperparameter tuning (n_estimators, max_depth via GridSearchCV in standalone script)
+     - Outputs: accuracy, precision, recall, F1-score, classification report, confusion matrix
+   - **Web Interface:**
+     - Dashboard at `/` with two tabs: K-Means Clustering and Random Forest Classification
+     - Batch CSV upload for both clustering and classification
+     - Manual parameter entry for Random Forest prediction (with validation)
+     - Results, metrics, and plots displayed interactively
+     - Dynamic port selection: If port 5050 is busy, the app finds the next available port automatically
+
+2. **random-forest.py**
+   - CLI script for training and evaluating Random Forest on the provided splits
+   - Prints best hyperparameters, accuracy, precision, recall, F1-score, classification report, and confusion matrix
+   - Saves predictions to `random_forest_test_predictions.csv`
+
+3. **split_20_percent.py**
+   - Utility to split the 20% test set into validation and test subsets
+
+---
+
+ALGORITHMS & AI MODELS:
+- **KMeans Clustering:**
+  - Unsupervised algorithm to group students by learning behavior
+  - Optimal number of clusters (k) selected using silhouette score (higher is better)
+  - Results visualized in 2D using PCA
+- **PCA (Principal Component Analysis):**
+  - Reduces high-dimensional feature space to 2D for visualization
+- **Random Forest Classifier:**
+  - Supervised ensemble of decision trees for dropout prediction
+  - Trained on labeled data, predicts 'Dropout_Likelihood' (Yes/No)
+  - Hyperparameters tuned for best performance
+- **SMOTE (Synthetic Minority Over-sampling Technique):**
+  - An over-sampling technique used to address class imbalance in the training data.
+  - It works by creating new, synthetic data points for the minority class ("Yes Dropout") instead of just duplicating existing ones. This helps the model learn the patterns of the minority class more effectively.
+- **StandardScaler:**
+  - Normalizes features to zero mean and unit variance
+- **LabelEncoder:**
+  - Encodes categorical target variable for classification
+- **GridSearchCV:**
+  - Automated hyperparameter tuning for Random Forest (in CLI script)
+
+---
+
+WEB INTERFACE DETAILS:
+- **Framework:** Flask
+- **Templates:** Jinja2 (index.html)
+- **Static Files:** Plots and CSS served from `static/`
+- **Tabs:**
+  - **K-Means Clustering:**
+    - Shows silhouette score plot, cluster visualization, and centroids
+    - Batch clustering via CSV upload
+  - **Random Forest Classification:**
+    - Batch classification via CSV upload
+    - Manual entry form for all features (validates input, predicts dropout)
+    - Displays accuracy, precision, recall, F1-score, classification report, confusion matrix if true labels are present
+- **Validation:**
+  - Checks for missing columns and missing values in uploads
+  - Manual entry form validates all fields are present and numeric
+- **Dynamic Port Selection:**
+  - App starts on port 5050 or next available port, avoiding port conflicts
+
+---
+
+OUTPUTS & ARTIFACTS:
+- `static/personalized_cluster_plot.png`: Cluster visualization (PCA 2D)
+- `static/kmeans_silhouette.png`: Silhouette score plot for KMeans
+- `random_forest_test_predictions.csv`: Random Forest predictions on test set
+
+---
+
+TERMINOLOGY:
+- **Clustering:** Grouping similar students based on activity
+- **Silhouette Score:** Measures cluster quality (higher is better)
+- **PCA:** Principal Component Analysis, for dimensionality reduction
+- **Random Forest:** Ensemble classifier for dropout prediction
+- **GridSearchCV:** Automated hyperparameter tuning
+- **StandardScaler:** Feature normalization
+- **LabelEncoder:** Converts categorical labels to numeric
+
+### Classification Metrics
+
+This table provides the formulas and descriptions for the key metrics used to evaluate the Random Forest model's performance.
+
+| Metric    | Formula                                       | Description                                                                                             |
+| :-------- | :-------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| Precision | `TP / (TP + FP)`                              | Of all the predictions for a class, how many were correct? Measures the accuracy of positive predictions. |
+| Recall    | `TP / (TP + FN)`                              | Of all the actual instances of a class, how many did the model correctly identify? Measures completeness. |
+| F1-Score  | `2 * (Precision * Recall) / (Precision + Recall)` | The harmonic mean of Precision and Recall. It provides a single score that balances both metrics.         |
+
+- **Confusion Matrix:** A table that visualizes the performance of a classification model. It shows the number of correct and incorrect predictions broken down by each class. The plot is saved as `static/confusion_matrix_plot.png`.
+  - **True Positives (TP):** The model correctly predicted the positive class (e.g., correctly identified a student who will drop out).
+  - **True Negatives (TN):** The model correctly predicted the negative class (e.g., correctly identified a student who will not drop out).
+  - **False Positives (FP):** The model incorrectly predicted the positive class (e.g., predicted a student will drop out, but they did not). Also known as a "Type I error."
+  - **False Negatives (FN):** The model incorrectly predicted the negative class (e.g., predicted a student will not drop out, but they did). Also known as a "Type II error."
+
+---
+
+NOTES:
+- All scripts are self-contained and focused (clustering or classification)
+- Data splits and outputs are clearly separated
+- For further use, run `k-means.py` for clustering and dashboard, `random-forest.py` for CLI classification
+- The web app supports both batch and manual predictions for maximum flexibility
+
+---
+
+CONTACT/MAINTAINER:
+- For questions or improvements, contact the project maintainer.
+- phone : +977 9843735448

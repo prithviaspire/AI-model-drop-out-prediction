@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Forest Classification</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Forest Classification</h1>
+        <form method="post" enctype="multipart/form-data" class="input-form">
+            <input type="file" name="rf_csv_file" accept=".csv" required>
+            <button type="submit">Upload & Classify</button>
+        </form>
+        {% if rf_validation_msg %}
+            <div class="validation-msg">{{ rf_validation_msg }}</div>
+        {% endif %}
+        {% if rf_success_msg %}
+            <div class="success-msg">{{ rf_success_msg }}</div>
+        {% endif %}
+        {% if rf_results %}
+        <div class="result">
+            <h3>Classification Results</h3>
+            <table>
+                <tr>
+                    <th>Index</th>
+                    <th>Predicted Dropout</th>
+                </tr>
+                {% for row in rf_results %}
+                <tr>
+                    <td>{{ row[0] }}</td>
+                    <td>{{ row[1] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        {% endif %}
+        <a href="/" style="display:inline-block;margin-top:20px;">&larr; Back to Clustering Dashboard</a>
+    </div>
+</body>
+</html> 

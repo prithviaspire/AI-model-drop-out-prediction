@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fa;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 30px 40px 40px 40px;
+}
+h1 {
+    text-align: center;
+    color: #2a3f54;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #1a232f;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.metrics {
+    background: #f7fafc;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
+pre {
+    background: #23272e;
+    color: #e0e0e0;
+    border-radius: 6px;
+    padding: 10px;
+    overflow-x: auto;
+}
+.cluster-img {
+    display: block;
+    margin: 20px auto 30px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+}
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.input-form label {
+    font-weight: 500;
+    color: #2a3f54;
+}
+.input-form input {
+    margin-top: 3px;
+    padding: 7px 10px;
+    border: 1px solid #bfc9d1;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f9fbfd;
+}
+.input-form button {
+    margin-top: 10px;
+    padding: 10px 0;
+    background: #2a3f54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.input-form button:hover {
+    background: #1a232f;
+}
+.result {
+    background: #e6f7e6;
+    border: 1px solid #b2e2b2;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+    color: #1a4d1a;
+}
+.centroids {
+    margin: 20px 0 30px 0;
+    background: #f7fafc;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.centroids table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.centroids th, .centroids td {
+    border: 1px solid #d1dbe3;
+    padding: 6px 10px;
+    text-align: center;
+}
+.centroids th {
+    background: #e9f5ff;
+    color: #1a232f;
+}
+.result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.result th, .result td {
+    border: 1px solid #b2e2b2;
+    padding: 6px 10px;
+    text-align: center;
+}
+.result th {
+    background: #d6f5d6;
+    color: #1a4d1a;
+} 
