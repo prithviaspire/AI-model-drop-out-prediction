@@ -139,6 +139,14 @@ python run_both_analyses.py
 - **Dynamic Port Selection**: Automatically finds available ports (5000-8082)
 - **Error Handling**: Comprehensive error messages and validation
 
+Key Features Shown:
+Cluster Statistics: Student counts, percentages, attendance rates, scores, and risk scores
+Performance Metrics: Accuracy (92.34%), F1-Score (91.56%), precision/recall values
+Classification Report: Detailed per-class metrics with support counts
+Confusion Matrix: True positives/negatives and false positives/negatives
+Hyperparameter Results: Optimal Random Forest parameters
+Web Server Info: Port selection and dashboard URLs
+
 ## 📊 Data Schema
 
 ### Input Features
